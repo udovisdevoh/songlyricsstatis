@@ -17,10 +17,11 @@ namespace LyricThemeClassifier
         public Matrix Trim(Matrix rawSemanticMatrix, ThemeListFile currentThemeListFile)
         {
             Matrix trimmedMatrix = new Matrix();
+            HashSet<string> totalAvailableWordCheckList = new HashSet<string>();
 
             foreach (KeyValuePair<string, Dictionary<string, float>> sourceWordAndRow in rawSemanticMatrix.NormalData)
             {
-                LearnFromRow(trimmedMatrix, sourceWordAndRow.Key, sourceWordAndRow.Value, currentThemeListFile);
+                LearnFromRow(trimmedMatrix, sourceWordAndRow.Key, sourceWordAndRow.Value, currentThemeListFile, totalAvailableWordCheckList);
             }
 
             return trimmedMatrix;
@@ -28,15 +29,20 @@ namespace LyricThemeClassifier
         #endregion
 
         #region Private Methods
-        private void LearnFromRow(Matrix trimmedMatrix, string sourceWord, Dictionary<string, float> row, ThemeListFile themeListFile)
+        private void LearnFromRow(Matrix trimmedMatrix, string sourceWord, Dictionary<string, float> row, ThemeListFile themeListFile, HashSet<string> totalAvailableWordCheckList)
         {
             HashSet<string> themeCheckList = new HashSet<string>(themeListFile.ThemeNameList);
+            string firstTargetWord = null;
+            bool couldAddTargetWord = false;
+            float firstTargetWordValue = 0.0f;
 
             string targetWord;
             float value;
             HashSet<string> targetWordThemeList;
             foreach (KeyValuePair<string, float> targetWordAndValue in row)
             {
+                couldAddTargetWord = false;
+
                 targetWord = targetWordAndValue.Key;
                 value = targetWordAndValue.Value;
 
@@ -44,9 +50,25 @@ namespace LyricThemeClassifier
 
                 if (HasCommonValue(themeCheckList, targetWordThemeList))
                 {
-                    trimmedMatrix.SetStatistics(sourceWord, targetWord, value);
-                    removeThemeNameFromCheckList(targetWordThemeList, themeCheckList);
+                    if (firstTargetWord == null)
+                    {
+                        firstTargetWord = targetWord;
+                        firstTargetWordValue = value;
+                    }
+
+                    //if (!totalAvailableWordCheckList.Contains(targetWord))
+                    //{
+                    //  totalAvailableWordCheckList.Add(targetWord);
+                        trimmedMatrix.SetStatistics(sourceWord, targetWord, value);
+                        removeThemeNameFromCheckList(targetWordThemeList, themeCheckList);
+                        couldAddTargetWord = true;
+                    //}
                 }
+            }
+
+            if (!couldAddTargetWord && firstTargetWord != null)
+            {
+                trimmedMatrix.SetStatistics(sourceWord, firstTargetWord, firstTargetWordValue);
             }
         }
 
