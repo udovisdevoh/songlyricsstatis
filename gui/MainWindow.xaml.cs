@@ -45,6 +45,10 @@ namespace LyricThemeClassifier
         public event EventHandler OnExit;
 
         public event EventHandler OnBuildStatsOnThemeWordsInText;
+
+        public event EventHandler OnBuildSemanticLikenessMatrix;
+
+        public event EventHandler OnTrimSemanticLikenessMatrix;
         #endregion
 
         #region Handlers
@@ -91,6 +95,16 @@ namespace LyricThemeClassifier
         private void MenuItemBuildStatsOnThemeWordsInText_Click(object sender, RoutedEventArgs e)
         {
             if (OnBuildStatsOnThemeWordsInText != null) OnBuildStatsOnThemeWordsInText(this, e);
+        }
+
+        private void MenuItemBuildSemanticLikenessMatrix_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnBuildSemanticLikenessMatrix != null) OnBuildSemanticLikenessMatrix(this, e);
+        }
+
+        private void MenuItemTrimSemanticLikenessMatrix_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnTrimSemanticLikenessMatrix != null) OnTrimSemanticLikenessMatrix(this, e);
         }
         #endregion
 

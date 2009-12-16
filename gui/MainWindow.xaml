@@ -22,6 +22,8 @@
                 <MenuItem Header="Build frequent word list" Click="MenuItemBuildFrequendWordList_Click" />
                 <MenuItem Header="Continue sorting" Click="MenuItemConginueSorting_Click"/>
                 <MenuItem Header="Build markov stats on theme words in text" Click="MenuItemBuildStatsOnThemeWordsInText_Click"/>
+                <MenuItem Header="Build semantic likeness matrix" Click="MenuItemBuildSemanticLikenessMatrix_Click"/>
+                <MenuItem Header="Trim semantic likeness matrix" Click="MenuItemTrimSemanticLikenessMatrix_Click"/>
                 <MenuItem Header="Save themes" Command="ApplicationCommands.Save" />
                 <Separator/>
                 <MenuItem Header="Exit" Click="MenuItemExit_Click" />

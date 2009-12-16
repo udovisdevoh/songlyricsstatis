@@ -36,6 +36,16 @@ namespace LyricThemeClassifier
         /// Xml matrix saver / loader
         /// </summary>
         private XmlMatrixSaverLoader xmlMatrixSaverLoader = new XmlMatrixSaverLoader();
+
+        /// <summary>
+        /// Semantic likeness matrix builder
+        /// </summary>
+        private SemanticLikenessMatrixBuilder semanticLikenessMatrixBuilder = new SemanticLikenessMatrixBuilder();
+
+        /// <summary>
+        /// Semantic likeness matrix trimmer
+        /// </summary>
+        private SemanticMatrixTrimmer semanticMatrixTrimmer = new SemanticMatrixTrimmer();
         #endregion
 
         #region Constructor
@@ -53,6 +63,8 @@ namespace LyricThemeClassifier
             mainWindow.OnSkip += ContinueSortingHandler;
             mainWindow.OnNext += NextHandler;
             mainWindow.OnBuildStatsOnThemeWordsInText += BuildStatsOnThemeWordsInTextHandler;
+            mainWindow.OnBuildSemanticLikenessMatrix += BuildSemanticLikenessMatrixHandler;
+            mainWindow.OnTrimSemanticLikenessMatrix += TrimSemanticLikenessMatrixHandler;
         }
         #endregion
 
@@ -135,8 +147,44 @@ namespace LyricThemeClassifier
             string sourceTextFileName = mainWindow.GetInputFile("SOURCE TEXT FILE|*.txt");
             string outputFileName = mainWindow.GetOutputFile("WORD STATS MATRIX FILE|*.wordStatMatrix.xml");
 
-            Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, currentThemeListFile.AllAvailableWords);
-            xmlMatrixSaverLoader.Save(matrix, outputFileName);
+            if (sourceTextFileName != null && outputFileName != null)
+            {
+                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, currentThemeListFile.AllAvailableWords);
+                xmlMatrixSaverLoader.Save(matrix, outputFileName);
+            }
+        }
+
+        private void BuildSemanticLikenessMatrixHandler(object sender, EventArgs e)
+        {
+            if (currentThemeListFile == null)
+                OpenThemesHandler(sender, e);
+            string sourceWordStatMatrixFile = mainWindow.GetInputFile("WORD STATS MATRIX FILE|*.wordStatMatrix.xml");
+
+            string semanticMatrixFile = mainWindow.GetOutputFile("SEMANTIC MATRIX FILE|*.semanticMatrix.xml");
+
+            if (sourceWordStatMatrixFile != null)
+            {
+                Matrix wordStatMatrix = xmlMatrixSaverLoader.Load(sourceWordStatMatrixFile);
+                Matrix semanticLikenessMatrix = semanticLikenessMatrixBuilder.Build(wordStatMatrix, currentThemeListFile.AllAvailableWords);
+
+                xmlMatrixSaverLoader.Save(semanticLikenessMatrix, semanticMatrixFile);
+            }
+        }
+
+        private void TrimSemanticLikenessMatrixHandler(object sender, EventArgs e)
+        {
+            if (currentThemeListFile == null)
+                OpenThemesHandler(sender, e);
+            string rawSemanticMatrixFile = mainWindow.GetInputFile("SEMANTIC MATRIX FILE|*.semanticMatrix.xml");
+            string trimmedSemanticMatrixFile = mainWindow.GetOutputFile("TRIMMED SEMANTIC MATRIX FILE|*.trimmedSemanticMatrix.xml");
+
+            if (currentThemeListFile != null && rawSemanticMatrixFile != null && trimmedSemanticMatrixFile != null)
+            {
+                Matrix rawSemanticMatrix = xmlMatrixSaverLoader.Load(rawSemanticMatrixFile);
+                Matrix trimmedSemanticMatrix = semanticMatrixTrimmer.Trim(rawSemanticMatrix,currentThemeListFile);
+
+                xmlMatrixSaverLoader.Save(trimmedSemanticMatrix, trimmedSemanticMatrixFile);
+            }
         }
         #endregion
 
