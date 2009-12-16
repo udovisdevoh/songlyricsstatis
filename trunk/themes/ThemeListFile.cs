@@ -117,6 +117,29 @@ namespace LyricThemeClassifier
         {
             GetOrCreateTheme(themeName).Add(wordToAdd);
         }
+
+        /// <summary>
+        /// Get theme list for specified word
+        /// </summary>
+        /// <param name="word">specified word</param>
+        /// <returns>theme list for specified word</returns>
+        public HashSet<string> GetThemeList(string word)
+        {
+            HashSet<string> themeList = new HashSet<string>();
+
+            string themeName;
+            HashSet<string> currentTheme;
+            foreach (KeyValuePair<string, HashSet<string>> nameAndTheme in this.themeList)
+            {
+                themeName = nameAndTheme.Key;
+                currentTheme = nameAndTheme.Value;
+                if (currentTheme.Contains(word))
+                {
+                    themeList.Add(themeName);
+                }
+            }
+            return themeList;
+        }
         #endregion
 
         #region Properties
@@ -132,7 +155,7 @@ namespace LyricThemeClassifier
         /// <summary>
         /// All available words from every themes
         /// </summary>
-        public ICollection<string> AllAvailableWords
+        public HashSet<string> AllAvailableWords
         {
             get
             {
@@ -149,6 +172,14 @@ namespace LyricThemeClassifier
                     }
                 }
                 return availableWords;
+            }
+        }
+
+        public ICollection<string> ThemeNameList
+        {
+            get
+            {
+                return themeList.Keys;
             }
         }
         #endregion

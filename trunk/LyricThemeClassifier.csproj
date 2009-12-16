@@ -79,6 +79,8 @@
     <Compile Include="gui\ThemeSelector.xaml.cs">
       <DependentUpon>ThemeSelector.xaml</DependentUpon>
     </Compile>
+    <Compile Include="matrix\SemanticLikenessMatrixBuilder.cs" />
+    <Compile Include="matrix\SemanticMatrixTrimmer.cs" />
     <Compile Include="matrix\WordMatrixExtractor.cs" />
     <Compile Include="matrix\XmlMatrixSaverLoader.cs" />
     <Compile Include="Program.cs" />
