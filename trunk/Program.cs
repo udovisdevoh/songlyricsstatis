@@ -65,6 +65,7 @@ namespace LyricThemeClassifier
             mainWindow.OnBuildStatsOnThemeWordsInText += BuildStatsOnThemeWordsInTextHandler;
             mainWindow.OnBuildSemanticLikenessMatrix += BuildSemanticLikenessMatrixHandler;
             mainWindow.OnTrimSemanticLikenessMatrix += TrimSemanticLikenessMatrixHandler;
+            mainWindow.OnBuildPhoneticTable += BuildPhoneticTableHandler;
         }
         #endregion
 
@@ -185,6 +186,17 @@ namespace LyricThemeClassifier
 
                 xmlMatrixSaverLoader.Save(trimmedSemanticMatrix, trimmedSemanticMatrixFile);
             }
+        }
+        
+        private void BuildPhoneticTableHandler(object sender, EventArgs e)
+        {
+            if (frequentWordListFile == null)
+                OpenFrequentWordListHandler(sender, e);
+
+            string phoneticTableFile = mainWindow.GetOutputFile("PHONETIC TABLE FILE|*.phoneticTable.txt");
+
+            if (phoneticTableFile != null)
+                PhoneticTableBuilder.build(frequentWordListFile, phoneticTableFile);
         }
         #endregion
 
