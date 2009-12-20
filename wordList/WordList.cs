@@ -63,6 +63,21 @@ namespace LyricThemeClassifier
         }
 
         /// <summary>
+        /// Get the immediate next word that is not in provided HashSet
+        /// </summary>
+        /// <param name="wordList">word list</param>
+        /// <returns>immediate next word that is not in provided HashSet</returns>
+        public string GetNextWordNotIn(HashSet<string> wordList)
+        {
+            string nextWord;
+            do
+            {
+                nextWord = GetNextWord();
+            } while (wordList.Contains(nextWord));
+            return nextWord;
+        }
+
+        /// <summary>
         /// Save word list
         /// </summary>
         /// <param name="fileName">fine name</param>
