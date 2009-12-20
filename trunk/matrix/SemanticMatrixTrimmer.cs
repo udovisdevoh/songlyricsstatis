@@ -7,6 +7,10 @@ namespace LyricThemeClassifier
 {
     class SemanticMatrixTrimmer
     {
+        #region Constants
+        private const int desiredTargetWordCount = 5;
+        #endregion
+
         #region Public Methods
         /// <summary>
         /// Return matrix with only one output word per theme
@@ -31,51 +35,51 @@ namespace LyricThemeClassifier
         #region Private Methods
         private void LearnFromRow(Matrix trimmedMatrix, string sourceWord, Dictionary<string, float> row, ThemeListFile themeListFile, HashSet<string> totalAvailableWordCheckList)
         {
-            HashSet<string> themeCheckList = new HashSet<string>(themeListFile.ThemeNameList);
-            string firstTargetWord = null;
-            bool couldAddTargetWord = false;
-            float firstTargetWordValue = 0.0f;
-
             string targetWord;
             float value;
             HashSet<string> targetWordThemeList;
+            Dictionary<string, int> themeCount = new Dictionary<string, int>();
+            foreach (string themeName in themeListFile.ThemeNameList)
+                themeCount.Add(themeName, 0);
+
             foreach (KeyValuePair<string, float> targetWordAndValue in row)
             {
-                couldAddTargetWord = false;
-
                 targetWord = targetWordAndValue.Key;
                 value = targetWordAndValue.Value;
 
                 targetWordThemeList = themeListFile.GetThemeList(targetWord);
 
-                if (HasCommonValue(themeCheckList, targetWordThemeList))
+                if (HasCommonValue(themeListFile.ThemeNameList, targetWordThemeList))
                 {
-                    if (firstTargetWord == null)
+                    if (HasAtLeastOneThemeWithLessThanCount(themeCount, desiredTargetWordCount, targetWordThemeList))
                     {
-                        firstTargetWord = targetWord;
-                        firstTargetWordValue = value;
-                    }
-
-                    //if (!totalAvailableWordCheckList.Contains(targetWord))
-                    //{
-                    //  totalAvailableWordCheckList.Add(targetWord);
                         trimmedMatrix.SetStatistics(sourceWord, targetWord, value);
-                        removeThemeNameFromCheckList(targetWordThemeList, themeCheckList);
-                        couldAddTargetWord = true;
-                    //}
+                        themeCount = addThemeCount(targetWordThemeList, themeCount);
+                    }
                 }
-            }
-
-            if (!couldAddTargetWord && firstTargetWord != null)
-            {
-                trimmedMatrix.SetStatistics(sourceWord, firstTargetWord, firstTargetWordValue);
             }
         }
 
-        private void removeThemeNameFromCheckList(HashSet<string> needle, HashSet<string> haystack)
+        private bool HasAtLeastOneThemeWithLessThanCount(Dictionary<string, int> themeCount, int minimum, HashSet<string> targetWordThemeList)
         {
-            foreach (string name in needle)
-                haystack.Remove(name);
+            int count;
+            foreach (string themeName in targetWordThemeList)
+                if (themeCount[themeName] < minimum)
+                    return true;
+            return false;
+        }
+
+        private Dictionary<string, int> addThemeCount(HashSet<string> targetWordThemeList, Dictionary<string, int> themeCount)
+        {
+            int count;
+            foreach (string themeName in targetWordThemeList)
+            {
+                if (!themeCount.TryGetValue(themeName, out count))
+                    themeCount.Add(themeName, 0);
+
+                themeCount[themeName]++;
+            }
+            return themeCount;
         }
         
         /// <summary>
@@ -84,7 +88,7 @@ namespace LyricThemeClassifier
         /// <param name="set1">set 1</param>
         /// <param name="set2">set 2</param>
         /// <returns>true if sets have at least one common value</returns>
-        private bool HasCommonValue(HashSet<string> set1, HashSet<string> set2)
+        private bool HasCommonValue(ICollection<string> set1, HashSet<string> set2)
         {
             foreach (string value in set1)
                 if (set2.Contains(value))
