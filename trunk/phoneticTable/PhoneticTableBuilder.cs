@@ -23,10 +23,12 @@ namespace LyricThemeClassifier
             while (true)
             {
                 fromWord = frequentWordListFile.GetNextWordNotIn(wordCache);
-                wordCache.Add(fromWord);
                 toWord = PhoneticBot.Translate(fromWord);
                 if (toWord != null)
+                {
+                    wordCache.Add(fromWord);
                     AppendTableElement(fromWord, toWord, phoneticTableFile);
+                }
 
                 Console.WriteLine(toWord);
 
