@@ -193,10 +193,10 @@ namespace LyricThemeClassifier
             if (frequentWordListFile == null)
                 OpenFrequentWordListHandler(sender, e);
 
-            string phoneticTableFile = mainWindow.GetOutputFile("PHONETIC TABLE FILE|*.phoneticTable.txt");
+            string phoneticTableFile = mainWindow.GetOutputFile("PHONETIC TABLE FILE|*.phoneticTable.txt",false);
 
             if (phoneticTableFile != null)
-                PhoneticTableBuilder.build(frequentWordListFile, phoneticTableFile);
+                PhoneticTableBuilder.Build(frequentWordListFile, phoneticTableFile);
         }
         #endregion
 
