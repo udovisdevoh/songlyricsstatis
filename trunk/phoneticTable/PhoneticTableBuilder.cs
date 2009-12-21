@@ -3,13 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using System.Threading;
 
 namespace LyricThemeClassifier
 {
     static class PhoneticTableBuilder
     {
+        #region Fields
+        private static Random random = new Random();
+        #endregion
+
         #region Public Methods
-        public static void build(WordListFile frequentWordListFile, string phoneticTableFile)
+        public static void Build(WordListFile frequentWordListFile, string phoneticTableFile)
         {
             HashSet<string> wordCache = BuildWordCache(phoneticTableFile);
             string fromWord;
@@ -19,8 +24,13 @@ namespace LyricThemeClassifier
             {
                 fromWord = frequentWordListFile.GetNextWordNotIn(wordCache);
                 wordCache.Add(fromWord);
-                toWord = TranslateToPhoneticWord(fromWord);
-                AppendTableElement(fromWord, toWord, phoneticTableFile);
+                toWord = PhoneticBot.Translate(fromWord);
+                if (toWord != null)
+                    AppendTableElement(fromWord, toWord, phoneticTableFile);
+
+                Console.WriteLine(toWord);
+
+                Thread.Sleep(random.Next(1000, 6000));
             }
         }
         #endregion
@@ -61,12 +71,6 @@ namespace LyricThemeClassifier
             {
                 streamWriter.WriteLine(fromWord + " : " + toWord);
             }
-        }
-
-        private static string TranslateToPhoneticWord(string fromWord)
-        {
-            #warning Remove dummy code
-            return "foo";
         }
         #endregion
     }
