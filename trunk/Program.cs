@@ -46,6 +46,8 @@ namespace LyricThemeClassifier
         /// Semantic likeness matrix trimmer
         /// </summary>
         private SemanticMatrixTrimmer semanticMatrixTrimmer = new SemanticMatrixTrimmer();
+
+        private PhoneticTableFormater phoneticTableFormater = new PhoneticTableFormater();
         #endregion
 
         #region Constructor
@@ -66,6 +68,7 @@ namespace LyricThemeClassifier
             mainWindow.OnBuildSemanticLikenessMatrix += BuildSemanticLikenessMatrixHandler;
             mainWindow.OnTrimSemanticLikenessMatrix += TrimSemanticLikenessMatrixHandler;
             mainWindow.OnBuildPhoneticTable += BuildPhoneticTableHandler;
+            mainWindow.OnFormatPhoneticTable += ReformatPhoneticTableHandler;
         }
         #endregion
 
@@ -197,6 +200,14 @@ namespace LyricThemeClassifier
 
             if (phoneticTableFile != null)
                 PhoneticTableBuilder.Build(frequentWordListFile, phoneticTableFile);
+        }
+
+        private void ReformatPhoneticTableHandler(object sender, EventArgs e)
+        {
+            string unformatedPhoneticTableFile = mainWindow.GetInputFile("PHONETIC TABLE FILE|*.phoneticTable.txt");
+            string formatedPhoneticTableFile = mainWindow.GetOutputFile("FORMATED PHONETIC TABLE FILE|*.formatedPhoneticTable.txt");
+
+            phoneticTableFormater.Reformat(unformatedPhoneticTableFile, formatedPhoneticTableFile);
         }
         #endregion
 

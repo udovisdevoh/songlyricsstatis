@@ -62,7 +62,6 @@ namespace LyricThemeClassifier
 
         private bool HasAtLeastOneThemeWithLessThanCount(Dictionary<string, int> themeCount, int minimum, HashSet<string> targetWordThemeList)
         {
-            int count;
             foreach (string themeName in targetWordThemeList)
                 if (themeCount[themeName] < minimum)
                     return true;

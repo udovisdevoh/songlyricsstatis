@@ -85,6 +85,7 @@
     <Compile Include="matrix\XmlMatrixSaverLoader.cs" />
     <Compile Include="phoneticTable\PhoneticBot.cs" />
     <Compile Include="phoneticTable\PhoneticTableBuilder.cs" />
+    <Compile Include="phoneticTable\PhoneticTableFormater.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
