@@ -1,4 +1,4 @@
-the : [phonth.gif] [emacr.gif]
+﻿the : [phonth.gif] [emacr.gif]
 you : y [oomacr.gif]
 to : t [oomacr.gif]
 of : [ubreve.gif] v
@@ -390,7 +390,7 @@ work : wûrk
 souls : s [omacr.gif] l
 cannot : k [abreve.gif] n [prime.gif] [obreve.gif] t
 tried : tr [imacr.gif] d
-ones : &#333
+ones : w [ubreve.gif] ns
 late : l [amacr.gif] t
 between : b [ibreve.gif] -tw [emacr.gif] n [prime.gif]
 voice : vois
@@ -841,7 +841,6 @@ kid : k [ibreve.gif] d
 ends : [ebreve.gif] nd
 shining : sh [imacr.gif] n
 grace : gr [amacr.gif] s
-auf : &#7841
 everywhere : [ebreve.gif] v [prime.gif] r [emacr.gif] -hwâr [lprime.gif]
 loud : loud
 ago : [schwa.gif] -g [omacr.gif] [prime.gif]
@@ -976,7 +975,6 @@ deal : d [emacr.gif] l
 divine : d [ibreve.gif] -v [imacr.gif] n [prime.gif]
 sleeping : sl [emacr.gif] p
 cover : k [ubreve.gif] v [prime.gif] [schwa.gif] r
-les : l&#277
 deny : d [ibreve.gif] -n [imacr.gif] [prime.gif]
 rich : r [ibreve.gif] ch
 buried : b [ebreve.gif] r [prime.gif] [emacr.gif]
@@ -1318,7 +1316,6 @@ tied : t [imacr.gif]
 watched : w [obreve.gif] ch
 gain : g [amacr.gif] n
 twice : tw [imacr.gif] s
-non : n&#466
 hoping : h [omacr.gif] p
 vengeance : v [ebreve.gif] n [prime.gif] j [schwa.gif] ns
 listening : l [ibreve.gif] s [prime.gif] [schwa.gif] n
@@ -2246,7 +2243,7 @@ tongues : t [ubreve.gif] ng
 cities : s [ibreve.gif] t [prime.gif] [emacr.gif]
 terrible : t [ebreve.gif] r [prime.gif] [schwa.gif] -b [schwa.gif] l
 completely : k [schwa.gif] m-pl [emacr.gif] t [prime.gif]
-cha : ch&#228
+cha : ch [abreve.gif]
 possessed : p [schwa.gif] -z [ebreve.gif] st [prime.gif]
 blew : bl [oomacr.gif]
 bank : b [abreve.gif] ngk
@@ -2890,7 +2887,6 @@ fiery : f [imacr.gif] r [prime.gif] [emacr.gif]
 tail : t [amacr.gif] l
 unleash : [ubreve.gif] n-l [emacr.gif] sh [prime.gif]
 laughs : l [abreve.gif] f
-luz : l&#365
 bills : b [ibreve.gif] l
 nerves : nûrv
 endure : [ebreve.gif] n-d [oobreve.gif] r [prime.gif]
@@ -3147,7 +3143,6 @@ monday : m [ubreve.gif] n [prime.gif] d [emacr.gif]
 rust : r [ubreve.gif] st
 wore : wôr
 television : t [ebreve.gif] l [prime.gif] [schwa.gif] -v [ibreve.gif] zh [lprime.gif] [schwa.gif] n
-cuerpo : kw&#7869
 sinister : s [ibreve.gif] n [prime.gif] [ibreve.gif] -st [schwa.gif] r
 product : pr [obreve.gif] d [prime.gif] [schwa.gif] kt
 orders : ôr [prime.gif] d [schwa.gif] r
@@ -3230,7 +3225,6 @@ crowded : krou [prime.gif] d [ibreve.gif] d
 magazine : m [abreve.gif] g [prime.gif] [schwa.gif] -z [emacr.gif] n [lprime.gif]
 stepping : st [ebreve.gif] p
 freaky : fr [emacr.gif] [prime.gif] k [emacr.gif]
-ren : r?n
 wears : wâr
 clever : kl [ebreve.gif] v [prime.gif] [schwa.gif] r
 descending : d [ibreve.gif] -s [ebreve.gif] nd [prime.gif]
@@ -4251,7 +4245,7 @@ designed : d [ibreve.gif] -z [imacr.gif] n [prime.gif]
 awe : ô
 dwelling : dw [ebreve.gif] l [prime.gif] [ibreve.gif] ng
 appreciate : [schwa.gif] -pr [emacr.gif] [prime.gif] sh [emacr.gif] - [amacr.gif] t [lprime.gif]
-crunk : kr&#365
+crunk : kr [ubreve.gif] ngk
 nut : n [ubreve.gif] t
 moms : m [obreve.gif] m
 inflicted : [ibreve.gif] n-fl [ibreve.gif] kt [prime.gif]
@@ -4365,7 +4359,6 @@ pose : p [omacr.gif] z
 kingdoms : k [ibreve.gif] ng [prime.gif] d [schwa.gif] m
 triste : tr [emacr.gif] st
 shitty : sh [ibreve.gif] t [prime.gif] [emacr.gif]
-haut : h&#7841
 apartment : [schwa.gif] -pärt [prime.gif] m [schwa.gif] nt
 bestial : b [ebreve.gif] s [prime.gif] ch [schwa.gif] l
 goodness : g [oobreve.gif] d [prime.gif] n [ibreve.gif] s
@@ -4563,7 +4556,6 @@ amount : [schwa.gif] -mount [prime.gif]
 daze : d [amacr.gif] z
 herd : hûrd
 entwined : [ebreve.gif] n-tw [imacr.gif] n [prime.gif]
-meer : m&#275
 brow : brou
 lifestyle : l [imacr.gif] f [prime.gif] st [imacr.gif] l [lprime.gif]
 siren : s [imacr.gif] [prime.gif] r [schwa.gif] n
@@ -4820,7 +4812,6 @@ ab : äb
 loco : l [omacr.gif] [prime.gif] k [omacr.gif]
 naughty : nô [prime.gif] t [emacr.gif]
 atomic : [schwa.gif] -t [obreve.gif] m [prime.gif] [ibreve.gif] k
-monde : m&#244
 tom : t [obreve.gif] m
 brightest : br [imacr.gif] t
 trails : tr [amacr.gif] l
@@ -5052,7 +5043,7 @@ meth : m [ebreve.gif] th
 revelations : r [ebreve.gif] v [lprime.gif] [schwa.gif] -l [amacr.gif] [prime.gif] sh [schwa.gif] n
 seeks : s [emacr.gif] k
 dozen : d [ubreve.gif] z [prime.gif] [schwa.gif] n
-assholes : &#228
+assholes : [abreve.gif] s [prime.gif] h [omacr.gif] lz
 military : m [ibreve.gif] l [prime.gif] [ibreve.gif] -t [ebreve.gif] r [lprime.gif] [emacr.gif]
 candlelight : k [abreve.gif] n [prime.gif] dl-l [imacr.gif] t [lprime.gif]
 choosing : ch [oomacr.gif] z
@@ -5063,7 +5054,6 @@ defending : d [ibreve.gif] -f [ebreve.gif] nd [prime.gif]
 admire : [abreve.gif] d-m [imacr.gif] r [prime.gif]
 punished : p [ubreve.gif] n [prime.gif] [ibreve.gif] sh
 soak : s [omacr.gif] k
-flo : fl&#333
 explodes : [ibreve.gif] k-spl [omacr.gif] d [prime.gif]
 bile : b [imacr.gif] l
 scrape : skr [amacr.gif] p
@@ -5690,7 +5680,6 @@ tote : t [omacr.gif] t
 vent : v [ebreve.gif] nt
 eastern : [emacr.gif] [prime.gif] st [schwa.gif] rn
 shouts : shout
-fred : fr&#277
 fascist : f [abreve.gif] sh [prime.gif] [ibreve.gif] st
 tense : t [ebreve.gif] ns
 owned : [omacr.gif] n
@@ -6138,7 +6127,7 @@ theme : th [emacr.gif] m
 spy : sp [imacr.gif]
 brotherhood : br [ubreve.gif] [phonth.gif] [prime.gif] [schwa.gif] r-h [oobreve.gif] d [lprime.gif]
 ordered : ôr [prime.gif] d [schwa.gif] r
-chainsaw : ch&#257
+chainsaw : ch [amacr.gif] nsô
 ominous : [obreve.gif] m [prime.gif] [schwa.gif] -n [schwa.gif] s
 nighttime : n [imacr.gif] t [prime.gif] t [imacr.gif] m [lprime.gif]
 curiosity : ky [oobreve.gif] r [lprime.gif] [emacr.gif] - [obreve.gif] s [prime.gif] [ibreve.gif] -t [emacr.gif]
@@ -6613,7 +6602,6 @@ fork : fôrk
 survives : s [schwa.gif] r-v [imacr.gif] v [prime.gif]
 april : [amacr.gif] [prime.gif] pr [schwa.gif] l
 tho : [phonth.gif] [omacr.gif]
-sous : F. s&#332
 gum : g [ubreve.gif] m
 gorgeous : gôr [prime.gif] j [schwa.gif] s
 untouchable : [ubreve.gif] n-t [ubreve.gif] ch [prime.gif] [schwa.gif] -b [schwa.gif] l
@@ -6974,7 +6962,6 @@ reel : r [emacr.gif] l
 dictate : d [ibreve.gif] k [prime.gif] t [amacr.gif] t [lprime.gif]
 drugged : dr [ubreve.gif] g
 kitty : k [ibreve.gif] t [prime.gif] [emacr.gif]
-hatte : h&#228
 choirs : kw [imacr.gif] r
 illuminate : [ibreve.gif] -l [oomacr.gif] [prime.gif] m [schwa.gif] -n [amacr.gif] t [lprime.gif]
 pal : p [abreve.gif] l
@@ -7174,7 +7161,6 @@ hos : h [omacr.gif]
 nuns : n [ubreve.gif] n
 spiel : sp [emacr.gif] l
 clench : kl [ebreve.gif] nch
-ligger : l&#301
 hottest : h [obreve.gif] t
 provoke : pr [schwa.gif] -v [omacr.gif] k [prime.gif]
 ko : k [amacr.gif] [prime.gif] [omacr.gif] [prime.gif]
@@ -7352,7 +7338,6 @@ actual : [abreve.gif] k [prime.gif] ch [oomacr.gif] - [schwa.gif] l
 dubs : d [ubreve.gif] b
 goo : g [oomacr.gif]
 hopelessly : h [omacr.gif] p [prime.gif] l [ibreve.gif] s
-leere : l&#275
 stunt : st [ubreve.gif] nt
 chunks : ch [ubreve.gif] ngk
 sock : s [obreve.gif] k
@@ -7369,7 +7354,6 @@ punches : p [ubreve.gif] nch
 kite : k [imacr.gif] t
 eons : [emacr.gif] [prime.gif] [obreve.gif] n [lprime.gif]
 euphoria : y [oomacr.gif] -fôr [prime.gif] [emacr.gif] - [schwa.gif]
-jen : r?n
 downstairs : doun [prime.gif] stârz [prime.gif]
 capable : k [amacr.gif] [prime.gif] p [schwa.gif] -b [schwa.gif] l
 hairy : hâr [prime.gif] [emacr.gif]
@@ -7377,7 +7361,7 @@ strewn : str [oomacr.gif]
 finer : f [imacr.gif] n
 formula : fôr [prime.gif] my [schwa.gif] -l [schwa.gif]
 report : r [ibreve.gif] -pôrt [prime.gif] -p [omacr.gif] rt [prime.gif]
-wich : w&#301
+wich : w [ibreve.gif] ch [lprime.gif]
 dressing : dr [ebreve.gif] s [prime.gif] [ibreve.gif] ng
 ashore : [schwa.gif] -shôr [prime.gif]
 acted : [amacr.gif] [lprime.gif] s [emacr.gif] -t [emacr.gif] [prime.gif]
@@ -7634,7 +7618,6 @@ mach : mäk
 deuce : d [oomacr.gif] s
 erupt : [ibreve.gif] -r [ubreve.gif] pt [prime.gif]
 adjust : [schwa.gif] -j [ubreve.gif] st [prime.gif]
-rei : r?
 sowing : s [omacr.gif]
 scabs : sk [abreve.gif] b
 arch : ärch
@@ -7659,7 +7642,7 @@ attract : [schwa.gif] -tr [abreve.gif] kt [prime.gif]
 renewed : r [ibreve.gif] -n [oomacr.gif] [prime.gif]
 epic : [ebreve.gif] p [prime.gif] [ibreve.gif] k
 flop : fl [obreve.gif] p
-starless : st&#228
+starless : stärl [ebreve.gif] s
 groupie : gr [oomacr.gif] [prime.gif] p [emacr.gif]
 rightful : r [imacr.gif] t [prime.gif] f [schwa.gif] l
 islands : [imacr.gif] [prime.gif] l [schwa.gif] nd
@@ -7974,7 +7957,6 @@ repentance : r [ibreve.gif] -p [ebreve.gif] n [prime.gif] t [schwa.gif] ns
 aroused : [schwa.gif] -rouz [prime.gif]
 wider : w [imacr.gif] d
 rumours : r [oomacr.gif] [prime.gif] m [schwa.gif] r
-ing : &#301
 withdraw : w [ibreve.gif] [phonth.gif] -drô [prime.gif]
 maimed : m [amacr.gif] m
 rockets : r [obreve.gif] k [prime.gif] [ibreve.gif] t
@@ -8337,7 +8319,7 @@ giddy : g [ibreve.gif] d [prime.gif] [emacr.gif]
 telly : t [ebreve.gif] l [prime.gif] [emacr.gif]
 bended : b [ebreve.gif] n [prime.gif] d [ibreve.gif] d
 richard : r [emacr.gif] -shärd [prime.gif]
-wah : w&#228
+wah : w [abreve.gif]
 replacing : r [ibreve.gif] -pl [amacr.gif] s [prime.gif]
 unfortunate : [ubreve.gif] n-fôr [prime.gif] ch [schwa.gif] -n [ibreve.gif] t
 oozing : [oomacr.gif] z
@@ -8528,7 +8510,7 @@ slamming : sl [abreve.gif] m
 skipping : sk [ibreve.gif] p
 funerals : fy [oomacr.gif] [prime.gif] n [schwa.gif] r- [schwa.gif] l
 aligned : [schwa.gif] -l [imacr.gif] n [prime.gif]
-lat : l&#259
+lat : l [abreve.gif] t
 yards : yärd
 vocal : v [omacr.gif] [prime.gif] k [schwa.gif] l
 avalon : [abreve.gif] v [prime.gif] [schwa.gif] -l [obreve.gif] n [lprime.gif]
@@ -8664,7 +8646,6 @@ heretics : h [ebreve.gif] r [prime.gif] [ibreve.gif] -t [ibreve.gif] k
 stoop : st [oomacr.gif] p
 posed : p [omacr.gif] z
 slows : sl [omacr.gif]
-onde : &#466
 dangers : d [amacr.gif] n [prime.gif] j [schwa.gif] r
 uncomfortable : [ubreve.gif] n-k [ubreve.gif] m [prime.gif] f [schwa.gif] r-t [schwa.gif] -b [schwa.gif] l
 coolest : k [oomacr.gif] l
@@ -9025,7 +9006,6 @@ cookies : k [oobreve.gif] k [prime.gif] [emacr.gif]
 loom : l [oomacr.gif] m
 barred : bärd
 underestimate : [ubreve.gif] n [lprime.gif] d [schwa.gif] r- [ebreve.gif] s [prime.gif] t [schwa.gif] -m [amacr.gif] t [lprime.gif]
-cuerpos : kw&#7869
 pirate : p [imacr.gif] [prime.gif] r [ibreve.gif] t
 fable : f [amacr.gif] [prime.gif] b [schwa.gif] l
 contents : k [obreve.gif] n [prime.gif] t [ebreve.gif] nt [lprime.gif]
@@ -10632,7 +10612,6 @@ shepherds : sh [ebreve.gif] p [prime.gif] [schwa.gif] rd
 severing : s [ebreve.gif] v [prime.gif] [schwa.gif] r
 spasms : sp [abreve.gif] z [prime.gif] [schwa.gif] m
 lifelong : l [imacr.gif] f [prime.gif] lông [lprime.gif]
-mains : m&#257
 arcade : är-k [amacr.gif] d [prime.gif]
 bubbling : b [ubreve.gif] b [prime.gif] [schwa.gif] l
 messy : m [ebreve.gif] s [prime.gif] [emacr.gif]
@@ -10841,7 +10820,6 @@ pulpit : p [oobreve.gif] l [prime.gif] p [ibreve.gif] t
 mischief : m [ibreve.gif] s [prime.gif] ch [ibreve.gif] f
 burdened : bûr [prime.gif] dn
 catharsis : k [schwa.gif] -thär [prime.gif] s [ibreve.gif] s
-passe : p&#259
 trait : tr [amacr.gif] t
 porte : pôrt
 techno : t [ebreve.gif] k [prime.gif] n [omacr.gif]
@@ -10960,7 +10938,6 @@ eradication : [ibreve.gif] -r [abreve.gif] d [prime.gif] [ibreve.gif] -k [amacr.
 correction : k [schwa.gif] -r [ebreve.gif] k [prime.gif] sh [schwa.gif] n
 info : [ibreve.gif] n [prime.gif] f [omacr.gif]
 youse : y [oomacr.gif] z
-steg : st&#277
 participate : pär-t [ibreve.gif] s [prime.gif] [schwa.gif] -p [amacr.gif] t [lprime.gif]
 gigantic : j [imacr.gif] -g [abreve.gif] n [prime.gif] t [ibreve.gif] k
 infrared : [ibreve.gif] n [lprime.gif] fr [schwa.gif] -r [ebreve.gif] d [prime.gif]
@@ -11602,7 +11579,6 @@ sandman : s [abreve.gif] nd [prime.gif] m [abreve.gif] n [lprime.gif]
 richest : r [ibreve.gif] ch
 dwarfs : dwôrf
 owls : oul
-lasse : l&#259
 dames : d [amacr.gif] m
 pap : p [abreve.gif] p
 exorcist : [ebreve.gif] k [prime.gif] sôr-s [ibreve.gif] z [lprime.gif] [schwa.gif] m
@@ -11758,7 +11734,7 @@ odins : [omacr.gif] [prime.gif] d [ibreve.gif] n
 practicing : pr [abreve.gif] k [prime.gif] t [ibreve.gif] -s [ibreve.gif] ng
 heavyweight : h [ebreve.gif] v [prime.gif] [emacr.gif] -w [amacr.gif] t [lprime.gif]
 wanderers : w [obreve.gif] n [prime.gif] d [schwa.gif] r
-slik : sl&#301
+slik : sl [ibreve.gif] k
 dammit : d [abreve.gif] m [prime.gif] [ibreve.gif] t
 cobra : k [omacr.gif] [prime.gif] br [schwa.gif]
 vogues : v [omacr.gif] g
@@ -11905,7 +11881,6 @@ lotion : l [omacr.gif] [prime.gif] sh [schwa.gif] n
 ox : [obreve.gif] ks
 gigs : g [ibreve.gif] g
 mamas : mä [prime.gif] m [schwa.gif]
-vives : v&#299
 uterus : y [oomacr.gif] [prime.gif] t [schwa.gif] r- [schwa.gif] s
 progeny : pr [obreve.gif] j [prime.gif] [schwa.gif] -n [emacr.gif]
 growling : groul
@@ -12253,7 +12228,6 @@ mephisto : m [ebreve.gif] f [lprime.gif] [ibreve.gif] -st [obreve.gif] f [prime.
 plundered : pl [ubreve.gif] n [prime.gif] d [schwa.gif] r
 tile : t [imacr.gif] l
 persevere : pûr [lprime.gif] s [schwa.gif] -vîr [prime.gif]
-tur : t&#332
 hardy : här [prime.gif] d [emacr.gif]
 craig : kr [amacr.gif] g
 rig : r [ibreve.gif] g
@@ -12519,7 +12493,6 @@ noisy : noi [prime.gif] z [emacr.gif]
 grid : gr [ibreve.gif] d
 arab : [abreve.gif] r [prime.gif] [schwa.gif] b
 erratic : [ibreve.gif] -r [abreve.gif] t [prime.gif] [ibreve.gif] k
-lich : l&#301
 deplore : d [ibreve.gif] -plôr [prime.gif]
 sentient : s [ebreve.gif] n [prime.gif] sh [schwa.gif] nt
 idolatry : [imacr.gif] -d [obreve.gif] l [prime.gif] [schwa.gif] -tr [emacr.gif]
@@ -12531,7 +12504,7 @@ metropolis : m [ibreve.gif] -tr [obreve.gif] p [prime.gif] [schwa.gif] -l [ibrev
 activate : [abreve.gif] k [prime.gif] t [schwa.gif] -v [amacr.gif] t [lprime.gif]
 harvesting : här [prime.gif] v [ibreve.gif] st
 overcoming : [omacr.gif] [lprime.gif] v [schwa.gif] r-k [ubreve.gif] m [prime.gif]
-ragnarok : r&#229
+ragnarok : r [abreve.gif] n [schwa.gif] r [obreve.gif] k
 gunshots : g [ubreve.gif] n [prime.gif] sh [obreve.gif] t [lprime.gif]
 urging : ûrj
 nursery : nûr [prime.gif] s [schwa.gif] -r [emacr.gif]
@@ -12630,7 +12603,7 @@ fascinating : f [abreve.gif] s [prime.gif] [schwa.gif] -n [amacr.gif] [lprime.gi
 fullness : f [oobreve.gif] l
 powdered : pou [prime.gif] d [schwa.gif] r
 equinox : [emacr.gif] [prime.gif] kw [schwa.gif] -n [obreve.gif] ks [lprime.gif]
-limbless : l&#301
+limbless : l [ibreve.gif] ml [ebreve.gif] s
 flux : fl [ubreve.gif] ks
 motivated : m [omacr.gif] [prime.gif] t [schwa.gif] -v [amacr.gif] t [lprime.gif]
 stereotype : st [ebreve.gif] r [prime.gif] [emacr.gif] - [schwa.gif] -t [imacr.gif] p [lprime.gif]
@@ -12930,7 +12903,7 @@ inhabit : [ibreve.gif] n-h [abreve.gif] b [prime.gif] [ibreve.gif] t
 vendetta : v [ebreve.gif] n-d [ebreve.gif] t [prime.gif] [schwa.gif]
 prance : pr [abreve.gif] ns
 backside : b [abreve.gif] k [prime.gif] s [imacr.gif] d [lprime.gif]
-mase : m&#257
+mase : m [amacr.gif] z
 infatuated : [ibreve.gif] n-f [abreve.gif] ch [prime.gif] [oomacr.gif] - [amacr.gif] [lprime.gif] t [ibreve.gif] d
 franklin : fr [abreve.gif] ngk [prime.gif] l [ibreve.gif] n
 vapour : v [amacr.gif] [prime.gif] p [schwa.gif] r
@@ -12958,7 +12931,7 @@ encircle : [ebreve.gif] n-sûr [prime.gif] k [schwa.gif] l
 waffle : w [obreve.gif] f [prime.gif] [schwa.gif] l
 mercenaries : mûr [prime.gif] s [schwa.gif] -n [ebreve.gif] r [lprime.gif] [emacr.gif]
 crabs : kr [abreve.gif] b
-ratten : r&#259
+ratten : r [abreve.gif] t [prime.gif] n
 buckets : b [ubreve.gif] k [prime.gif] [ibreve.gif] t
 victimize : v [ibreve.gif] k [prime.gif] t [schwa.gif] -m [imacr.gif] z [lprime.gif]
 squeaky : skw [emacr.gif] [prime.gif] k [emacr.gif]
@@ -13105,9 +13078,8 @@ artistic : är-t [ibreve.gif] s [prime.gif] t [ibreve.gif] k
 brides : br [imacr.gif] d
 arguing : är [prime.gif] gy [oomacr.gif]
 prevailing : pr [ibreve.gif] -v [amacr.gif] [prime.gif] l [ibreve.gif] ng
-criticise : kr?t&#180
+criticise : kr [ibreve.gif] t [ibreve.gif] s [imacr.gif] z
 dreck : dr [ebreve.gif] k
-mondes : m&#244
 embark : [ebreve.gif] m-bärk [prime.gif]
 woody : w [oobreve.gif] d [prime.gif] [emacr.gif]
 distilled : d [ibreve.gif] -st [ibreve.gif] l [prime.gif]
@@ -13141,7 +13113,6 @@ paces : p [amacr.gif] s
 austin : ô [prime.gif] st [schwa.gif] n
 services : sûr [prime.gif] v [ibreve.gif] s
 lieu : l [oomacr.gif]
-inne : &#301
 petite : p [schwa.gif] -t [emacr.gif] t [prime.gif]
 cater : k [amacr.gif] [prime.gif] t [schwa.gif] r
 pubic : py [oomacr.gif] [prime.gif] b [ibreve.gif] k
@@ -13153,7 +13124,6 @@ plastered : pl [abreve.gif] s [prime.gif] t [schwa.gif] rd
 bedlam : b [ebreve.gif] d [prime.gif] l [schwa.gif] m
 intervene : [ibreve.gif] n [lprime.gif] t [schwa.gif] r-v [emacr.gif] n [prime.gif]
 dictionary : d [ibreve.gif] k [prime.gif] sh [schwa.gif] -n [ebreve.gif] r [lprime.gif] [emacr.gif]
-ook : &#333
 champions : ch [abreve.gif] mp [prime.gif] y [schwa.gif] n
 burgers : bûr [prime.gif] g [schwa.gif] r
 italian : [ibreve.gif] -t [abreve.gif] l [prime.gif] y [schwa.gif] n
@@ -13217,7 +13187,6 @@ junction : j [ubreve.gif] ngk [prime.gif] sh [schwa.gif] n
 enslaves : [ebreve.gif] n-sl [amacr.gif] v [prime.gif]
 kinky : k [ibreve.gif] ng [prime.gif] k [emacr.gif]
 mathematics : m [abreve.gif] th [lprime.gif] [schwa.gif] -m [abreve.gif] t [prime.gif] [ibreve.gif] ks
-leve : l&#275
 flailing : fl [amacr.gif] l
 foreplay : fôr [prime.gif] pl [amacr.gif] [lprime.gif]
 votes : v [omacr.gif] t
@@ -13522,7 +13491,6 @@ blowed : bl [omacr.gif] d
 predatory : pr [ebreve.gif] d [prime.gif] [schwa.gif] -tôr [lprime.gif] [emacr.gif]
 dublin : d [ubreve.gif] b [prime.gif] l [ibreve.gif] n
 expires : [ibreve.gif] k-sp [imacr.gif] r [prime.gif]
-wyte : w&#299
 madhouse : m [abreve.gif] d [prime.gif] hous [lprime.gif]
 ranger : r [amacr.gif] n [prime.gif] j [schwa.gif] r
 demanded : d [ibreve.gif] -m [abreve.gif] nd [prime.gif]
@@ -13687,7 +13655,7 @@ flyest : fl [imacr.gif]
 sobriety : s [schwa.gif] -br [imacr.gif] [prime.gif] [ibreve.gif] -t [emacr.gif]
 anoint : [schwa.gif] -noint [prime.gif]
 clark : klärk
-dreamworld : dr&#275
+dreamworld : dr [emacr.gif] mwûrld
 mexicans : m [ebreve.gif] k [prime.gif] s [ibreve.gif] -k [omacr.gif] [lprime.gif]
 factors : f [abreve.gif] k [prime.gif] t [schwa.gif] r
 banger : b [abreve.gif] ng [prime.gif] [schwa.gif] r
@@ -13840,7 +13808,7 @@ subtlety : s [ubreve.gif] t [prime.gif] l-t [emacr.gif]
 succulent : s [ubreve.gif] k [prime.gif] y [schwa.gif] -l [schwa.gif] nt
 detonation : d [ebreve.gif] t [lprime.gif] n- [amacr.gif] [prime.gif] sh [schwa.gif] n
 mosquito : m [schwa.gif] -sk [emacr.gif] [prime.gif] t [omacr.gif]
-ket : k&#277
+ket : k [ebreve.gif] t
 leagues : l [emacr.gif] g
 expands : [ibreve.gif] k-sp [abreve.gif] nd [prime.gif]
 ramp : r [abreve.gif] mp
@@ -13897,7 +13865,6 @@ deconstruct : d [emacr.gif] [lprime.gif] k [schwa.gif] n-str [ubreve.gif] kt [pr
 gnawed : nô
 tart : tärt
 surprising : s [schwa.gif] r-pr [imacr.gif] z [prime.gif]
-saan : s&#228
 franchise : fr [abreve.gif] n [prime.gif] ch [imacr.gif] z [lprime.gif]
 perched : pûrch
 restriction : r [ibreve.gif] -str [ibreve.gif] k [prime.gif] sh [schwa.gif] n
@@ -13930,7 +13897,6 @@ involve : [ibreve.gif] n-v [obreve.gif] lv [prime.gif]
 pentagon : p [ebreve.gif] n [prime.gif] t [schwa.gif] -g [obreve.gif] n [lprime.gif]
 spurting : spûrt
 cannabis : k [abreve.gif] n [prime.gif] [schwa.gif] -b [ibreve.gif] s
-guld : g&#365
 imperium : [ibreve.gif] m-pîr [prime.gif] [emacr.gif] - [schwa.gif] m
 toaster : t [omacr.gif] [prime.gif] st [schwa.gif] r
 endowed : [ebreve.gif] n-dou [prime.gif]
@@ -14120,7 +14086,6 @@ badges : b [abreve.gif] j
 busters : b [ubreve.gif] s [prime.gif] t [schwa.gif] r
 hardware : härd [prime.gif] wâr [lprime.gif]
 samurai : s [abreve.gif] m [prime.gif] [schwa.gif] -r [imacr.gif] [lprime.gif]
-reiter : r?&#180
 tackle : t [abreve.gif] k [prime.gif] [schwa.gif] l
 martha : mär [prime.gif] th [schwa.gif]
 lockdown : l [obreve.gif] k [prime.gif] doun [lprime.gif]
@@ -14253,7 +14218,6 @@ glacier : gl [amacr.gif] [prime.gif] sh [schwa.gif] r
 topless : t [obreve.gif] p [prime.gif] l [ibreve.gif] s
 hoard : hôrd
 fireside : f [imacr.gif] r [prime.gif] s [imacr.gif] d [lprime.gif]
-jako : j&#259
 juggernaut : j [ubreve.gif] g [prime.gif] [schwa.gif] r-nôt [lprime.gif]
 shambles : sh [abreve.gif] m [prime.gif] b [schwa.gif] lz
 masking : m [abreve.gif] s [prime.gif] k [ibreve.gif] ng
@@ -14848,7 +14812,6 @@ kiddies : k [ibreve.gif] d [prime.gif] [emacr.gif]
 suburb : s [ubreve.gif] b [prime.gif] ûrb [lprime.gif]
 dentist : d [ebreve.gif] n [prime.gif] t [ibreve.gif] st
 chirp : chûrp
-pais : p&#229
 dumpster : d [ubreve.gif] mp [prime.gif] st [schwa.gif] r
 anesthesia : [abreve.gif] n [lprime.gif] [ibreve.gif] s-th [emacr.gif] [prime.gif] zh [schwa.gif]
 wisp : w [ibreve.gif] sp
@@ -15050,7 +15013,6 @@ falla : fäl [prime.gif] yä
 perennial : p [schwa.gif] -r [ebreve.gif] n [prime.gif] [emacr.gif] - [schwa.gif] l
 sharon : sh [schwa.gif] -r [omacr.gif] n [prime.gif]
 finder : f [imacr.gif] n [prime.gif] d [schwa.gif] r
-sted : st&#277
 evaluate : [ibreve.gif] -v [abreve.gif] l [prime.gif] y [oomacr.gif] - [amacr.gif] t [lprime.gif]
 launching : lônch
 hosanna : h [omacr.gif] -z [abreve.gif] n [prime.gif] [schwa.gif]
@@ -15534,7 +15496,6 @@ handshakes : h [abreve.gif] nd [prime.gif] sh [amacr.gif] k [lprime.gif]
 badder : b [abreve.gif] d
 capone : k [schwa.gif] -p [omacr.gif] n [prime.gif]
 tracy : tr [amacr.gif] [prime.gif] s [emacr.gif]
-caballo : k&#229
 pentagrams : p [ebreve.gif] n [prime.gif] t [schwa.gif] -gr [abreve.gif] m [lprime.gif]
 celluloid : s [ebreve.gif] l [prime.gif] y [schwa.gif] -loid [lprime.gif]
 charades : sh [schwa.gif] -r [amacr.gif] d [prime.gif]
@@ -15553,7 +15514,7 @@ spotless : sp [obreve.gif] t [prime.gif] l [ibreve.gif] s
 rife : r [imacr.gif] f
 inventing : [ibreve.gif] n-v [ebreve.gif] nt [prime.gif]
 bores : bôr
-stats : st&#259
+stats : st [schwa.gif] -ts
 dolce : d [omacr.gif] l [prime.gif] ch [amacr.gif] [lprime.gif]
 almond : ä [prime.gif] m [schwa.gif] nd
 occasionally : [schwa.gif] -k [amacr.gif] [prime.gif] zh [schwa.gif] -n [schwa.gif] -l [emacr.gif]
@@ -15627,7 +15588,6 @@ minas : m [imacr.gif] [prime.gif] n [schwa.gif]
 puissance : pw [ibreve.gif] s [prime.gif] [schwa.gif] ns
 caligula : k [schwa.gif] -l [ibreve.gif] g [prime.gif] y [schwa.gif] -l [schwa.gif]
 sinatra : s [schwa.gif] -nä [prime.gif] tr [schwa.gif]
-jan : j&#259
 soggy : s [obreve.gif] g [prime.gif] [emacr.gif]
 reviews : r [ibreve.gif] -vy [oomacr.gif] [prime.gif]
 bade : b [abreve.gif] d
@@ -15639,7 +15599,6 @@ complained : k [schwa.gif] m-pl [amacr.gif] n [prime.gif]
 soho : s [omacr.gif] [prime.gif] h [omacr.gif] [lprime.gif]
 shrinks : shr [ibreve.gif] ngk
 tangerine : t [abreve.gif] n [lprime.gif] j [schwa.gif] -r [emacr.gif] n [prime.gif]
-gog : g&#466
 stich : st [ibreve.gif] k
 sorrowed : s [obreve.gif] r [prime.gif] [omacr.gif]
 bequeath : b [ibreve.gif] -kw [emacr.gif] [phonth.gif] [prime.gif]
@@ -15666,7 +15625,7 @@ duplicate : d [oomacr.gif] [prime.gif] pl [ibreve.gif] -k [ibreve.gif] t
 fewer : fy [oomacr.gif]
 impart : [ibreve.gif] m-pärt [prime.gif]
 shipwrecked : sh [ibreve.gif] p [prime.gif] r [ebreve.gif] k [lprime.gif]
-cummin : k?m&#180
+cummin : k [ubreve.gif] m [prime.gif] [ibreve.gif] ng
 nibble : n [ibreve.gif] b [prime.gif] [schwa.gif] l
 plaguing : pl [amacr.gif] g
 dumber : d [ubreve.gif] m
@@ -15859,7 +15818,7 @@ rasta : rä [prime.gif] st [schwa.gif]
 suckling : s [ubreve.gif] k [prime.gif] l [ibreve.gif] ng
 heartstrings : härt [prime.gif] str [ibreve.gif] ng [lprime.gif]
 crone : kr [omacr.gif] n
-erd : &#7869
+erd : ûrd
 weirdest : wîrd
 appointment : [schwa.gif] -point [prime.gif] m [schwa.gif] nt
 shaving : sh [amacr.gif] [prime.gif] v [ibreve.gif] ng
@@ -16315,7 +16274,7 @@ charlotte : shär [prime.gif] l [schwa.gif] t
 chit : ch [ibreve.gif] t
 larva : lär [prime.gif] v [schwa.gif]
 jamming : j [abreve.gif] m
-rab : r&#259
+rab : r [abreve.gif] b
 roma : r [omacr.gif] [prime.gif] m [schwa.gif]
 disobedience : d [ibreve.gif] s [lprime.gif] [schwa.gif] -b [emacr.gif] [prime.gif] d [emacr.gif] - [schwa.gif] ns
 conforming : k [schwa.gif] n-fôrm [prime.gif]
@@ -16388,7 +16347,7 @@ mariner : m [abreve.gif] r [prime.gif] [schwa.gif] -n [schwa.gif] r
 wreaking : r [emacr.gif] k
 shakedown : sh [amacr.gif] k [prime.gif] doun [lprime.gif]
 idealism : [imacr.gif] -d [emacr.gif] [prime.gif] [schwa.gif] -l [ibreve.gif] z [lprime.gif] [schwa.gif] m
-milkshake : m&#301
+milkshake : m [ibreve.gif] lksh [amacr.gif] k
 decks : d [ebreve.gif] k
 mohammed : m [omacr.gif] -h [abreve.gif] m [prime.gif] [ibreve.gif] d
 unfettered : [ubreve.gif] n-f [ebreve.gif] t [prime.gif] [schwa.gif] r
@@ -16447,7 +16406,7 @@ issued : [ibreve.gif] sh [prime.gif] [oomacr.gif]
 positivity : p [obreve.gif] z [prime.gif] [ibreve.gif] -t [ibreve.gif] v
 sulphurous : s [ubreve.gif] l [prime.gif] f [schwa.gif] r- [schwa.gif] s
 shutdown : sh [ubreve.gif] t [prime.gif] doun [lprime.gif]
-tol : t&#333
+tol : t [omacr.gif] l
 shielding : sh [emacr.gif] ld
 converts : k [schwa.gif] n-vûrt [prime.gif]
 cognition : k [obreve.gif] g-n [ibreve.gif] sh [prime.gif] [schwa.gif] n
@@ -16676,7 +16635,6 @@ hick : h [ibreve.gif] k
 gutting : g [ubreve.gif] t
 wodan : w [omacr.gif] d [prime.gif] n
 fiber : f [imacr.gif] [prime.gif] b [schwa.gif] r
-gein : j&#275
 siegen : z [emacr.gif] [prime.gif] g [schwa.gif] n
 marx : märks
 fjord : fyôrd
@@ -16862,7 +16820,7 @@ backlash : b [abreve.gif] k [prime.gif] l [abreve.gif] sh [lprime.gif]
 tryed : tr [imacr.gif]
 mights : m [imacr.gif] t
 atlantean : [abreve.gif] t [lprime.gif] l [abreve.gif] n-t [emacr.gif] [prime.gif] [schwa.gif] n
-lemuria : l&#279
+lemuria : l [ebreve.gif] m [prime.gif] [schwa.gif] -r [prime.gif] [emacr.gif] - [schwa.gif]
 agendas : [schwa.gif] -j [ebreve.gif] n [prime.gif] d [schwa.gif]
 supervision : s [oomacr.gif] [lprime.gif] p [schwa.gif] r-v [ibreve.gif] zh [prime.gif] [schwa.gif] n
 motivations : m [omacr.gif] [lprime.gif] t [schwa.gif] -v [amacr.gif] [prime.gif] sh [schwa.gif] n
@@ -16932,7 +16890,6 @@ outright : out [prime.gif] r [imacr.gif] t [prime.gif]
 nestled : n [ebreve.gif] s [prime.gif] [schwa.gif] l
 dehumanize : d [emacr.gif] -hy [oomacr.gif] [prime.gif] m [schwa.gif] -n [imacr.gif] z [lprime.gif]
 contend : k [schwa.gif] n-t [ebreve.gif] nd [prime.gif]
-bere : b&#275
 materialize : m [schwa.gif] -tîr [prime.gif] [emacr.gif] - [schwa.gif] -l [imacr.gif] z [lprime.gif]
 purses : pûrs
 fino : f [emacr.gif] [prime.gif] n [omacr.gif]
@@ -17063,7 +17020,6 @@ dakota : d [schwa.gif] -k [omacr.gif] [prime.gif] t [schwa.gif]
 mends : m [ebreve.gif] nd
 podium : p [omacr.gif] [prime.gif] d [emacr.gif] - [schwa.gif] m
 implacable : [ibreve.gif] m-pl [abreve.gif] k [prime.gif] [schwa.gif] -b [schwa.gif] l
-lenger : l&#277
 relevance : r [ebreve.gif] l [prime.gif] [schwa.gif] -v [schwa.gif] ns
 gamblers : g [abreve.gif] m [prime.gif] b [schwa.gif] l
 programming : pr [omacr.gif] [prime.gif] gr [abreve.gif] m [lprime.gif] [ibreve.gif] ng
@@ -17518,7 +17474,7 @@ pucker : p [ubreve.gif] k [prime.gif] [schwa.gif] r
 spook : sp [oomacr.gif] k
 transgress : tr [abreve.gif] ns-gr [ebreve.gif] s [prime.gif]
 carols : k [abreve.gif] r [prime.gif] [schwa.gif] l
-kodak : k&#333
+kodak : k [schwa.gif] d [abreve.gif] k
 risked : r [ibreve.gif] sk
 tutti : t [oomacr.gif] [prime.gif] t [emacr.gif]
 panicking : p [abreve.gif] n [prime.gif] [ibreve.gif] k
@@ -17531,7 +17487,6 @@ examined : [ibreve.gif] g-z [abreve.gif] m [prime.gif] [ibreve.gif] n
 madrid : m [schwa.gif] -dr [ibreve.gif] d [prime.gif]
 crappy : kr [abreve.gif] p [prime.gif] [emacr.gif]
 sherry : sh [ebreve.gif] r [prime.gif] [emacr.gif]
-hain : h&#257
 harbingers : här [prime.gif] b [ibreve.gif] n-j [schwa.gif] r
 excavate : [ebreve.gif] k [prime.gif] sk [schwa.gif] -v [amacr.gif] t [lprime.gif]
 gambled : g [abreve.gif] m [prime.gif] b [schwa.gif] l
@@ -17963,7 +17918,7 @@ rink : r [ibreve.gif] ngk
 welling : w [ebreve.gif] l
 amiss : [schwa.gif] -m [ibreve.gif] s [prime.gif]
 ovaries : [omacr.gif] [prime.gif] v [schwa.gif] -r [emacr.gif]
-gump : g&#365
+gump : g [ubreve.gif] mp
 sussed : s [ubreve.gif] s
 shames : sh [amacr.gif] m
 disrespected : d [ibreve.gif] s [lprime.gif] r [ibreve.gif] -sp [ebreve.gif] kt [prime.gif]
@@ -18128,7 +18083,7 @@ tine : t [imacr.gif] n
 twentieth : tw [ebreve.gif] n [prime.gif] t [emacr.gif] - [ibreve.gif] th
 poof : p [oomacr.gif] f
 vixen : v [ibreve.gif] k [prime.gif] s [schwa.gif] n
-stal : st&#228
+stal : stôl
 respectfully : r [ibreve.gif] -sp [ebreve.gif] kt [prime.gif] f [schwa.gif] l
 spiting : sp [imacr.gif] t
 collard : k [obreve.gif] l [prime.gif] [schwa.gif] rd
@@ -18240,7 +18195,6 @@ jerkin : jûr [prime.gif] k [ibreve.gif] n
 fantasizing : f [abreve.gif] n [prime.gif] t [schwa.gif] -s [imacr.gif] z [lprime.gif]
 tapestries : t [abreve.gif] p [prime.gif] [ibreve.gif] -str [emacr.gif]
 reluctance : r [ibreve.gif] -l [ubreve.gif] k [prime.gif] t [schwa.gif] ns
-lier : l&#299
 auschwitz : oush [prime.gif] v [ibreve.gif] ts [lprime.gif]
 enlist : [ebreve.gif] n-l [ibreve.gif] st [prime.gif]
 chocked : ch [obreve.gif] k
@@ -18390,7 +18344,6 @@ cocking : k [obreve.gif] k
 constricting : k [schwa.gif] n-str [ibreve.gif] kt [prime.gif]
 cautiously : kô [prime.gif] sh [schwa.gif] s
 hamburger : h [abreve.gif] m [prime.gif] bûr [lprime.gif] g [schwa.gif] r
-ultime : &#365
 shrouding : shroud
 char : chär
 despaired : d [ibreve.gif] -spâr [prime.gif]
@@ -18437,7 +18390,7 @@ gage : g [amacr.gif] j
 revert : r [ibreve.gif] -vûrt [prime.gif]
 pleasantly : pl [ebreve.gif] z [prime.gif] [schwa.gif] nt
 roommate : r [oomacr.gif] m [prime.gif] m [amacr.gif] t [lprime.gif]
-neal : n&#275
+neal : n [emacr.gif] l
 nooses : n [oomacr.gif] s
 perils : p [ebreve.gif] r [prime.gif] [schwa.gif] l
 thorax : thôr [prime.gif] [abreve.gif] ks [lprime.gif]
@@ -18556,7 +18509,6 @@ forsakes : fôr-s [amacr.gif] k [prime.gif]
 cessation : s [ebreve.gif] -s [amacr.gif] [prime.gif] sh [schwa.gif] n
 cb : s [emacr.gif] -b [emacr.gif] [prime.gif]
 seventies : s [ebreve.gif] v [prime.gif] [schwa.gif] n-t [emacr.gif]
-hables : h&#257
 motherless : m [ubreve.gif] [phonth.gif] [prime.gif] [schwa.gif] r-l [schwa.gif] s [lprime.gif]
 pukes : py [oomacr.gif] k
 disclosed : d [ibreve.gif] -skl [omacr.gif] z [prime.gif]
@@ -18656,7 +18608,6 @@ missionaries : m [ibreve.gif] sh [prime.gif] [schwa.gif] -n [ebreve.gif] r [lpri
 ravages : r [abreve.gif] v [prime.gif] [ibreve.gif] j
 hornet : hôr [prime.gif] n [ibreve.gif] t
 agency : [amacr.gif] [prime.gif] j [schwa.gif] n-s [emacr.gif]
-ped : p&#277
 gars : gär
 moldy : m [omacr.gif] l [prime.gif] d [emacr.gif]
 rama : rä [prime.gif] m [schwa.gif]
@@ -18671,7 +18622,6 @@ nota : n [omacr.gif] [prime.gif] t [schwa.gif]
 albuquerque : [abreve.gif] l [prime.gif] b [schwa.gif] -kûr [lprime.gif] k [emacr.gif]
 warps : wôrp
 flail : fl [amacr.gif] l
-liers : l&#299
 bimbo : b [ibreve.gif] m [prime.gif] b [omacr.gif]
 vinegar : v [ibreve.gif] n [prime.gif] [ibreve.gif] -g [schwa.gif] r
 legality : l [emacr.gif] -g [abreve.gif] l [prime.gif] [ibreve.gif] -t [emacr.gif]
@@ -18912,7 +18862,6 @@ pecan : p [ibreve.gif] -kän [prime.gif]
 heist : h [imacr.gif] st
 thickest : th [ibreve.gif] k
 raked : r [amacr.gif] k
-lif : l&#301
 vend : v [ebreve.gif] nd
 embalm : [ebreve.gif] m-bäm [prime.gif]
 leaky : l [emacr.gif] [prime.gif] k [emacr.gif]
@@ -19003,7 +18952,6 @@ fetter : f [ebreve.gif] t [prime.gif] [schwa.gif] r
 championship : ch [abreve.gif] m [prime.gif] p [emacr.gif] - [schwa.gif] n-sh [ibreve.gif] p [lprime.gif]
 orgiastic : ôr [lprime.gif] j [emacr.gif] - [abreve.gif] s [prime.gif] t [ibreve.gif] k
 trampoline : tr [abreve.gif] m [prime.gif] p [schwa.gif] -l [emacr.gif] n [lprime.gif]
-mung : m&#365
 cabaret : k [abreve.gif] b [lprime.gif] [schwa.gif] -r [amacr.gif] [prime.gif]
 operated : [obreve.gif] p [prime.gif] [schwa.gif] -r [amacr.gif] t [lprime.gif]
 friendless : fr [ebreve.gif] nd
@@ -19181,7 +19129,6 @@ semester : s [schwa.gif] -m [ebreve.gif] s [prime.gif] t [schwa.gif] r
 gist : j [ibreve.gif] st
 falsify : fôl [prime.gif] s [schwa.gif] -f [imacr.gif] [lprime.gif]
 wheezy : hw [emacr.gif] [prime.gif] z [emacr.gif]
-alan : &#229
 discovers : d [ibreve.gif] -sk [ubreve.gif] v [prime.gif] [schwa.gif] r
 alienate : [amacr.gif] l [prime.gif] y [schwa.gif] -n [amacr.gif] t [lprime.gif]
 alittle : l [ibreve.gif] t [prime.gif] l
@@ -19318,7 +19265,6 @@ remake : r [emacr.gif] -m [amacr.gif] k [prime.gif]
 milieu : m [ibreve.gif] l-y [oobreve.gif] [prime.gif]
 larynx : l [abreve.gif] r [prime.gif] [ibreve.gif] ngks
 possessor : p [schwa.gif] -z [ebreve.gif] s [prime.gif]
-grises : gr&#299
 realising : r [emacr.gif] [prime.gif] [schwa.gif] -l [imacr.gif] z [lprime.gif]
 squid : skw [ibreve.gif] d
 slough : slou
@@ -19577,7 +19523,6 @@ whirled : hwûrl
 nylon : n [imacr.gif] [prime.gif] l [obreve.gif] n [lprime.gif]
 tnt : t [emacr.gif] [lprime.gif] [ebreve.gif] n-t [emacr.gif] [prime.gif]
 ref : r [ebreve.gif] f
-lep : l&#277
 wrestled : r [ebreve.gif] s [prime.gif] [schwa.gif] l
 bitsy : b [ibreve.gif] t [prime.gif] s [emacr.gif]
 royally : roi [prime.gif] [schwa.gif] l
@@ -19747,7 +19692,6 @@ evolutions : [ebreve.gif] v [lprime.gif] [schwa.gif] -l [oomacr.gif] [prime.gif]
 astound : [schwa.gif] -stound [prime.gif]
 silt : s [ibreve.gif] lt
 undertakers : [ubreve.gif] n [lprime.gif] d [schwa.gif] r-t [amacr.gif] [prime.gif] k [schwa.gif] r
-remords : r?-m?rd&#180
 turncoat : tûrn [prime.gif] k [omacr.gif] t [lprime.gif]
 capitulation : k [schwa.gif] -p [ibreve.gif] ch [lprime.gif] [schwa.gif] -l [amacr.gif] [prime.gif] sh [schwa.gif] n
 chromosomes : kr [omacr.gif] [prime.gif] m [schwa.gif] -s [omacr.gif] m [lprime.gif]
@@ -19972,7 +19916,7 @@ struts : str [ubreve.gif] t
 beret : b [schwa.gif] -r [amacr.gif] [prime.gif]
 specs : sp [ebreve.gif] ks
 mentioning : m [ebreve.gif] n [prime.gif] sh [schwa.gif] n
-chainsaws : ch&#257
+chainsaws : ch [amacr.gif] nsôz
 tribunal : tr [imacr.gif] -by [oomacr.gif] [prime.gif] n [schwa.gif] l
 desensitize : d [emacr.gif] -s [ebreve.gif] n [prime.gif] s [ibreve.gif] -t [imacr.gif] z [lprime.gif]
 whooped : h [oomacr.gif] p
@@ -19997,7 +19941,6 @@ dispossessed : d [ibreve.gif] s [lprime.gif] p [schwa.gif] -z [ebreve.gif] st [p
 decreased : d [ibreve.gif] -kr [emacr.gif] s [prime.gif]
 evaporating : [ibreve.gif] -v [abreve.gif] p [prime.gif] [schwa.gif] -r [amacr.gif] t [lprime.gif]
 combats : k [schwa.gif] m-b [abreve.gif] t [prime.gif]
-grume : gr&#371
 skimming : sk [ibreve.gif] m
 filtering : f [ibreve.gif] l [prime.gif] t [schwa.gif] r
 membranes : m [ebreve.gif] m [prime.gif] br [amacr.gif] n [lprime.gif]
@@ -20111,7 +20054,6 @@ gleamed : gl [emacr.gif] m
 speculate : sp [ebreve.gif] k [prime.gif] y [schwa.gif] -l [amacr.gif] t [lprime.gif]
 dainty : d [amacr.gif] n [prime.gif] t [emacr.gif]
 steamed : st [emacr.gif] m
-jenes : r?n
 deputy : d [ebreve.gif] p [prime.gif] y [schwa.gif] -t [emacr.gif]
 legger : l [ebreve.gif] g
 slung : sl [ubreve.gif] ng
@@ -20121,7 +20063,6 @@ uplifted : [ubreve.gif] p-l [ibreve.gif] ft [prime.gif]
 loudness : loud
 retracing : r [emacr.gif] -tr [amacr.gif] s [prime.gif]
 snipe : sn [imacr.gif] p
-loke : l&#333
 ordain : ôr-d [amacr.gif] n [prime.gif]
 boob : b [oomacr.gif] b
 norsemen : nôrs
@@ -20800,7 +20741,6 @@ movers : m [oomacr.gif] [prime.gif] v [schwa.gif] r
 porcupine : pôr [prime.gif] ky [schwa.gif] -p [imacr.gif] n [lprime.gif]
 tepid : t [ebreve.gif] p [prime.gif] [ibreve.gif] d
 masochism : m [abreve.gif] s [prime.gif] [schwa.gif] -k [ibreve.gif] z [lprime.gif] [schwa.gif] m
-rana : r&#257
 mithras : m [ibreve.gif] th [prime.gif] r [schwa.gif] s
 rumba : r [ubreve.gif] m [prime.gif] b [schwa.gif]
 athlete : [abreve.gif] th [prime.gif] l [emacr.gif] t [lprime.gif]
@@ -21009,7 +20949,6 @@ graham : gr [amacr.gif] [prime.gif] [schwa.gif] m
 nostrum : n [obreve.gif] s [prime.gif] tr [schwa.gif] m
 thorazine : thôr [prime.gif] [schwa.gif] -z [emacr.gif] n [lprime.gif]
 admits : [abreve.gif] d-m [ibreve.gif] t [prime.gif]
-vanessa : v&#259
 thralls : thrôl
 adorning : [schwa.gif] -dôrn [prime.gif]
 thermal : thûr [prime.gif] m [schwa.gif] l
@@ -21124,7 +21063,7 @@ silks : s [ibreve.gif] lk
 humiliating : hy [oomacr.gif] -m [ibreve.gif] l [prime.gif] [emacr.gif] - [amacr.gif] t [lprime.gif]
 solidified : s [schwa.gif] -l [ibreve.gif] d [prime.gif] [schwa.gif] -f [imacr.gif] [lprime.gif]
 keller : k [ebreve.gif] l [prime.gif] [schwa.gif] r
-arsehole : &#228
+arsehole : [abreve.gif] s [prime.gif] h [omacr.gif] l [lprime.gif]
 conquistador : k [obreve.gif] n-kw [ibreve.gif] s [prime.gif] t [schwa.gif] -dôr [lprime.gif]
 lowlife : l [omacr.gif] [prime.gif] l [imacr.gif] f [lprime.gif]
 foresaw : fôr-s [emacr.gif] [prime.gif]
@@ -21240,7 +21179,6 @@ luny : l [oomacr.gif] [prime.gif] n [emacr.gif]
 bilbo : b [ibreve.gif] l [prime.gif] b [omacr.gif]
 oldies : [omacr.gif] l [prime.gif] d [emacr.gif]
 barons : b [abreve.gif] r [prime.gif] [schwa.gif] n
-kee : k&#275
 maxwell : m [abreve.gif] ks [prime.gif] w [ebreve.gif] l [lprime.gif]
 alps : [abreve.gif] lps
 robinson : r [obreve.gif] b [prime.gif] [ibreve.gif] n-s [schwa.gif] n
@@ -21329,7 +21267,6 @@ leverage : l [ebreve.gif] v [prime.gif] [schwa.gif] r- [ibreve.gif] j
 packaging : p [abreve.gif] k [prime.gif] [schwa.gif] -j [ibreve.gif] ng
 spliffs : spl [ibreve.gif] f
 vaginas : v [schwa.gif] -j [imacr.gif] [prime.gif] n [schwa.gif]
-burt : b&#251
 woodstock : w [oobreve.gif] d [prime.gif] st [obreve.gif] k [lprime.gif]
 rebelled : r [ibreve.gif] -b [ebreve.gif] l [prime.gif]
 strapping : str [abreve.gif] p [prime.gif] [ibreve.gif] ng
@@ -21445,7 +21382,6 @@ kant : k [abreve.gif] nt
 surgically : sûr [prime.gif] j [ibreve.gif] -k [schwa.gif] l
 understated : [ubreve.gif] n [prime.gif] d [schwa.gif] r-st [amacr.gif] [lprime.gif] t [ibreve.gif] d
 asp : [abreve.gif] sp
-menge : m&#277
 nasa : n [abreve.gif] s [prime.gif] [schwa.gif]
 absolutes : [abreve.gif] b [prime.gif] s [schwa.gif] -l [oomacr.gif] t [lprime.gif]
 rockabilly : r [obreve.gif] k [prime.gif] [schwa.gif] -b [ibreve.gif] l [lprime.gif] [emacr.gif]
@@ -21562,7 +21498,6 @@ narrows : n [abreve.gif] r [prime.gif] [omacr.gif] z
 ambivalence : [abreve.gif] m-b [ibreve.gif] v [prime.gif] [schwa.gif] -l [schwa.gif] ns
 exam : [ibreve.gif] g-z [abreve.gif] m [prime.gif]
 dulcet : d [ubreve.gif] l [prime.gif] s [ibreve.gif] t
-teached : t&#275
 vandal : v [abreve.gif] n [prime.gif] dl
 conquerer : k [obreve.gif] ng [prime.gif] k [schwa.gif] r
 hubby : h [ubreve.gif] b [prime.gif] [emacr.gif]
@@ -21608,7 +21543,6 @@ freezed : fr [emacr.gif] z
 frenetic : fr [schwa.gif] -n [ebreve.gif] t [prime.gif] [ibreve.gif] k
 chardonnay : shär [lprime.gif] dn- [amacr.gif] [prime.gif]
 barbs : bärb
-deuses : d&#363
 lengthy : l [ebreve.gif] ngk [prime.gif] th [emacr.gif]
 gibbering : j [ibreve.gif] b [prime.gif] [schwa.gif] r
 alloy : [abreve.gif] l [prime.gif] oi [lprime.gif]
@@ -21650,7 +21584,6 @@ threnody : thr [ebreve.gif] n [prime.gif] [schwa.gif] -d [emacr.gif]
 multinational : m [ubreve.gif] l [lprime.gif] t [emacr.gif] -n [abreve.gif] sh [prime.gif] [schwa.gif] -n [schwa.gif] l
 mural : my [oobreve.gif] r [prime.gif] [schwa.gif] l
 rodent : r [omacr.gif] d [prime.gif] nt
-lok : l&#466
 unquiet : [ubreve.gif] n-kw [imacr.gif] [prime.gif] [ibreve.gif] t
 covens : k [ubreve.gif] v [prime.gif] [schwa.gif] n
 neanderthal : n [emacr.gif] - [abreve.gif] n [prime.gif] d [schwa.gif] r-thôl [lprime.gif]
@@ -21774,7 +21707,6 @@ sweetened : sw [emacr.gif] t [prime.gif] n
 airports : âr [prime.gif] pôrt [lprime.gif]
 biter : b [imacr.gif] t
 stilt : st [ibreve.gif] lt
-gry : gr&#299
 rhetorical : r [ibreve.gif] -tôr [prime.gif] [ibreve.gif] -k [schwa.gif] l
 misplace : m [ibreve.gif] s-pl [amacr.gif] s [prime.gif]
 components : k [schwa.gif] m-p [omacr.gif] [prime.gif] n [schwa.gif] nt
@@ -21877,7 +21809,6 @@ pitfalls : p [ibreve.gif] t [prime.gif] fôl [lprime.gif]
 sleeplessness : sl [emacr.gif] p [prime.gif] l [ibreve.gif] s
 bogs : bôg
 toying : toi
-ree : r&#275
 tulsa : t [ubreve.gif] l [prime.gif] s [schwa.gif]
 bicker : b [ibreve.gif] k [prime.gif] [schwa.gif] r
 argued : är [prime.gif] gy [oomacr.gif]
@@ -22053,7 +21984,7 @@ amoeba : [schwa.gif] -m [emacr.gif] [prime.gif] b [schwa.gif]
 congo : k [obreve.gif] ng [prime.gif] g [omacr.gif]
 mauling : môl
 cellulite : s [ebreve.gif] l [prime.gif] y [schwa.gif] -l [imacr.gif] t [lprime.gif]
-bubonic : b&#361
+bubonic : by [oomacr.gif] b [obreve.gif] n [prime.gif] [ibreve.gif] k
 krishna : kr [ibreve.gif] sh [prime.gif] n [schwa.gif]
 illegally : [ibreve.gif] -l [emacr.gif] [prime.gif] g [schwa.gif] l
 refining : r [ibreve.gif] -f [imacr.gif] n [prime.gif]
@@ -22161,7 +22092,6 @@ demonize : d [emacr.gif] [prime.gif] m [schwa.gif] -n [imacr.gif] z [lprime.gif]
 commando : k [schwa.gif] -m [abreve.gif] n [prime.gif] d [omacr.gif]
 depicted : d [ibreve.gif] -p [ibreve.gif] kt [prime.gif]
 amado : [schwa.gif] -mä [prime.gif] d [oobreve.gif]
-plaga : pl&#257
 sigils : s [ibreve.gif] j [prime.gif] [schwa.gif] l
 matchless : m [abreve.gif] ch [prime.gif] l [ibreve.gif] s
 gashing : g [abreve.gif] sh
@@ -22202,7 +22132,6 @@ memoirs : m [ebreve.gif] m [prime.gif] wär [lprime.gif]
 deflated : d [ibreve.gif] -fl [amacr.gif] t [prime.gif]
 misconceived : m [ibreve.gif] s [lprime.gif] k [schwa.gif] n-s [emacr.gif] v [prime.gif]
 derby : där [prime.gif] b [emacr.gif]
-reif : r&#275
 freya : fr [amacr.gif] [prime.gif] [schwa.gif]
 vestiges : v [ebreve.gif] s [prime.gif] t [ibreve.gif] j
 expelling : [ibreve.gif] k-sp [ebreve.gif] l [prime.gif]
@@ -22210,7 +22139,6 @@ alms : ämz
 dismissal : d [ibreve.gif] s-m [ibreve.gif] s [prime.gif] [schwa.gif] l
 lindisfarne : l [ibreve.gif] n [prime.gif] d [ibreve.gif] s-färn [lprime.gif]
 deteriorated : d [ibreve.gif] -tîr [prime.gif] [emacr.gif] - [schwa.gif] -r [amacr.gif] t [lprime.gif]
-reis : r?&#180
 diaries : d [imacr.gif] [prime.gif] [schwa.gif] -r [emacr.gif]
 wildes : w [imacr.gif] ld
 perpetuation : p [schwa.gif] r-p [ebreve.gif] ch [prime.gif] [oomacr.gif] - [amacr.gif] t [lprime.gif]
@@ -22245,7 +22173,6 @@ thereafter : [phonth.gif] âr- [abreve.gif] f [prime.gif] t [schwa.gif] r
 pappi : p [abreve.gif] p [prime.gif] [schwa.gif] s
 offsprings : ôf [prime.gif] spr [ibreve.gif] ng [lprime.gif]
 exceeded : [ibreve.gif] k-s [emacr.gif] d [prime.gif]
-vade : v&#257
 sizing : s [imacr.gif] [prime.gif] z [ibreve.gif] ng
 languishing : l [abreve.gif] ng [prime.gif] gw [ibreve.gif] sh
 salts : sôlt
@@ -22289,7 +22216,7 @@ phonics : f [obreve.gif] n [prime.gif] [ibreve.gif] ks
 yanked : y [abreve.gif] ngk
 marlboro : märl [prime.gif] bûr [lprime.gif] [omacr.gif]
 jacksonville : j [abreve.gif] k [prime.gif] s [schwa.gif] n-v [ibreve.gif] l [lprime.gif]
-gange : g&#259
+gange : g [amacr.gif] nj
 upholds : [ubreve.gif] p-h [omacr.gif] ld [prime.gif]
 tolerant : t [obreve.gif] l [prime.gif] [schwa.gif] r- [schwa.gif] nt
 teeny : t [emacr.gif] [prime.gif] n [emacr.gif]
@@ -22658,7 +22585,6 @@ compress : k [schwa.gif] m-pr [ebreve.gif] s [prime.gif]
 halting : hôl [prime.gif] t [ibreve.gif] ng
 submerging : s [schwa.gif] b-mûrj [prime.gif]
 anta : [abreve.gif] n [prime.gif] t [schwa.gif]
-fac : f&#259
 satanists : s [amacr.gif] t [prime.gif] n- [ibreve.gif] z [lprime.gif] [schwa.gif] m
 repercussion : r [emacr.gif] [lprime.gif] p [schwa.gif] r-k [ubreve.gif] sh [prime.gif] [schwa.gif] n
 similarity : s [ibreve.gif] m [lprime.gif] [schwa.gif] -l [abreve.gif] r [prime.gif] [ibreve.gif] -t [emacr.gif]
@@ -22842,7 +22768,6 @@ booms : b [oomacr.gif] m
 urethra : y [oobreve.gif] -r [emacr.gif] [prime.gif] thr [schwa.gif]
 punctures : p [ubreve.gif] ngk [prime.gif] ch [schwa.gif] r
 grimm : gr [ibreve.gif] m
-pousse : p&#332
 charlatans : shär [prime.gif] l [schwa.gif] -t [schwa.gif] n
 georgetown : jôrj [prime.gif] toun [lprime.gif]
 galleys : g [abreve.gif] l [prime.gif] [emacr.gif]
@@ -23072,7 +22997,6 @@ excoriate : [ibreve.gif] k-skôr [prime.gif] [emacr.gif] - [amacr.gif] t [lprime
 meme : m [emacr.gif] m
 ephedrine : [ibreve.gif] -f [ebreve.gif] d [prime.gif] r [ibreve.gif] n
 difficulties : d [ibreve.gif] f [prime.gif] [ibreve.gif] -k [ubreve.gif] l [lprime.gif] t [emacr.gif]
-lege : l&#277
 levant : l [schwa.gif] -v [abreve.gif] nt [prime.gif]
 spherical : sfîr [prime.gif] [ibreve.gif] -k [schwa.gif] l
 disjointed : d [ibreve.gif] s-join [prime.gif] t [ibreve.gif] d
@@ -23241,7 +23165,6 @@ daunted : dônt
 pyromaniac : p [imacr.gif] [lprime.gif] r [omacr.gif] -m [amacr.gif] [prime.gif] n [emacr.gif] - [schwa.gif]
 crossbow : krôs [prime.gif] b [omacr.gif] [lprime.gif]
 cabal : k [schwa.gif] -b [abreve.gif] l [prime.gif]
-eath : &#275
 deepening : d [emacr.gif] [prime.gif] p [schwa.gif] n
 veneration : v [ebreve.gif] n [lprime.gif] [schwa.gif] -r [amacr.gif] [prime.gif] sh [schwa.gif] n
 argentine : är [prime.gif] j [schwa.gif] n-t [imacr.gif] n [lprime.gif]
@@ -23783,7 +23706,7 @@ weld : w [ebreve.gif] ld
 bermuda : b [schwa.gif] r-my [oomacr.gif] [prime.gif] d [schwa.gif]
 incredulous : [ibreve.gif] n-kr [ebreve.gif] j [prime.gif] [schwa.gif] -l [schwa.gif] s
 creeks : kr [emacr.gif] k
-crocker : ~&#7869
+crocker : kr [schwa.gif] k [prime.gif] [schwa.gif] r
 cronies : kr [omacr.gif] [prime.gif] n [emacr.gif]
 rudder : r [ubreve.gif] d [prime.gif] [schwa.gif] r
 structural : str [ubreve.gif] k [prime.gif] ch [schwa.gif] r- [schwa.gif] l
@@ -23982,7 +23905,6 @@ unscrupulous : [ubreve.gif] n-skr [oomacr.gif] [prime.gif] py [schwa.gif] -l [sc
 combines : k [schwa.gif] m-b [imacr.gif] n [prime.gif]
 insensible : [ibreve.gif] n-s [ebreve.gif] n [prime.gif] s [schwa.gif] -b [schwa.gif] l
 undreamed : [ubreve.gif] n-dr [emacr.gif] md [prime.gif]
-chicky : ch&#301
 cupboards : k [ubreve.gif] b [prime.gif] [schwa.gif] rd
 evelyn : [emacr.gif] v [prime.gif] l [ibreve.gif] n
 lassitude : l [abreve.gif] s [prime.gif] [ibreve.gif] -t [oomacr.gif] d [lprime.gif]
@@ -24092,7 +24014,6 @@ paseo : pä-s [amacr.gif] [prime.gif] [omacr.gif]
 stopper : st [obreve.gif] p [prime.gif] [schwa.gif] r
 rural : r [oobreve.gif] r [prime.gif] [schwa.gif] l
 exacting : [ibreve.gif] g-z [abreve.gif] k [prime.gif] t [ibreve.gif] ng
-hable : h&#257
 encountering : [ebreve.gif] n-koun [prime.gif] t [schwa.gif] r
 endorsed : [ebreve.gif] n-dôrs [prime.gif]
 rancorous : r [abreve.gif] ng [prime.gif] k [schwa.gif] r
@@ -24471,7 +24392,6 @@ accordance : [schwa.gif] -kôr [prime.gif] dns
 lovecraft : l [ubreve.gif] v [prime.gif] kr [abreve.gif] ft [lprime.gif]
 accumulation : [schwa.gif] -ky [oomacr.gif] m [lprime.gif] y [schwa.gif] -l [amacr.gif] [prime.gif] sh [schwa.gif] n
 demeaning : d [ibreve.gif] -m [emacr.gif] n [prime.gif]
-limpin : l&#301
 achieves : [schwa.gif] -ch [emacr.gif] v [prime.gif]
 acknowledging : [abreve.gif] k-n [obreve.gif] l [prime.gif] [ibreve.gif] j
 acolytes : [abreve.gif] k [prime.gif] [schwa.gif] -l [imacr.gif] t [lprime.gif]
@@ -24534,7 +24454,6 @@ nutter : n [ubreve.gif] t
 prague : präg
 fabrics : f [abreve.gif] b [prime.gif] r [ibreve.gif] k
 railing : r [amacr.gif] [prime.gif] l [ibreve.gif] ng
-benight : b&#279
 bargains : bär [prime.gif] g [ibreve.gif] n
 propensity : pr [schwa.gif] -p [ebreve.gif] n [prime.gif] s [ibreve.gif] -t [emacr.gif]
 hazards : h [abreve.gif] z [prime.gif] [schwa.gif] rd
@@ -24645,7 +24564,7 @@ aptitude : [abreve.gif] p [prime.gif] t [ibreve.gif] -t [oomacr.gif] d [lprime.g
 taiwan : t [imacr.gif] [prime.gif] wän [prime.gif]
 saps : s [abreve.gif] p
 outset : out [prime.gif] s [ebreve.gif] t [lprime.gif]
-starshine : ~sh&#299
+starshine : stärsh [imacr.gif] n
 deadlier : d [ebreve.gif] d [prime.gif] l [emacr.gif]
 faculties : f [abreve.gif] k [prime.gif] [schwa.gif] l-t [emacr.gif]
 hisses : h [ibreve.gif] s
@@ -24754,7 +24673,6 @@ medulla : m [ibreve.gif] -d [ubreve.gif] l [prime.gif] [schwa.gif]
 autopsies : ô [prime.gif] t [obreve.gif] p [lprime.gif] s [emacr.gif]
 rooks : r [oobreve.gif] k
 quenches : kw [ebreve.gif] nch
-niding : n&#299
 fem : f [ebreve.gif] m
 carapace : k [abreve.gif] r [prime.gif] [schwa.gif] -p [amacr.gif] s [lprime.gif]
 encompassed : [ebreve.gif] n-k [ubreve.gif] m [prime.gif] p [schwa.gif] s
@@ -24806,7 +24724,6 @@ beholders : b [ibreve.gif] -h [omacr.gif] ld [prime.gif]
 scepticism : sk [ebreve.gif] p [prime.gif] t [ibreve.gif] -s [ibreve.gif] z [lprime.gif] [schwa.gif] m
 glimpsing : gl [ibreve.gif] mps
 surveyed : s [schwa.gif] r-v [amacr.gif] [prime.gif]
-bete : b&#275
 porridge : pôr [prime.gif] [ibreve.gif] j
 believeing : b [ibreve.gif] -l [emacr.gif] v [prime.gif]
 dirk : dûrk
@@ -24844,7 +24761,6 @@ blab : bl [abreve.gif] b
 snarl : snärl
 douglas : d [ubreve.gif] g [prime.gif] l [schwa.gif] s
 hallucinogenic : h [schwa.gif] -l [oomacr.gif] [prime.gif] s [schwa.gif] -n [schwa.gif] -j [schwa.gif] n
-herse : h&#7869
 fletcher : fl [ebreve.gif] ch [prime.gif] [schwa.gif] r
 parasol : p [abreve.gif] r [prime.gif] [schwa.gif] -sôl [lprime.gif]
 invisibility : [ibreve.gif] n-v [ibreve.gif] z [prime.gif] [schwa.gif] -b [schwa.gif] l
@@ -25105,7 +25021,6 @@ epidemics : [ebreve.gif] p [lprime.gif] [ibreve.gif] -d [ebreve.gif] m [prime.gi
 measurement : m [ebreve.gif] zh [prime.gif] [schwa.gif] r-m [schwa.gif] nt
 prisms : pr [ibreve.gif] z [prime.gif] [schwa.gif] m
 specie : sp [emacr.gif] [prime.gif] sh [emacr.gif]
-morne : m&#244
 jammer : j [abreve.gif] m
 indict : [ibreve.gif] n-d [imacr.gif] t [prime.gif]
 salta : säl [prime.gif] t [schwa.gif]
@@ -25179,13 +25094,11 @@ dekker : d [ebreve.gif] k [prime.gif] [schwa.gif] r
 dotter : d [obreve.gif] t
 prodigious : pr [schwa.gif] -d [ibreve.gif] j [prime.gif] [schwa.gif] s
 deportation : d [emacr.gif] [lprime.gif] pôr-t [amacr.gif] [prime.gif] sh [schwa.gif] n
-ule : &#363
 kgb : k [amacr.gif] [lprime.gif] j [emacr.gif] -b [emacr.gif] [prime.gif]
 colonized : k [obreve.gif] l [prime.gif] [schwa.gif] -n [imacr.gif] z [lprime.gif]
 eerily : îr [prime.gif] [emacr.gif]
 strider : str [imacr.gif] d
 skimmer : sk [ibreve.gif] m [prime.gif] [schwa.gif] r
-detente : d&#227
 diadem : d [imacr.gif] [prime.gif] [schwa.gif] -d [ebreve.gif] m [lprime.gif]
 utilized : y [oomacr.gif] t [prime.gif] l- [imacr.gif] z [lprime.gif]
 keyboards : k [emacr.gif] [prime.gif] bôrd [lprime.gif]
@@ -25328,7 +25241,7 @@ sutured : s [oomacr.gif] [prime.gif] ch [schwa.gif] r
 suppurated : s [ubreve.gif] p [prime.gif] y [schwa.gif] -r [amacr.gif] t [lprime.gif]
 gassing : g [abreve.gif] s
 putt : p [ubreve.gif] t
-crunked : kr&#365
+crunked : kr [ubreve.gif] ngk
 milan : m [ibreve.gif] -l [abreve.gif] n [prime.gif]
 veda : v [amacr.gif] [prime.gif] d [schwa.gif]
 nitrate : n [imacr.gif] [prime.gif] tr [amacr.gif] t [lprime.gif]
@@ -25527,7 +25440,6 @@ hoses : h [omacr.gif] z
 laker : l [amacr.gif] [prime.gif] k [schwa.gif] r
 torquemada : tôr [lprime.gif] k [schwa.gif] -mä [prime.gif] d [schwa.gif]
 renunciation : r [ibreve.gif] -n [ubreve.gif] n [lprime.gif] s [emacr.gif] - [amacr.gif] [prime.gif] sh [schwa.gif] n
-lew : l&#363
 lewdness : l [oomacr.gif] d
 proficient : pr [schwa.gif] -f [ibreve.gif] sh [prime.gif] [schwa.gif] nt
 lineup : l [imacr.gif] n [prime.gif] [ubreve.gif] p [lprime.gif]
@@ -25687,7 +25599,6 @@ fugue : fy [oomacr.gif] g
 affiliates : [schwa.gif] -f [ibreve.gif] l [prime.gif] [emacr.gif] - [amacr.gif] t [lprime.gif]
 pastry : p [amacr.gif] [prime.gif] str [emacr.gif]
 affluent : [abreve.gif] f [prime.gif] l [oomacr.gif] - [schwa.gif] nt
-regarder : r?`g?rd&#180
 impeding : [ibreve.gif] m-p [emacr.gif] d [prime.gif]
 nudge : n [ubreve.gif] j
 baldur : bôl [prime.gif] d [schwa.gif] r
@@ -25728,7 +25639,7 @@ briny : br [imacr.gif] [prime.gif] n [emacr.gif]
 demonstrated : d [ebreve.gif] m [prime.gif] [schwa.gif] n-str [amacr.gif] t [lprime.gif]
 exiles : [ebreve.gif] g [prime.gif] z [imacr.gif] l [lprime.gif]
 eluded : [ibreve.gif] -l [oomacr.gif] d [prime.gif]
-graal : gr&#257
+graal : gr [amacr.gif] l
 mosques : m [obreve.gif] sk
 glittered : gl [ibreve.gif] t [prime.gif] [schwa.gif] r
 genuflect : j [ebreve.gif] n [prime.gif] y [schwa.gif] -fl [ebreve.gif] kt [lprime.gif]
@@ -25802,7 +25713,6 @@ forbade : f [schwa.gif] r-b [abreve.gif] d [prime.gif]
 sketching : sk [ebreve.gif] ch
 slaked : sl [amacr.gif] k
 intuitions : [ibreve.gif] n [lprime.gif] t [oomacr.gif] - [ibreve.gif] sh [prime.gif] [schwa.gif] n
-seme : s&#275
 servility : sûr [prime.gif] v [schwa.gif] l
 amassing : [schwa.gif] -m [abreve.gif] s [prime.gif]
 precocious : pr [ibreve.gif] -k [omacr.gif] [prime.gif] sh [schwa.gif] s
@@ -26422,7 +26332,6 @@ lacs : l [abreve.gif] k
 misogynist : m [ibreve.gif] -s [obreve.gif] j [prime.gif] [schwa.gif] -n [ibreve.gif] st
 enthrall : [ebreve.gif] n-thrôl [prime.gif]
 pinkie : p [ibreve.gif] ng [prime.gif] k [emacr.gif]
-lete : l&#277
 gurus : g [oobreve.gif] r [prime.gif] [oomacr.gif]
 yack : y [abreve.gif] k
 homelands : h [omacr.gif] m [prime.gif] l [abreve.gif] nd [lprime.gif]
@@ -26451,7 +26360,7 @@ effeminate : [ibreve.gif] -f [ebreve.gif] m [prime.gif] [schwa.gif] -n [ibreve.g
 effervescing : [ebreve.gif] f [lprime.gif] [schwa.gif] r-v [ebreve.gif] s [prime.gif]
 snatchers : sn [abreve.gif] ch
 effluvium : [ibreve.gif] -fl [oomacr.gif] [prime.gif] v [emacr.gif] - [schwa.gif] m
-reanimation : r&#279
+reanimation : r [emacr.gif] [abreve.gif] n [lprime.gif] [schwa.gif] -m [amacr.gif] [prime.gif] sh [schwa.gif] n
 pesticides : p [ebreve.gif] s [prime.gif] t [ibreve.gif] -s [imacr.gif] d [lprime.gif]
 sunrises : s [ubreve.gif] n [prime.gif] r [imacr.gif] z [lprime.gif]
 neurological : n [oobreve.gif] -r [obreve.gif] l [prime.gif] [schwa.gif] -j [emacr.gif]
@@ -26482,7 +26391,7 @@ journeying : jûr [prime.gif] n [emacr.gif]
 orientation : ôr [lprime.gif] [emacr.gif] - [ebreve.gif] n-t [amacr.gif] [prime.gif] sh [schwa.gif] n
 fiercest : fîrs
 finos : f [emacr.gif] [prime.gif] n [omacr.gif]
-thaught : th&#7841
+thaught : tôt
 truckload : tr [ubreve.gif] k [prime.gif] l [omacr.gif] d [lprime.gif]
 medications : m [ebreve.gif] d [lprime.gif] [ibreve.gif] -k [amacr.gif] [prime.gif] sh [schwa.gif] n
 representer : r [ebreve.gif] p [lprime.gif] r [ibreve.gif] -z [ebreve.gif] nt [prime.gif]
@@ -26653,7 +26562,7 @@ larceny : lär [prime.gif] s [schwa.gif] -n [emacr.gif]
 lionheart : l [imacr.gif] [prime.gif] [schwa.gif] n-här [lprime.gif] t [ibreve.gif] d
 unfairly : [ubreve.gif] n-fâr [prime.gif]
 satchel : s [abreve.gif] ch [prime.gif] [schwa.gif] l
-arseholes : &#228
+arseholes : [abreve.gif] s [prime.gif] h [omacr.gif] lz
 peaces : p [emacr.gif] s
 manilla : m [schwa.gif] -n [ibreve.gif] l [prime.gif] [schwa.gif]
 trancing : tr [abreve.gif] ns
@@ -26684,7 +26593,6 @@ porky : pôr [prime.gif] k [emacr.gif]
 coltrane : k [omacr.gif] l [prime.gif] tr [amacr.gif] n
 overpaid : [omacr.gif] [lprime.gif] v [schwa.gif] r-p [amacr.gif] [prime.gif]
 enslavers : [ebreve.gif] n-sl [amacr.gif] v [prime.gif]
-oon : &#333
 kyrie : kîr [prime.gif] [emacr.gif] - [amacr.gif] [lprime.gif]
 lunchroom : l [ubreve.gif] nch [prime.gif] r [oomacr.gif] m [lprime.gif]
 sketchy : sk [ebreve.gif] ch [prime.gif] [emacr.gif]
@@ -26764,7 +26672,7 @@ cataclysms : k [abreve.gif] t [prime.gif] [schwa.gif] -kl [ibreve.gif] z [lprime
 outgunned : out [prime.gif] g [ubreve.gif] n [prime.gif]
 appoint : [schwa.gif] -point [prime.gif]
 figurine : f [ibreve.gif] g [lprime.gif] y [schwa.gif] -r [emacr.gif] n [prime.gif]
-reawake : r&#275
+reawake : r [emacr.gif] [schwa.gif] -w [amacr.gif] k [prime.gif]
 fisting : f [ibreve.gif] st
 flatulent : fl [abreve.gif] ch [prime.gif] [schwa.gif] -l [schwa.gif] nt
 fountainhead : foun [prime.gif] t [schwa.gif] n-h [ebreve.gif] d [lprime.gif]
@@ -26777,7 +26685,7 @@ jowls : joul
 espy : [ibreve.gif] -sp [imacr.gif] [prime.gif]
 scot : sk [obreve.gif] t
 serf : sûrf
-hoody : h&#334
+hoody : h [oobreve.gif] d [lprime.gif] [emacr.gif]
 prairies : prâr [prime.gif] [emacr.gif]
 grayish : gr [amacr.gif] [prime.gif] [ibreve.gif] sh
 electron : [ibreve.gif] -l [ebreve.gif] k [prime.gif] tr [obreve.gif] n [lprime.gif]
@@ -26823,7 +26731,6 @@ anaesthetic : [abreve.gif] n [lprime.gif] [ibreve.gif] s-th [ebreve.gif] t [prim
 prenatal : pr [emacr.gif] -n [amacr.gif] t [prime.gif] l
 oligarchy : [obreve.gif] l [prime.gif] [ibreve.gif] -gär [lprime.gif] k [emacr.gif]
 textured : t [ebreve.gif] ks [prime.gif] ch [schwa.gif] r
-batta : b&#259
 spas : spä
 myopic : m [imacr.gif] - [omacr.gif] [prime.gif] p [emacr.gif] - [schwa.gif]
 joystick : joi [prime.gif] st [ibreve.gif] k [lprime.gif]
@@ -26857,7 +26764,7 @@ stabilize : st [amacr.gif] [prime.gif] b [schwa.gif] -l [imacr.gif] z [lprime.gi
 purgatorial : pûr [lprime.gif] g [schwa.gif] -tôr [prime.gif] [emacr.gif] - [schwa.gif] l
 pustular : p [ubreve.gif] s [prime.gif] ch [schwa.gif] -l [schwa.gif] r
 debated : d [ibreve.gif] -b [amacr.gif] t [prime.gif]
-reaver : r&#275
+reaver : r [emacr.gif] v
 reynolds : r [ebreve.gif] n [prime.gif] [schwa.gif] ldz
 locality : l [omacr.gif] -k [abreve.gif] l [prime.gif] [ibreve.gif] -t [emacr.gif]
 resonant : r [ebreve.gif] z [prime.gif] [schwa.gif] -n [schwa.gif] nt
@@ -26926,7 +26833,6 @@ snook : sn [oobreve.gif] k
 rebounds : r [emacr.gif] [prime.gif] bound [prime.gif]
 draping : dr [amacr.gif] p
 abductions : [abreve.gif] b-d [ubreve.gif] kt [prime.gif]
-meeres : m&#275
 sinistrous : s [ibreve.gif] n [prime.gif] [ibreve.gif] -str [schwa.gif] s
 abstruse : [abreve.gif] b-str [oomacr.gif] s [prime.gif]
 ultrasound : [ubreve.gif] l [prime.gif] tr [schwa.gif] -sound [lprime.gif]
@@ -26945,7 +26851,6 @@ sanskrit : s [abreve.gif] n [prime.gif] skr [ibreve.gif] t [lprime.gif]
 fictive : f [ibreve.gif] k [prime.gif] t [ibreve.gif] v
 dislocate : d [ibreve.gif] s [prime.gif] l [omacr.gif] -k [amacr.gif] t [lprime.gif]
 gritted : gr [ibreve.gif] t
-coupable : k&#332
 lender : l [ebreve.gif] nd
 empowerment : [ebreve.gif] m-pou [prime.gif] [schwa.gif] r
 acme : [abreve.gif] k [prime.gif] m [emacr.gif]
@@ -27256,7 +27161,6 @@ burglary : bûr [prime.gif] gl [schwa.gif] -r [emacr.gif]
 feebly : f [emacr.gif] [prime.gif] b [schwa.gif] l
 clandestines : kl [abreve.gif] n-d [ebreve.gif] s [prime.gif] t [ibreve.gif] n
 metabolism : m [ibreve.gif] -t [abreve.gif] b [prime.gif] [schwa.gif] -l [ibreve.gif] z [lprime.gif] [schwa.gif] m
-hasard : ~&#7869
 midi : m [emacr.gif] -d [emacr.gif] [prime.gif]
 minuit : m [ibreve.gif] n [prime.gif] y [oomacr.gif] - [ibreve.gif] t
 bly : bl [imacr.gif]
@@ -27320,7 +27224,6 @@ snaking : sn [amacr.gif] k
 bathtubs : b [abreve.gif] th [prime.gif] t [ubreve.gif] b [lprime.gif]
 batten : b [abreve.gif] t [prime.gif] n
 diffused : d [ibreve.gif] -fy [oomacr.gif] z [prime.gif]
-leon : l&#275
 baubles : bô [prime.gif] b [schwa.gif] l
 bavarian : b [schwa.gif] -vâr [prime.gif] [emacr.gif] - [schwa.gif] n
 breasted : br [ebreve.gif] s [prime.gif] t [ibreve.gif] d
@@ -27454,7 +27357,6 @@ liquify : l [ibreve.gif] k [prime.gif] w [schwa.gif] -f [imacr.gif] [lprime.gif]
 bowled : b [omacr.gif] l
 moslems : m [ubreve.gif] z [prime.gif] l [schwa.gif] m
 plaited : pl [amacr.gif] t
-cest : s&#277
 kilts : k [ibreve.gif] lt
 desktop : d [ebreve.gif] sk [prime.gif] t [obreve.gif] p [lprime.gif]
 bumming : b [ubreve.gif] m
@@ -27579,9 +27481,7 @@ stagnates : st [abreve.gif] g [prime.gif] n [amacr.gif] t [lprime.gif]
 whereon : hwâr- [obreve.gif] n [prime.gif]
 lafayette : l [abreve.gif] f [lprime.gif] [emacr.gif] - [ebreve.gif] t [prime.gif]
 slingshot : sl [ibreve.gif] ng [prime.gif] sh [obreve.gif] t [lprime.gif]
-swa : sw&#228
 bypassing : b [imacr.gif] [prime.gif] p [abreve.gif] s [lprime.gif]
-caballos : k&#229
 mutilator : my [oomacr.gif] t [prime.gif] l- [amacr.gif] t [lprime.gif]
 jacker : j [abreve.gif] k
 scooping : sk [oomacr.gif] p
@@ -27732,7 +27632,6 @@ copying : k [obreve.gif] p [prime.gif] [emacr.gif]
 inflictions : [ibreve.gif] n-fl [ibreve.gif] k [prime.gif] sh [schwa.gif] n
 corrective : k [schwa.gif] -r [ebreve.gif] k [prime.gif] t [ibreve.gif] v
 misrule : m [ibreve.gif] s-r [oomacr.gif] l [prime.gif]
-cortina : k&#244
 bookings : b [oobreve.gif] k [prime.gif] [ibreve.gif] ng
 zoos : z [oomacr.gif]
 waft : wäft
@@ -27740,7 +27639,6 @@ pharmacist : fär [prime.gif] m [schwa.gif] -s [ibreve.gif] st
 trinidad : tr [ibreve.gif] n [prime.gif] [ibreve.gif] -d [abreve.gif] d [lprime.gif]
 doers : d [oomacr.gif] [prime.gif] [schwa.gif] r
 scythed : s [imacr.gif] [phonth.gif]
-guna : g&#332
 limps : l [ibreve.gif] mp
 eggshell : [ebreve.gif] g [prime.gif] sh [ebreve.gif] l [lprime.gif]
 kiwi : k [emacr.gif] [prime.gif] w [emacr.gif]
@@ -27765,7 +27663,7 @@ mutilates : my [oomacr.gif] t [prime.gif] l- [amacr.gif] t [lprime.gif]
 doughnut : d [omacr.gif] [prime.gif] n [ubreve.gif] t [lprime.gif]
 theaters : th [emacr.gif] [prime.gif] [schwa.gif] -t [schwa.gif] r
 upped : [ubreve.gif] p
-chainless : ch&#257
+chainless : ch [amacr.gif] nl [ibreve.gif] s
 unopposed : [ubreve.gif] n [lprime.gif] [schwa.gif] -p [omacr.gif] zd [prime.gif]
 gout : gout
 luxe : l [oobreve.gif] ks
@@ -27814,7 +27712,6 @@ deploying : d [ibreve.gif] -ploi [prime.gif]
 famines : f [abreve.gif] m [prime.gif] [ibreve.gif] n
 spitz : sp [ibreve.gif] ts
 deriving : d [ibreve.gif] -r [imacr.gif] v [prime.gif]
-courant : k??-r?nt&#180
 peruse : p [schwa.gif] -r [oomacr.gif] z [prime.gif]
 desperations : d [ebreve.gif] s [lprime.gif] p [schwa.gif] -r [amacr.gif] [prime.gif] sh [schwa.gif] n
 plagiarized : pl [amacr.gif] [prime.gif] j [schwa.gif] -r [imacr.gif] z [lprime.gif]
@@ -28139,7 +28036,6 @@ lakeside : l [amacr.gif] k [prime.gif] s [imacr.gif] d [lprime.gif]
 sundress : s [ubreve.gif] n [prime.gif] dr [ebreve.gif] s [lprime.gif]
 wanking : w [abreve.gif] ngk
 stencil : st [ebreve.gif] n [prime.gif] s [schwa.gif] l
-liss : l&#301
 ithaca : [ibreve.gif] th [prime.gif] [schwa.gif] -k [schwa.gif]
 refract : r [ibreve.gif] -fr [abreve.gif] kt [prime.gif]
 dwindles : dw [ibreve.gif] n [prime.gif] dl
@@ -28380,7 +28276,6 @@ kappa : k [abreve.gif] p [prime.gif] [schwa.gif]
 minuet : m [ibreve.gif] n [lprime.gif] y [oomacr.gif] - [ebreve.gif] t [prime.gif]
 arabesque : [abreve.gif] r [lprime.gif] [schwa.gif] -b [ebreve.gif] sk [prime.gif]
 spitfire : sp [ibreve.gif] t [prime.gif] f [imacr.gif] r [lprime.gif]
-pere : p&#226
 formulating : fôr [prime.gif] my [schwa.gif] -l [amacr.gif] t [lprime.gif]
 entailed : [ebreve.gif] n-t [amacr.gif] l [prime.gif]
 limber : l [ibreve.gif] m [prime.gif] b [schwa.gif] r
@@ -28435,7 +28330,6 @@ storefront : stôr [prime.gif] fr [ubreve.gif] nt [lprime.gif]
 launches : lônch
 pragmatic : pr [abreve.gif] g-m [abreve.gif] t [prime.gif] [ibreve.gif] k
 prefabricated : pr [emacr.gif] -f [abreve.gif] b [prime.gif] r [ibreve.gif] -k [amacr.gif] t [lprime.gif]
-prescious : pr&#275
 miscreant : m [ibreve.gif] s [prime.gif] kr [emacr.gif] - [schwa.gif] nt
 booker : b [oobreve.gif] k
 prodding : pr [obreve.gif] d
@@ -28542,7 +28436,6 @@ accosted : [schwa.gif] -kôst [prime.gif]
 velveteen : v [ebreve.gif] l [lprime.gif] v [ibreve.gif] -t [emacr.gif] n [prime.gif]
 clanking : kl [abreve.gif] ngk
 heretical : h [schwa.gif] -r [ebreve.gif] t [prime.gif] [ibreve.gif] -k [schwa.gif] l
-harre : h&#228
 pertains : p [schwa.gif] r-t [amacr.gif] n [prime.gif]
 magnific : m [abreve.gif] g-n [ibreve.gif] f [prime.gif] [ibreve.gif] k
 acquiesce : [abreve.gif] k [lprime.gif] w [emacr.gif] - [ebreve.gif] s [prime.gif]
@@ -28684,7 +28577,6 @@ ambivalent : [abreve.gif] m-b [ibreve.gif] v [prime.gif] [schwa.gif] -l [schwa.g
 clerical : kl [ebreve.gif] r [prime.gif] [ibreve.gif] -k [schwa.gif] l
 wavers : w [amacr.gif] [prime.gif] v [schwa.gif] r
 consumerism : k [schwa.gif] n-s [oomacr.gif] [prime.gif] m [schwa.gif] -r [ibreve.gif] z [lprime.gif] [schwa.gif] m
-leed : l&#275
 bloats : bl [omacr.gif] t
 enrobed : [ebreve.gif] n-r [omacr.gif] b [prime.gif]
 meo : m [emacr.gif] -ou [prime.gif]
@@ -28738,7 +28630,6 @@ chapman : ch [abreve.gif] p [prime.gif] m [schwa.gif] n
 obstructs : [schwa.gif] b-str [ubreve.gif] kt [prime.gif]
 anodyne : [abreve.gif] n [prime.gif] [schwa.gif] -d [imacr.gif] n [lprime.gif]
 debacle : d [ibreve.gif] -bä [prime.gif] k [schwa.gif] l
-meech : m&#275
 facet : f [abreve.gif] s [prime.gif] [ibreve.gif] t
 momentous : m [omacr.gif] -m [ebreve.gif] n [prime.gif] t [schwa.gif] s
 cocksucking : k [obreve.gif] k [prime.gif] s [ubreve.gif] k [lprime.gif] [schwa.gif] r
@@ -28910,7 +28801,6 @@ flagellum : fl [schwa.gif] -j [ebreve.gif] l [prime.gif] [schwa.gif] m
 augustine : ô [prime.gif] g [schwa.gif] -st [emacr.gif] n [lprime.gif]
 goggle : g [obreve.gif] g [prime.gif] [schwa.gif] l
 auspicious : ô-sp [ibreve.gif] sh [prime.gif] [schwa.gif] s
-remord : r?-m?rd&#180
 autopilot : ô [prime.gif] t [omacr.gif] -p [imacr.gif] [lprime.gif] l [schwa.gif] t
 multiples : m [ubreve.gif] l [prime.gif] t [schwa.gif] -p [schwa.gif] l
 averting : [schwa.gif] -vûrt [prime.gif]
@@ -28936,17 +28826,14 @@ toons : t [oomacr.gif] n
 sial : s [imacr.gif] [prime.gif] [abreve.gif] l [lprime.gif]
 bajan : b [amacr.gif] [prime.gif] j [schwa.gif] n
 merced : m [schwa.gif] r-s [ebreve.gif] d [prime.gif]
-lokes : l&#333
 bakers : b [amacr.gif] [prime.gif] k [schwa.gif] r
 kronen : kr [omacr.gif] [prime.gif] n [schwa.gif]
-leeres : l&#275
 balk : bôk
 ballerinas : b [abreve.gif] l [lprime.gif] [schwa.gif] -r [emacr.gif] [prime.gif] n [schwa.gif]
 clemens : kl [ebreve.gif] m [prime.gif] [schwa.gif] nz
 cantaloupes : k [abreve.gif] n [prime.gif] tl- [omacr.gif] p [lprime.gif]
 balmy : bä [prime.gif] m [emacr.gif]
 bamboozled : b [abreve.gif] m-b [oomacr.gif] [prime.gif] z [schwa.gif] l
-grammer : gr&#259
 blanches : bl [abreve.gif] nch
 dreamlands : dr [emacr.gif] m [prime.gif] l [abreve.gif] nd [lprime.gif]
 baptismal : b [abreve.gif] p [prime.gif] t [ibreve.gif] z [lprime.gif] [schwa.gif] m
@@ -28991,7 +28878,6 @@ drumbeat : dr [ubreve.gif] m [prime.gif] b [emacr.gif] t [lprime.gif]
 callisto : k [schwa.gif] -l [ibreve.gif] s [prime.gif] t [omacr.gif]
 devourers : d [ibreve.gif] -vour [prime.gif]
 tankers : t [abreve.gif] ng [prime.gif] k [schwa.gif] r
-oop : &#332
 luminaries : l [oomacr.gif] [prime.gif] m [schwa.gif] -n [ebreve.gif] r [lprime.gif] [emacr.gif]
 selectively : s [ibreve.gif] -l [ebreve.gif] k [prime.gif] t [ibreve.gif] v
 belgian : b [ebreve.gif] l [prime.gif] j [schwa.gif] n
@@ -29284,7 +29170,6 @@ addresses : [schwa.gif] -dr [ebreve.gif] s [prime.gif]
 panels : p [abreve.gif] n [prime.gif] [schwa.gif] l
 paddles : p [abreve.gif] d [prime.gif] l
 changeling : ch [amacr.gif] nj [prime.gif] l [ibreve.gif] ng
-couche : k??`sh?&#180
 prim : pr [ibreve.gif] m
 destine : d [ebreve.gif] s [prime.gif] t [ibreve.gif] n
 symbolizes : s [ibreve.gif] m [prime.gif] b [schwa.gif] -l [imacr.gif] z [lprime.gif]
@@ -29353,7 +29238,6 @@ pacifying : p [abreve.gif] s [prime.gif] [schwa.gif] -f [imacr.gif] [lprime.gif]
 pubescent : py [oomacr.gif] -b [ebreve.gif] s [prime.gif] [schwa.gif] nt
 dandruff : d [abreve.gif] n [prime.gif] dr [schwa.gif] f
 lebanese : l [ebreve.gif] b [lprime.gif] [schwa.gif] -n [emacr.gif] z [prime.gif]
-crache : kr&#259
 douceur : d [oomacr.gif] -sûr [prime.gif]
 bateau : b [abreve.gif] -t [omacr.gif] [prime.gif]
 commended : k [schwa.gif] -m [ebreve.gif] nd [prime.gif]
@@ -29504,7 +29388,6 @@ determinated : d [ibreve.gif] -tûr [prime.gif] m [schwa.gif] -n [ibreve.gif] t
 pandemic : p [abreve.gif] n-d [ebreve.gif] m [prime.gif] [ibreve.gif] k
 hindmost : h [imacr.gif] nd [prime.gif] m [omacr.gif] st [lprime.gif]
 griddle : gr [ibreve.gif] d [prime.gif] l
-larve : l&#228
 molto : m [omacr.gif] l [prime.gif] t [omacr.gif]
 vexilla : v [ebreve.gif] k-s [ibreve.gif] l [prime.gif] [schwa.gif]
 diatribe : d [imacr.gif] [prime.gif] [schwa.gif] -tr [imacr.gif] b [lprime.gif]
@@ -29564,7 +29447,6 @@ abbeys : [abreve.gif] b [prime.gif] [emacr.gif]
 securely : s [ibreve.gif] -ky [oobreve.gif] r [prime.gif]
 sequencer : s [emacr.gif] [prime.gif] kw [schwa.gif] n-s [schwa.gif] r
 ladle : l [amacr.gif] d [prime.gif] l
-vespa : v&#277
 droopy : dr [oomacr.gif] p
 graphics : gr [abreve.gif] f [prime.gif] [ibreve.gif] ks
 dross : dr [obreve.gif] s
@@ -29601,7 +29483,6 @@ halogen : h [abreve.gif] l [prime.gif] [schwa.gif] -j [schwa.gif] n
 gloam : gl [omacr.gif] m
 embroidered : [ebreve.gif] m-broi [prime.gif] d [schwa.gif] r
 mouldered : m [omacr.gif] l [prime.gif] d [schwa.gif] r
-neer : n&#275
 llano : lä [prime.gif] n [omacr.gif]
 enamor : [ibreve.gif] -n [abreve.gif] m [prime.gif] [schwa.gif] r
 enchain : [ebreve.gif] n-ch [amacr.gif] n [prime.gif]
@@ -29960,13 +29841,10 @@ sheepskins : sh [emacr.gif] p [prime.gif] sk [ibreve.gif] n [lprime.gif]
 dependable : d [ibreve.gif] -p [ebreve.gif] n [prime.gif] d [schwa.gif] -b [schwa.gif] l
 pinhole : p [ibreve.gif] n [prime.gif] h [omacr.gif] l [lprime.gif]
 teeths : t [emacr.gif] th
-renne : r?n&#180
 vergess : vûrj
-blase : bl&#229
 ghana : gä [prime.gif] n [schwa.gif]
 yugoslavia : y [oomacr.gif] [lprime.gif] g [omacr.gif] -slä [prime.gif] v [emacr.gif] - [schwa.gif]
 multiplicity : m [ubreve.gif] l [lprime.gif] t [schwa.gif] -pl [ibreve.gif] s [prime.gif] [ibreve.gif] -t [emacr.gif]
-knaw : n&#7841
 prerogative : pr [ibreve.gif] -r [obreve.gif] g [prime.gif] [schwa.gif] -t [ibreve.gif] v
 sailboat : s [amacr.gif] l [prime.gif] b [omacr.gif] t [lprime.gif]
 solicit : s [schwa.gif] -l [ibreve.gif] s [prime.gif] [ibreve.gif] t
@@ -30015,7 +29893,6 @@ amours : [schwa.gif] -m [oobreve.gif] r [prime.gif]
 crocs : kr [obreve.gif] k
 jarring : jär
 distingue : d [emacr.gif] s [lprime.gif] t [abreve.gif] ng-g [amacr.gif] [prime.gif]
-ligge : l&#301
 ransomed : r [abreve.gif] n [prime.gif] s [schwa.gif] m
 midair : m [ibreve.gif] d [prime.gif] âr [prime.gif]
 varias : vâr [prime.gif] [emacr.gif] - [schwa.gif]
@@ -30072,7 +29949,6 @@ naoise : n [emacr.gif] [prime.gif] s [emacr.gif]
 potest : p [obreve.gif] t
 patted : p [abreve.gif] t
 skanks : sk [abreve.gif] ngk
-crastination : kr?s`t?-n?&#180
 ripcord : r [ibreve.gif] p [prime.gif] kôrd [lprime.gif]
 northbound : nôrth [prime.gif] bound [lprime.gif]
 gophers : g [omacr.gif] [prime.gif] f [schwa.gif] r
@@ -30085,7 +29961,6 @@ untroubled : [ubreve.gif] n-tr [ubreve.gif] b [prime.gif] [schwa.gif] ld
 advisors : [abreve.gif] d-v [imacr.gif] [prime.gif] z [schwa.gif] r
 thunderbirds : th [ubreve.gif] n [prime.gif] d [schwa.gif] r-bûrd [lprime.gif]
 venerable : v [ebreve.gif] n [prime.gif] [schwa.gif] r- [schwa.gif] -b [schwa.gif] l
-olay : &#333
 storytellers : stôr [prime.gif] [emacr.gif] -t [ebreve.gif] l [lprime.gif] [schwa.gif] r
 upstart : [ubreve.gif] p [prime.gif] stärt [lprime.gif]
 yeti : y [ebreve.gif] t [prime.gif] [emacr.gif]
@@ -30632,7 +30507,6 @@ gree : gr [emacr.gif]
 miscast : m [ibreve.gif] s-k [abreve.gif] st [prime.gif]
 baggie : b [abreve.gif] g [prime.gif] [emacr.gif] z
 unhappily : [ubreve.gif] n-h [abreve.gif] p [prime.gif] [emacr.gif]
-armados : &#228
 comely : k [ubreve.gif] m [prime.gif] l [emacr.gif]
 pelota : p [schwa.gif] -l [omacr.gif] [prime.gif] t [schwa.gif]
 spics : sp [ibreve.gif] k
@@ -31045,7 +30919,7 @@ hyperventilate : h [imacr.gif] [lprime.gif] p [schwa.gif] r-v [ebreve.gif] n [pr
 quayle : kw [amacr.gif] l
 jimmys : j [ibreve.gif] m [prime.gif] [emacr.gif]
 sidestep : s [imacr.gif] d [prime.gif] st [ebreve.gif] p [lprime.gif]
-milkshakes : m&#301
+milkshakes : m [ibreve.gif] lksh [amacr.gif] ks
 ferns : fûrn
 minneapolis : m [ibreve.gif] n [lprime.gif] [emacr.gif] - [abreve.gif] p [prime.gif] [schwa.gif] -l [ibreve.gif] s
 humanly : hy [oomacr.gif] [prime.gif] m [schwa.gif] n-l [emacr.gif]
