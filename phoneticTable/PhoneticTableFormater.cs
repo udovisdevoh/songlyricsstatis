@@ -79,7 +79,7 @@ namespace LyricThemeClassifier
         {
             bool isDefinition = false;
 
-            if (line.Contains('?') || line.Contains('#') || line.Contains('&'))
+            if (line.Contains('?') || line.Contains('#') || line.Contains('&') || line.Contains('~') || line.Contains('\'') || line.Contains('<') || line.Contains('>') || line.Contains('/'))
                 return null;
 
             line = line.Replace(".gif","");
