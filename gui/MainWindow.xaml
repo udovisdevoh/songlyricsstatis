@@ -24,6 +24,7 @@
                 <MenuItem Header="Build markov stats on theme words in text" Click="MenuItemBuildStatsOnThemeWordsInText_Click"/>
                 <MenuItem Header="Build semantic likeness matrix" Click="MenuItemBuildSemanticLikenessMatrix_Click"/>
                 <MenuItem Header="Build phonetic table" Click="MenuItemBuildPhoneticTable_Click"/>
+                <MenuItem Header="Re-format and sort phonetic table" Click="MenuItemFormatPhoneticTable_Click"/>
                 <MenuItem Header="Trim semantic likeness matrix" Click="MenuItemTrimSemanticLikenessMatrix_Click"/>
                 <MenuItem Header="Save themes" Command="ApplicationCommands.Save" />
                 <Separator/>

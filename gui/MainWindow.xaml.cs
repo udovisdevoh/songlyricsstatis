@@ -51,6 +51,8 @@ namespace LyricThemeClassifier
         public event EventHandler OnTrimSemanticLikenessMatrix;
 
         public event EventHandler OnBuildPhoneticTable;
+
+        public event EventHandler OnFormatPhoneticTable;
         #endregion
 
         #region Handlers
@@ -112,6 +114,11 @@ namespace LyricThemeClassifier
         private void MenuItemBuildPhoneticTable_Click(object sender, RoutedEventArgs e)
         {
             if (OnBuildPhoneticTable != null) OnBuildPhoneticTable(this, e);
+        }
+
+        private void MenuItemFormatPhoneticTable_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnFormatPhoneticTable != null) OnFormatPhoneticTable(this, e);
         }
         #endregion
 
