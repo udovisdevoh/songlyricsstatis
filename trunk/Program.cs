@@ -48,6 +48,8 @@ namespace LyricThemeClassifier
         private SemanticMatrixTrimmer semanticMatrixTrimmer = new SemanticMatrixTrimmer();
 
         private PhoneticTableFormater phoneticTableFormater = new PhoneticTableFormater();
+
+        private PhoneticTableRepairer phoneticTableRepairer = new PhoneticTableRepairer();
         #endregion
 
         #region Constructor
@@ -69,6 +71,7 @@ namespace LyricThemeClassifier
             mainWindow.OnTrimSemanticLikenessMatrix += TrimSemanticLikenessMatrixHandler;
             mainWindow.OnBuildPhoneticTable += BuildPhoneticTableHandler;
             mainWindow.OnFormatPhoneticTable += ReformatPhoneticTableHandler;
+            mainWindow.OnRepairPhoneticTable += RepairPhoneticTableHandler;
         }
         #endregion
 
@@ -208,6 +211,15 @@ namespace LyricThemeClassifier
             string formatedPhoneticTableFile = mainWindow.GetOutputFile("FORMATED PHONETIC TABLE FILE|*.formatedPhoneticTable.txt");
 
             phoneticTableFormater.Reformat(unformatedPhoneticTableFile, formatedPhoneticTableFile);
+        }
+
+        private void RepairPhoneticTableHandler(object sender, EventArgs e)
+        {
+            string formatedPhoneticTableFile = mainWindow.GetInputFile("FORMATED PHONETIC TABLE FILE|*.formatedPhoneticTable.txt");
+            string repairedPhoneticTableFile = mainWindow.GetOutputFile("REPAIRED PHONETIC TABLE FILE|*.repairedPhoneticTable.txt");
+            PhoneticTable phoneticTable = new PhoneticTable(formatedPhoneticTableFile);
+            phoneticTableRepairer.Repair(phoneticTable);
+            phoneticTable.Save(repairedPhoneticTableFile);
         }
         #endregion
 

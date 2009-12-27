@@ -84,8 +84,11 @@
     <Compile Include="matrix\WordMatrixExtractor.cs" />
     <Compile Include="matrix\XmlMatrixSaverLoader.cs" />
     <Compile Include="phoneticTable\PhoneticBot.cs" />
+    <Compile Include="phoneticTable\phoneticTable\HomophoneGroup.cs" />
+    <Compile Include="phoneticTable\phoneticTable\PhoneticTable.cs" />
     <Compile Include="phoneticTable\PhoneticTableBuilder.cs" />
     <Compile Include="phoneticTable\PhoneticTableFormater.cs" />
+    <Compile Include="phoneticTable\PhoneticTableRepairer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
