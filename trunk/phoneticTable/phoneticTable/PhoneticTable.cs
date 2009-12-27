@@ -8,7 +8,7 @@ namespace LyricThemeClassifier
     /// <summary>
     /// Phonetic table
     /// </summary>
-    class PhoneticTable
+    class PhoneticTable : IEnumerable<HomophoneGroup>
     {
         #region Fields
         /// <summary>
@@ -59,6 +59,38 @@ namespace LyricThemeClassifier
         {
             #warning Implement Save()
             throw new NotImplementedException();
+        }
+
+        public void Add(string englishValue, string phoneticValue)
+        {
+            HomophoneGroup homophoneGroup = GetOrCreateHomophoneGroup(phoneticValue);
+            homophoneGroup.Add(englishValue);
+            phonologicDictionary.Add(englishValue, homophoneGroup);
+        }
+        #endregion
+
+        #region Private Methods
+        private HomophoneGroup GetOrCreateHomophoneGroup(string phoneticValue)
+        {
+            HomophoneGroup homophoneGroup;
+            if (!homophoneDictionary.TryGetValue(phoneticValue, out homophoneGroup))
+            {
+                homophoneGroup = new HomophoneGroup(phoneticValue);
+                homophoneDictionary.Add(phoneticValue, homophoneGroup);
+            }
+            return homophoneGroup;
+        }
+        #endregion
+
+        #region IEnumerable<HomophoneGroup> Members
+        public IEnumerator<HomophoneGroup> GetEnumerator()
+        {
+            return this.homophoneDictionary.Values.GetEnumerator();
+        }
+
+        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+        {
+            return this.homophoneDictionary.Values.GetEnumerator();
         }
         #endregion
     }

@@ -10,8 +10,8 @@ namespace LyricThemeClassifier
         #region Public Methods
         public void Repair(PhoneticTable phoneticTable)
         {
-            #warning Implement Repair()
-            RepairEndingS(phoneticTable);            
+            RepairEnding(phoneticTable, "s", "[sreg]");
+            #warning Implement Repair() for other cases
             /*
             RepairEnding(phoneticTable,"ing");
             RepairEnding(phoneticTable, "ed");
@@ -30,11 +30,21 @@ namespace LyricThemeClassifier
         #endregion
 
         #region Private Methods
-        private void RepairEndingS(PhoneticTable phoneticTable)
+        private void RepairEnding(PhoneticTable phoneticTable, string englishEnding, string phoneticEnding)
         {
-            //Must take care of word identical to shortes homophone + ending
-            #warning Implement RepairEnding()
-            throw new NotImplementedException();
+            phoneticEnding = phoneticEnding.Trim();
+
+            foreach (HomophoneGroup homophoneGroup in phoneticTable)
+            {
+                foreach (string wordVariant in homophoneGroup)
+                {
+                    if (wordVariant == homophoneGroup.ShortestVariant + englishEnding)
+                    {
+                        homophoneGroup.Remove(wordVariant);
+                        phoneticTable.Add(wordVariant, homophoneGroup.PhoneticValue + " " + phoneticEnding);
+                    }
+                }
+            }
         }
         #endregion
     }
