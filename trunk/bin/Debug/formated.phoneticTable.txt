@@ -49381,13 +49381,3 @@ zapata : [zreg] [schwa] [dash] [preg] [aumlaut] [prime] [treg] [schwa]
 zirconium : [zreg] [usup] [rreg] [dash] [kreg] [omacr] [prime] [nreg] [emacr] [dash] [schwa] [mreg]
 zircon : [zreg] [usup] [rreg] [prime] [kreg] [obreve] [nreg] [lprime]
 zweig : [zreg] [wreg] [imacr] [greg]
-redde : ~ [dreg] [ereg]
-grayhound : ~ [hreg] [oreg] [ureg] [nreg] [dreg] `
-recommencement : ~ [mreg] < [ireg] > [ereg] </ [ireg] > [nreg] [treg]
-harten : ~' [nreg]
-representantes : ~< [ireg] [treg] > [areg] </ [ireg] [treg] > [nreg] [treg]
-respectant : ~< [ireg] [treg] > [areg] </ [ireg] [treg] > [nreg] [treg]
-pina : < [ireg] [treg] > [preg] [rreg] [oreg] [nreg] . [areg] [lreg] [sreg] [oreg] </ [ireg] [treg] >
-tut : < [ireg] > [areg] </ [ireg] > [treg] < [ireg] > [dash] [lreg] [ireg] [kreg] [ereg] [sreg] [oreg] [ureg] [nreg] [dreg] [preg] [rreg] [oreg] [dreg] [ureg] [creg] [ereg] [dreg] [breg] [yreg] [sreg] [ureg] [creg] [treg] [ireg] [oreg] [nreg] [rreg] [areg] [treg] [hreg] [ereg] [rreg] [treg] [hreg] [areg] [nreg] [preg] [lreg] [oreg] [sreg] [ireg] [oreg] [nreg]
-tuts : < [ireg] > [areg] </ [ireg] > [treg] < [ireg] > [dash] [lreg] [ireg] [kreg] [ereg] [sreg] [oreg] [ureg] [nreg] [dreg] [preg] [rreg] [oreg] [dreg] [ureg] [creg] [ereg] [dreg] [breg] [yreg] [sreg] [ureg] [creg] [treg] [ireg] [oreg] [nreg] [rreg] [areg] [treg] [hreg] [ereg] [rreg] [treg] [hreg] [areg] [nreg] [preg] [lreg] [oreg] [sreg] [ireg] [oreg] [nreg]
-shet : < [ireg] > [oreg] [rreg] </ [ireg] >
