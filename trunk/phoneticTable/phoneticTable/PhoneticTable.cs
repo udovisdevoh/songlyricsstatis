@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace LyricThemeClassifier
 {
@@ -51,8 +52,15 @@ namespace LyricThemeClassifier
         /// <param name="fileName">file name</param>
         public void Load(string fileName)
         {
-            #warning Implement Load()
-            throw new NotImplementedException();
+            IEnumerable<string> sourceLineList = GetSourceLineList(fileName);
+
+            string key, value;
+            foreach (string line in sourceLineList)
+            {
+                key = line.Substring(0, line.IndexOf(':')).Trim();
+                value = line.Substring(line.IndexOf(':') + 1).Trim();
+                Add(key,value);
+            }
         }
 
         public void Save(string fileName)
@@ -65,7 +73,10 @@ namespace LyricThemeClassifier
         {
             HomophoneGroup homophoneGroup = GetOrCreateHomophoneGroup(phoneticValue);
             homophoneGroup.Add(englishValue);
-            phonologicDictionary.Add(englishValue, homophoneGroup);
+            if (phonologicDictionary.ContainsKey(englishValue))
+                phonologicDictionary[englishValue] = homophoneGroup;
+            else
+                phonologicDictionary.Add(englishValue, homophoneGroup);
         }
         #endregion
 
@@ -79,6 +90,24 @@ namespace LyricThemeClassifier
                 homophoneDictionary.Add(phoneticValue, homophoneGroup);
             }
             return homophoneGroup;
+        }
+
+        private IEnumerable<string> GetSourceLineList(string fileName)
+        {
+            List<string> lineList = new List<string>();
+            using (StreamReader streamReader = new StreamReader(fileName))
+            {
+                string line = null;
+
+                while (true)
+                {
+                    line = streamReader.ReadLine();
+                    if (line == null)
+                        break;
+                    lineList.Add(line);
+                }
+            }
+            return lineList;
         }
         #endregion
 

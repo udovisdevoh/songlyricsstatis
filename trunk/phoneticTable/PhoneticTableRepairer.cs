@@ -34,9 +34,9 @@ namespace LyricThemeClassifier
         {
             phoneticEnding = phoneticEnding.Trim();
 
-            foreach (HomophoneGroup homophoneGroup in phoneticTable)
+            foreach (HomophoneGroup homophoneGroup in new List<HomophoneGroup>(phoneticTable))
             {
-                foreach (string wordVariant in homophoneGroup)
+                foreach (string wordVariant in  new HashSet<string>(homophoneGroup))
                 {
                     if (wordVariant == homophoneGroup.ShortestVariant + englishEnding)
                     {
