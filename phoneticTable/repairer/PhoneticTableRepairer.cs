@@ -17,6 +17,8 @@ namespace LyricThemeClassifier
         private EndingRepairerIsmToIst endingRepairerIsmToIst = new EndingRepairerIsmToIst();
 
         private EndingRepairerIstToIsm endingRepairerIstToIsm = new EndingRepairerIstToIsm();
+
+        private EndingRepairerYtoIes endingRepairerYtoIes = new EndingRepairerYtoIes();
         #endregion
 
         #region Public Methods
@@ -30,8 +32,11 @@ namespace LyricThemeClassifier
                 endingRepairerS.Repair(phoneticTable);
                 endingRepairerEd.Repair(phoneticTable);
                 endingRepairerLy.Repair(phoneticTable);
+
                 endingRepairerIsmToIst.Repair(phoneticTable);
                 endingRepairerIstToIsm.Repair(phoneticTable);
+                endingRepairerYtoIes.Repair(phoneticTable);
+
 
                 RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
 
@@ -69,9 +74,6 @@ namespace LyricThemeClassifier
             //invulnerable -> invulnerability
 
             /*
-            RepairEnding(phoneticTable,"ing");
-            RepairEnding(phoneticTable, "ed");
-            RepairEnding(phoneticTable, "er");
             //RepairEnding(phoneticTable, "ator");
             RepairEnding(phoneticTable, "ly");
             RepairEnding(phoneticTable, "ion");

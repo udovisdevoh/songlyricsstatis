@@ -95,6 +95,7 @@
     <Compile Include="phoneticTable\repairer\EndingRepairerIstToIsm.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerLy.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerS.cs" />
+    <Compile Include="phoneticTable\repairer\EndingRepairerYtoIes.cs" />
     <Compile Include="phoneticTable\repairer\PhoneticTableRepairer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
