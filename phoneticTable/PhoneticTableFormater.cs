@@ -48,6 +48,7 @@ namespace LyricThemeClassifier
         {
             #warning take care of words containing ' chars
             #warning Implement expanding by splitting and recombining
+            #warning Must use most frequent words to expand using repair ending
 
             IEnumerable<string> sourceLineList = GetSourceLineList(sourceFile);
 
