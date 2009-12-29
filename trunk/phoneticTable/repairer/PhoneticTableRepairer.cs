@@ -11,6 +11,8 @@ namespace LyricThemeClassifier
         private EndingRepairerEd endingRepairerEd = new EndingRepairerEd();
 
         private EndingRepairerS endingRepairerS = new EndingRepairerS();
+
+        private EndingRepairerLy endingRepairerLy = new EndingRepairerLy();
         #endregion
 
         #region Public Methods
@@ -23,23 +25,31 @@ namespace LyricThemeClassifier
 
                 endingRepairerS.Repair(phoneticTable);
                 endingRepairerEd.Repair(phoneticTable);
+                endingRepairerLy.Repair(phoneticTable);
 
                 RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
 
                 RepairEnding(phoneticTable, "er", "[schwa] [rreg]");
                 RepairEnding(phoneticTable, "r", "[schwa] [rreg]");
                 RepairEnding(phoneticTable, "or", "[schwa] [rreg]");
-                RepairEnding(phoneticTable, "ly", "[lreg] [emacr]");
 
                 RepairEnding(phoneticTable, "ness", "[nreg] [ebreve] [sreg]");
                 RepairEnding(phoneticTable, "less", "[lreg] [ebreve] [sreg]");
                 RepairEnding(phoneticTable, "est", "[ebreve] [sreg] [treg]");
                 RepairEnding(phoneticTable, "st", "[ebreve] [sreg] [treg]");
 
+                RepairEnding(phoneticTable, "ation", "[amacr] [prime] [sreg] [hreg] [schwa] [nreg]");
+
+                RepairEnding(phoneticTable, "al", "[lreg]");
+                RepairEnding(phoneticTable, "ally", "[schwa] [dash] [lreg] [emacr]");
+                
                 RepairEnding(phoneticTable, "ment", "[mreg] [ebreve] [nreg] [prime] [treg]");
             } while (phoneticTable.Count != countBeforeRepair);
 
             #warning Implement Repair() for other cases
+
+            //endingRepairerLy (l or no l at the end)
+
             /*
             RepairEnding(phoneticTable,"ing");
             RepairEnding(phoneticTable, "ed");
