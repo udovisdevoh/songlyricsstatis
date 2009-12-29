@@ -13,6 +13,10 @@ namespace LyricThemeClassifier
         private EndingRepairerS endingRepairerS = new EndingRepairerS();
 
         private EndingRepairerLy endingRepairerLy = new EndingRepairerLy();
+
+        private EndingRepairerIsmToIst endingRepairerIsmToIst = new EndingRepairerIsmToIst();
+
+        private EndingRepairerIstToIsm endingRepairerIstToIsm = new EndingRepairerIstToIsm();
         #endregion
 
         #region Public Methods
@@ -26,12 +30,20 @@ namespace LyricThemeClassifier
                 endingRepairerS.Repair(phoneticTable);
                 endingRepairerEd.Repair(phoneticTable);
                 endingRepairerLy.Repair(phoneticTable);
+                endingRepairerIsmToIst.Repair(phoneticTable);
+                endingRepairerIstToIsm.Repair(phoneticTable);
 
                 RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
 
                 RepairEnding(phoneticTable, "er", "[schwa] [rreg]");
                 RepairEnding(phoneticTable, "r", "[schwa] [rreg]");
                 RepairEnding(phoneticTable, "or", "[schwa] [rreg]");
+
+                RepairEnding(phoneticTable, "ic", "[ibreve] [kreg]");
+                RepairEnding(phoneticTable, "ity", "[ibreve] [dash] [treg] [emacr]");
+
+                RepairEnding(phoneticTable, "ism", "[ibreve] [zreg] [lprime] [schwa] [mreg]");
+                RepairEnding(phoneticTable, "ist", "[ibreve] [dash] [sreg] [treg]");
 
                 RepairEnding(phoneticTable, "ness", "[nreg] [ebreve] [sreg]");
                 RepairEnding(phoneticTable, "less", "[lreg] [ebreve] [sreg]");
@@ -50,6 +62,12 @@ namespace LyricThemeClassifier
 
             //endingRepairerLy (l or no l at the end)
 
+            //ist to ism and vice versae even when no ist or ism counterpart available
+
+            //involuntary ->involuntarily
+
+            //invulnerable -> invulnerability
+
             /*
             RepairEnding(phoneticTable,"ing");
             RepairEnding(phoneticTable, "ed");
@@ -65,6 +83,9 @@ namespace LyricThemeClassifier
             RepairEnding(phoneticTable, "ate", "ative");
             RepairEnding(phoneticTable, "ate", "ating");
             RepairEnding(phoneticTable, "ence", "ent");*/
+
+            //militant -> militance
+            //militant -> militancy
         }
         #endregion
 

@@ -8,9 +8,9 @@ namespace LyricThemeClassifier
     class EndingRepairerEd : EndingRepairer
     {
         #region Public Methods
-        public override bool IsMatchEndingType(string wordVariant, HomophoneGroup homophoneGroup)
+        public override bool IsMatchEndingType(string wordVariant, string shortHomophone)
         {
-            return wordVariant == homophoneGroup.ShortestVariant + "ed" || (wordVariant == homophoneGroup.ShortestVariant + "d" && homophoneGroup.ShortestVariant.EndsWith("e"));
+            return wordVariant == shortHomophone + "ed" || (wordVariant == shortHomophone + "d" && shortHomophone.EndsWith("e"));
         }
 
         public override string BuildPhoneticEnding(string phoneticValue)

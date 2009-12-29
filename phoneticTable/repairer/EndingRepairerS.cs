@@ -36,9 +36,9 @@ namespace LyricThemeClassifier
         #endregion
 
         #region Public Methods
-        public override bool IsMatchEndingType(string wordVariant, HomophoneGroup homophoneGroup)
+        public override bool IsMatchEndingType(string wordVariant, string shortHomophone)
         {
-            return wordVariant == homophoneGroup.ShortestVariant + "s" || wordVariant == homophoneGroup.ShortestVariant + "es" || wordVariant == homophoneGroup.ShortestVariant + "ses";
+            return wordVariant == shortHomophone + "s" || wordVariant == shortHomophone + "es" || wordVariant == shortHomophone + "ses";
         }
 
         public override string BuildPhoneticEnding(string phoneticValue)

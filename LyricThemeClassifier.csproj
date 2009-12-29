@@ -91,6 +91,8 @@
     <Compile Include="phoneticTable\phoneticTable\PhoneticTable.cs" />
     <Compile Include="phoneticTable\PhoneticTableBuilder.cs" />
     <Compile Include="phoneticTable\PhoneticTableFormater.cs" />
+    <Compile Include="phoneticTable\repairer\EndingRepairerIsmToIst.cs" />
+    <Compile Include="phoneticTable\repairer\EndingRepairerIstToIsm.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerLy.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerS.cs" />
     <Compile Include="phoneticTable\repairer\PhoneticTableRepairer.cs" />
