@@ -5,8 +5,36 @@ using System.Text;
 
 namespace LyricThemeClassifier
 {
-    class EndingRepairerEd
+    class EndingRepairerS
     {
+        #region Fields
+        private List<string> endingsForEs;
+
+        private List<string> endingsForZ;
+        #endregion
+
+        #region Constructors
+        public EndingRepairerS()
+        {
+            endingsForEs = new List<string>();
+            endingsForZ = new List<string>();
+
+            endingsForEs.Add("[sreg] [hreg]");
+            endingsForEs.Add("[creg] [hreg]");
+            endingsForEs.Add("[sreg]");
+            endingsForEs.Add("[jreg]");
+
+            endingsForZ.Add("[breg]");
+            endingsForZ.Add("[dreg]");
+            endingsForZ.Add("[greg]");
+            endingsForZ.Add("[lreg]");
+            endingsForZ.Add("[mreg]");
+            endingsForZ.Add("[nreg]");
+            endingsForZ.Add("[rreg]");
+            endingsForZ.Add("[vreg]");
+        }
+        #endregion
+
         #region Public Methods
         public void Repair(PhoneticTable phoneticTable)
         {
@@ -15,7 +43,7 @@ namespace LyricThemeClassifier
             {
                 foreach (string wordVariant in new HashSet<string>(homophoneGroup))
                 {
-                    if (wordVariant == homophoneGroup.ShortestVariant + "ed" || (wordVariant == homophoneGroup.ShortestVariant + "d" && homophoneGroup.ShortestVariant.EndsWith("e")))
+                    if (wordVariant == homophoneGroup.ShortestVariant + "s" || wordVariant == homophoneGroup.ShortestVariant + "es" ||  wordVariant == homophoneGroup.ShortestVariant + "ses")
                     {
                         phoneticEnding = BuildPhoneticEnding(homophoneGroup.PhoneticValue);
                         homophoneGroup.Remove(wordVariant);
@@ -29,12 +57,6 @@ namespace LyricThemeClassifier
         #region Private Methods
         private string BuildPhoneticEnding(string phoneticValue)
         {
-            /*
-             * ending with: [treg] or [dreg] + facultative [*prime] -> [ibreve] [dreg]
-             * ending with: [preg], [freg], [sreg], [sreg] [hreg], [creg] [hreg] or [kreg]  + facultative [*prime] -> [treg] [lprime]
-             * else: [dreg] [lprime]
-             */
-
             phoneticValue = phoneticValue.Replace("[lprime]", "");
             phoneticValue = phoneticValue.Replace("[prime]", "");
 
@@ -45,17 +67,17 @@ namespace LyricThemeClassifier
 
             string phoneticEnding;
 
-            if (phoneticValue.EndsWith("[treg]") || phoneticValue.EndsWith("[dreg]"))
+            if (phoneticValue.EndsWith(endingsForEs))
             {
-                phoneticEnding = "[ibreve] [dreg]";
+                phoneticEnding = "[schwa] [sreg]";
             }
-            else if (phoneticValue.EndsWith("[preg]") || phoneticValue.EndsWith("[freg]") || phoneticValue.EndsWith("[sreg]") || phoneticValue.EndsWith("[sreg] [hreg]") || phoneticValue.EndsWith("[creg] [hreg]") || phoneticValue.EndsWith("[kreg]"))
+            else if (phoneticValue.EndsWith(endingsForZ))
             {
-                phoneticEnding = "[treg]";
+                phoneticEnding = "[zreg]";
             }
             else
             {
-                phoneticEnding = "[dreg]";
+                phoneticEnding = "[sreg]";
             }
 
             return phoneticEnding;

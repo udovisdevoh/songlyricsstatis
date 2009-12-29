@@ -9,12 +9,16 @@ namespace LyricThemeClassifier
     {
         #region Parts
         private EndingRepairerEd endingRepairerEd = new EndingRepairerEd();
+
+        private EndingRepairerS endingRepairerS = new EndingRepairerS();
         #endregion
 
         #region Public Methods
         public void Repair(PhoneticTable phoneticTable)
         {
-            RepairEnding(phoneticTable, "s", "[sreg]");
+            //RepairEnding(phoneticTable, "s", "[sreg]");
+
+            endingRepairerS.Repair(phoneticTable);
             
             RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
             
