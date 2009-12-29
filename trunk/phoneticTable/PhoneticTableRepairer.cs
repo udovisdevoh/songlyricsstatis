@@ -11,6 +11,8 @@ namespace LyricThemeClassifier
         public void Repair(PhoneticTable phoneticTable)
         {
             RepairEnding(phoneticTable, "s", "[sreg]");
+            RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
+
             #warning Implement Repair() for other cases
             /*
             RepairEnding(phoneticTable,"ing");
