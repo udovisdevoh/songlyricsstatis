@@ -65,8 +65,18 @@ namespace LyricThemeClassifier
 
         public void Save(string fileName)
         {
-            #warning Implement Save()
-            throw new NotImplementedException();
+            using (StreamWriter streamWriter = new StreamWriter(fileName))
+            {
+                IEnumerable<HomophoneGroup> sorterHomophoneGroupList = from homophoneGroup in homophoneDictionary.Values orderby homophoneGroup.PhoneticValue select homophoneGroup;
+
+                foreach (HomophoneGroup homophoneGroup in sorterHomophoneGroupList)
+                {
+                    foreach (string word in homophoneGroup)
+                    {
+                        streamWriter.WriteLine(word + " : " + homophoneGroup.PhoneticValue);
+                    }
+                }
+            }
         }
 
         public void Add(string englishValue, string phoneticValue)
