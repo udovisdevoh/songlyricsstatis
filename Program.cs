@@ -208,15 +208,15 @@ namespace LyricThemeClassifier
         private void ReformatPhoneticTableHandler(object sender, EventArgs e)
         {
             string unformatedPhoneticTableFile = mainWindow.GetInputFile("PHONETIC TABLE FILE|*.phoneticTable.txt");
-            string formatedPhoneticTableFile = mainWindow.GetOutputFile("FORMATED PHONETIC TABLE FILE|*.formatedPhoneticTable.txt");
+            string formatedPhoneticTableFile = mainWindow.GetOutputFile("FORMATED PHONETIC TABLE FILE|*.phoneticTable.txt");
 
             phoneticTableFormater.Reformat(unformatedPhoneticTableFile, formatedPhoneticTableFile);
         }
 
         private void RepairPhoneticTableHandler(object sender, EventArgs e)
         {
-            string formatedPhoneticTableFile = mainWindow.GetInputFile("FORMATED PHONETIC TABLE FILE|*.formatedPhoneticTable.txt");
-            string repairedPhoneticTableFile = mainWindow.GetOutputFile("REPAIRED PHONETIC TABLE FILE|*.repairedPhoneticTable.txt");
+            string formatedPhoneticTableFile = mainWindow.GetInputFile("FORMATED PHONETIC TABLE FILE|*.phoneticTable.txt");
+            string repairedPhoneticTableFile = mainWindow.GetOutputFile("REPAIRED PHONETIC TABLE FILE|*.phoneticTable.txt");
             PhoneticTable phoneticTable = new PhoneticTable(formatedPhoneticTableFile);
             phoneticTableRepairer.Repair(phoneticTable);
             phoneticTable.Save(repairedPhoneticTableFile);
