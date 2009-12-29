@@ -5,9 +5,15 @@ using System.Text;
 
 namespace LyricThemeClassifier
 {
+    /// <summary>
+    /// Semantic matrix trimmer
+    /// </summary>
     class SemanticMatrixTrimmer
     {
         #region Constants
+        /// <summary>
+        /// Desired target word count
+        /// </summary>
         private const int desiredTargetWordCount = 5;
         #endregion
 

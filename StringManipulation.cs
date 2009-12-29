@@ -310,6 +310,14 @@ namespace LyricThemeClassifier
         {
             return notALetter.Replace(text, "");
         }
+
+        public static bool EndsWith(this string text, IEnumerable<string> endingList)
+        {
+            foreach (string ending in endingList)
+                if (text.EndsWith(ending))
+                    return true;
+            return false;
+        }
         #endregion
     }
 }
