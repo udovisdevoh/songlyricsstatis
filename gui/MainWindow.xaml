@@ -32,7 +32,7 @@
                 <MenuItem Header="Exit" Click="MenuItemExit_Click" />
             </MenuItem>
         </Menu>
-
+        
         <WrapPanel Name="themeSelectorLayout" Grid.Row="2" Grid.ColumnSpan="3"/>       
         
         <Button Grid.Row="3" Grid.Column="0" Click="ButtonNext_Click">Next</Button>

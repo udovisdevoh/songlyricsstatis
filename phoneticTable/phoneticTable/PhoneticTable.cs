@@ -121,6 +121,13 @@ namespace LyricThemeClassifier
         }
         #endregion
 
+        #region Properties
+        public int Count
+        {
+            get { return homophoneDictionary.Values.Count; }
+        }
+        #endregion
+
         #region IEnumerable<HomophoneGroup> Members
         public IEnumerator<HomophoneGroup> GetEnumerator()
         {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LyricThemeClassifier
 {
-    class EndingRepairerS
+    class EndingRepairerS : EndingRepairer
     {
         #region Fields
         private List<string> endingsForEs;
@@ -36,26 +36,12 @@ namespace LyricThemeClassifier
         #endregion
 
         #region Public Methods
-        public void Repair(PhoneticTable phoneticTable)
+        public override bool IsMatchEndingType(string wordVariant, HomophoneGroup homophoneGroup)
         {
-            string phoneticEnding;
-            foreach (HomophoneGroup homophoneGroup in new List<HomophoneGroup>(phoneticTable))
-            {
-                foreach (string wordVariant in new HashSet<string>(homophoneGroup))
-                {
-                    if (wordVariant == homophoneGroup.ShortestVariant + "s" || wordVariant == homophoneGroup.ShortestVariant + "es" ||  wordVariant == homophoneGroup.ShortestVariant + "ses")
-                    {
-                        phoneticEnding = BuildPhoneticEnding(homophoneGroup.PhoneticValue);
-                        homophoneGroup.Remove(wordVariant);
-                        phoneticTable.Add(wordVariant, homophoneGroup.PhoneticValue + " " + phoneticEnding);
-                    }
-                }
-            }
+            return wordVariant == homophoneGroup.ShortestVariant + "s" || wordVariant == homophoneGroup.ShortestVariant + "es" || wordVariant == homophoneGroup.ShortestVariant + "ses";
         }
-        #endregion
 
-        #region Private Methods
-        private string BuildPhoneticEnding(string phoneticValue)
+        public override string BuildPhoneticEnding(string phoneticValue)
         {
             phoneticValue = phoneticValue.Replace("[lprime]", "");
             phoneticValue = phoneticValue.Replace("[prime]", "");

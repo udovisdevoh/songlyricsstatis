@@ -50,6 +50,8 @@ namespace LyricThemeClassifier
         private PhoneticTableFormater phoneticTableFormater = new PhoneticTableFormater();
 
         private PhoneticTableRepairer phoneticTableRepairer = new PhoneticTableRepairer();
+
+        private RemainingHomophoneListExporter remainingHomophoneListExporter = new RemainingHomophoneListExporter();
         #endregion
 
         #region Constructor
@@ -220,6 +222,7 @@ namespace LyricThemeClassifier
             PhoneticTable phoneticTable = new PhoneticTable(formatedPhoneticTableFile);
             phoneticTableRepairer.Repair(phoneticTable);
             phoneticTable.Save(repairedPhoneticTableFile);
+            remainingHomophoneListExporter.Export(mainWindow.GetOutputFile("REMAINING HOMOPHONE LIST|*.remainingHomophoneList.txt"), phoneticTable);
         }
         #endregion
 

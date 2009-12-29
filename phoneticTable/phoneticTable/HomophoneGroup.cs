@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LyricThemeClassifier
 {
-    class HomophoneGroup : IEnumerable<string>
+    public class HomophoneGroup : IEnumerable<string>
     {
         #region Fields
         private string phoneticValue;
@@ -55,6 +55,11 @@ namespace LyricThemeClassifier
 
                 return shortestVariant;
             }
+        }
+
+        public int Count
+        {
+            get { return wordVariantList.Count; }
         }
         #endregion
 

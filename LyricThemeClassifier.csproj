@@ -83,6 +83,8 @@
     <Compile Include="matrix\SemanticMatrixTrimmer.cs" />
     <Compile Include="matrix\WordMatrixExtractor.cs" />
     <Compile Include="matrix\XmlMatrixSaverLoader.cs" />
+    <Compile Include="phoneticTable\RemainingHomophoneListExporter.cs" />
+    <Compile Include="phoneticTable\repairer\EndingRepairer.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerEd.cs" />
     <Compile Include="phoneticTable\PhoneticBot.cs" />
     <Compile Include="phoneticTable\phoneticTable\HomophoneGroup.cs" />
