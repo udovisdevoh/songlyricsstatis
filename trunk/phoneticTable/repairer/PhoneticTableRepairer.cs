@@ -16,18 +16,28 @@ namespace LyricThemeClassifier
         #region Public Methods
         public void Repair(PhoneticTable phoneticTable)
         {
-            //RepairEnding(phoneticTable, "s", "[sreg]");
+            int countBeforeRepair;
+            do
+            {
+                countBeforeRepair = phoneticTable.Count;
 
-            endingRepairerS.Repair(phoneticTable);
-            
-            RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
-            
-            RepairEnding(phoneticTable, "er", "[schwa] [rreg]");
-            RepairEnding(phoneticTable, "r", "[schwa] [rreg]");
-            RepairEnding(phoneticTable, "or", "[schwa] [rreg]");
+                endingRepairerS.Repair(phoneticTable);
+                endingRepairerEd.Repair(phoneticTable);
 
-            endingRepairerEd.Repair(phoneticTable);
-            
+                RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
+
+                RepairEnding(phoneticTable, "er", "[schwa] [rreg]");
+                RepairEnding(phoneticTable, "r", "[schwa] [rreg]");
+                RepairEnding(phoneticTable, "or", "[schwa] [rreg]");
+                RepairEnding(phoneticTable, "ly", "[lreg] [emacr]");
+
+                RepairEnding(phoneticTable, "ness", "[nreg] [ebreve] [sreg]");
+                RepairEnding(phoneticTable, "less", "[lreg] [ebreve] [sreg]");
+                RepairEnding(phoneticTable, "est", "[ebreve] [sreg] [treg]");
+                RepairEnding(phoneticTable, "st", "[ebreve] [sreg] [treg]");
+
+                RepairEnding(phoneticTable, "ment", "[mreg] [ebreve] [nreg] [prime] [treg]");
+            } while (phoneticTable.Count != countBeforeRepair);
 
             #warning Implement Repair() for other cases
             /*
@@ -41,9 +51,10 @@ namespace LyricThemeClassifier
 
             RepairEnding(phoneticTable, "y","ies");
             RepairEnding(phoneticTable, "ate","ation");
-            RepairEnding(phoneticTable, "tion", "tive");
+            RepairEnding(phoneticTable, "ate","ator");
+            RepairEnding(phoneticTable, "ate", "ative");
             RepairEnding(phoneticTable, "ate", "ating");
-            //RepairEnding(phoneticTable, "ence", "ent");*/
+            RepairEnding(phoneticTable, "ence", "ent");*/
         }
         #endregion
 

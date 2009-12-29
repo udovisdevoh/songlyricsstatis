@@ -5,29 +5,15 @@ using System.Text;
 
 namespace LyricThemeClassifier
 {
-    class EndingRepairerEd
+    class EndingRepairerEd : EndingRepairer
     {
         #region Public Methods
-        public void Repair(PhoneticTable phoneticTable)
+        public override bool IsMatchEndingType(string wordVariant, HomophoneGroup homophoneGroup)
         {
-            string phoneticEnding;
-            foreach (HomophoneGroup homophoneGroup in new List<HomophoneGroup>(phoneticTable))
-            {
-                foreach (string wordVariant in new HashSet<string>(homophoneGroup))
-                {
-                    if (wordVariant == homophoneGroup.ShortestVariant + "ed" || (wordVariant == homophoneGroup.ShortestVariant + "d" && homophoneGroup.ShortestVariant.EndsWith("e")))
-                    {
-                        phoneticEnding = BuildPhoneticEnding(homophoneGroup.PhoneticValue);
-                        homophoneGroup.Remove(wordVariant);
-                        phoneticTable.Add(wordVariant, homophoneGroup.PhoneticValue + " " + phoneticEnding);
-                    }
-                }
-            }
+            return wordVariant == homophoneGroup.ShortestVariant + "ed" || (wordVariant == homophoneGroup.ShortestVariant + "d" && homophoneGroup.ShortestVariant.EndsWith("e"));
         }
-        #endregion
 
-        #region Private Methods
-        private string BuildPhoneticEnding(string phoneticValue)
+        public override string BuildPhoneticEnding(string phoneticValue)
         {
             /*
              * ending with: [treg] or [dreg] + facultative [*prime] -> [ibreve] [dreg]
