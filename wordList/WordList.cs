@@ -9,7 +9,7 @@ namespace LyricThemeClassifier
     /// <summary>
     /// Word list file (sorted by occurence count)
     /// </summary>
-    class WordListFile
+    class WordListFile : IEnumerable<string>
     {
         #region Fields
         /// <summary>
@@ -126,6 +126,18 @@ namespace LyricThemeClassifier
                 return null;
             counter++;
             return wordList[counter - 1];
+        }
+        #endregion
+
+        #region IEnumerable<string> Members
+        public IEnumerator<string> GetEnumerator()
+        {
+            return wordList.GetEnumerator();
+        }
+
+        System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+        {
+            return wordList.GetEnumerator();
         }
         #endregion
     }
