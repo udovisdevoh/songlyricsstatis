@@ -17,7 +17,7 @@ namespace LyricThemeClassifier
                 {
                     if (wordVariant.EndsWith(toEnglish))
                     {
-                        if (homophoneGroup.ShortestVariant.EndsWith(fromEnglish) && wordVariant != homophoneGroup.ShortestVariant)
+                        if (homophoneGroup.GetShortestVariant(wordVariant).EndsWith(fromEnglish) && wordVariant != homophoneGroup.GetShortestVariant(wordVariant))
                         {
                             if (homophoneGroup.PhoneticValue.EndsWith(fromPhonetic))
                             {
