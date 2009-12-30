@@ -47,9 +47,250 @@ namespace LyricThemeClassifier
                 IsChsChes(homophoneGroup) ||
                 IsRsRes(homophoneGroup) ||
                 IsDsDes(homophoneGroup) ||
+                IsYsYes(homophoneGroup) ||
+                IsBsBes(homophoneGroup) ||
+                IsGsGes(homophoneGroup) ||
+                IsHsHes(homophoneGroup) ||
+                IsWsWes(homophoneGroup) ||
+                IsXsXes(homophoneGroup) ||
                 IsTsTes(homophoneGroup) ||
+                IsFsFes(homophoneGroup) ||
                 IsSingZing(homophoneGroup) ||
+                IsIY(homophoneGroup) ||
+                IsCK(homophoneGroup) ||
+                IsVW(homophoneGroup) ||
+                IsFPh(homophoneGroup) ||
                 IsOsOes(homophoneGroup);
+        }
+
+        private bool IsFPh(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Replace("f", "ph") == wordList[1])
+                {
+                    return true;
+                }
+                else if (wordList[0].Replace("ph", "f") == wordList[1])
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsIY(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Replace('i', 'y') == wordList[1])
+                {
+                    return true;
+                }
+                else if (wordList[0].Replace('y', 'i') == wordList[1])
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsCK(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Replace('c', 'k') == wordList[1])
+                {
+                    return true;
+                }
+                else if (wordList[0].Replace('k', 'c') == wordList[1])
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsVW(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Replace('v', 'w') == wordList[1])
+                {
+                    return true;
+                }
+                else if (wordList[0].Replace('w', 'v') == wordList[1])
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsYsYes(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Length > 3 && wordList[1].Length > 3)
+                {
+                    if (wordList[0].EndsWith("yes") && wordList[1].EndsWith("ys"))
+                    {
+                        return true;
+                    }
+                    else if (wordList[0].EndsWith("ys") && wordList[1].EndsWith("yes"))
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsBsBes(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Length > 3 && wordList[1].Length > 3)
+                {
+                    if (wordList[0].EndsWith("bes") && wordList[1].EndsWith("bs"))
+                    {
+                        return true;
+                    }
+                    else if (wordList[0].EndsWith("bs") && wordList[1].EndsWith("bes"))
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsGsGes(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Length > 3 && wordList[1].Length > 3)
+                {
+                    if (wordList[0].EndsWith("ges") && wordList[1].EndsWith("gs"))
+                    {
+                        return true;
+                    }
+                    else if (wordList[0].EndsWith("gs") && wordList[1].EndsWith("ges"))
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsHsHes(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Length > 3 && wordList[1].Length > 3)
+                {
+                    if (wordList[0].EndsWith("hes") && wordList[1].EndsWith("hs"))
+                    {
+                        return true;
+                    }
+                    else if (wordList[0].EndsWith("hs") && wordList[1].EndsWith("hes"))
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsWsWes(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Length > 3 && wordList[1].Length > 3)
+                {
+                    if (wordList[0].EndsWith("wes") && wordList[1].EndsWith("ws"))
+                    {
+                        return true;
+                    }
+                    else if (wordList[0].EndsWith("ws") && wordList[1].EndsWith("wes"))
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsXsXes(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Length > 3 && wordList[1].Length > 3)
+                {
+                    if (wordList[0].EndsWith("xes") && wordList[1].EndsWith("xs"))
+                    {
+                        return true;
+                    }
+                    else if (wordList[0].EndsWith("xs") && wordList[1].EndsWith("xes"))
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        private bool IsFsFes(HomophoneGroup homophoneGroup)
+        {
+            List<string> wordList = new List<string>(homophoneGroup);
+
+            if (wordList.Count == 2)
+            {
+                if (wordList[0].Length > 3 && wordList[1].Length > 3)
+                {
+                    if (wordList[0].EndsWith("fes") && wordList[1].EndsWith("fs"))
+                    {
+                        return true;
+                    }
+                    else if (wordList[0].EndsWith("fs") && wordList[1].EndsWith("fes"))
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
         }
 
         private bool IsSingZing(HomophoneGroup homophoneGroup)
