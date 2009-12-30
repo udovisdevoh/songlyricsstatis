@@ -58,6 +58,7 @@ namespace LyricThemeClassifier
                 RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
 
                 RepairEnding(phoneticTable, "er", "[schwa] [rreg]");
+                RepairEnding(phoneticTable, "ers", "[schwa] [rreg] [zreg]");
                 RepairEnding(phoneticTable, "r", "[schwa] [rreg]");
                 RepairEnding(phoneticTable, "or", "[schwa] [rreg]");
 
@@ -72,6 +73,7 @@ namespace LyricThemeClassifier
                 RepairEnding(phoneticTable, "est", "[ebreve] [sreg] [treg]");
                 RepairEnding(phoneticTable, "st", "[ebreve] [sreg] [treg]");
 
+
                 RepairEnding(phoneticTable, "ation", "[amacr] [prime] [sreg] [hreg] [schwa] [nreg]");
 
                 RepairEnding(phoneticTable, "al", "[lreg]");
@@ -81,15 +83,22 @@ namespace LyricThemeClassifier
 
 
                 endingReplacer.ReplaceEnding(phoneticTable, "y", "[emacr]", "ically", "[ibreve] [dash] [kreg] [schwa] [lreg] [emacr]");
+                endingReplacer.ReplaceEnding(phoneticTable, "ic", "[ibreve] [kreg]", "ically", "[ibreve] [dash] [kreg] [schwa] [lreg] [emacr]");
 
                 endingReplacer.ReplaceEnding(phoneticTable, "ate", "[amacr] [treg] [lprime]", "ations", "[amacr] [prime] [sreg] [hreg] [schwa] [nreg] [zreg]");
                 endingReplacer.ReplaceEnding(phoneticTable, "ate", "[amacr] [treg] [lprime]", "ators", "[amacr] [lprime] [treg] [schwa] [rreg] [zreg]");
 
-
-
                 endingReplacer.ReplaceEnding(phoneticTable, "ize", "[imacr] [zreg] [lprime]", "izing", "[imacr] [lprime] [zreg] [ibreve] [nreg] [greg]");
                 endingReplacer.ReplaceEnding(phoneticTable, "ize", "[imacr] [zreg] [lprime]", "ised", "[imacr] [zreg] [lprime] [dreg]");
 
+                endingReplacer.ReplaceEnding(phoneticTable, "ism", "[ibreve] [zreg] [lprime] [schwa] [mreg]", "istic", "[ibreve] [sreg] [treg] [ibreve] [kreg]");
+                endingReplacer.ReplaceEnding(phoneticTable, "ism", "[ibreve] [zreg] [lprime] [schwa] [mreg]", "istically", "[ibreve] [sreg] [treg] [ibreve] [kreg] [schwa] [dash] [lreg] [emacr]");
+
+                endingReplacer.ReplaceEnding(phoneticTable, "p", "[preg] [prime]", "pped", "[preg] [treg]");
+                endingReplacer.ReplaceEnding(phoneticTable, "p", "[preg] [prime]", "pping", "[preg] [ibreve] [nreg] [greg]");
+
+                endingReplacer.ReplaceEnding(phoneticTable, "fy", "[freg] [imacr] [lprime]", "fied", "[freg] [imacr] [dreg] [lprime]");
+                endingReplacer.ReplaceEnding(phoneticTable, "fy", "[freg] [imacr] [lprime]", "fication", "[freg] [ibreve] [dash] [kreg] [amacr] [prime] [sreg] [hreg] [schwa] [nreg]");
             } while (phoneticTable.Count != countBeforeRepair);
 
             #warning Implement Repair() for other cases
