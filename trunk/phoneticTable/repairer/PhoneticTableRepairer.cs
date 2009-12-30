@@ -23,6 +23,14 @@ namespace LyricThemeClassifier
         private EndingRepairerAteToAtion endingRepairerAteToAtion = new EndingRepairerAteToAtion();
 
         private EndingRepairerAteToAting endingRepairerAteToAting = new EndingRepairerAteToAting();
+
+        private EndingRepairerAteToAtive endingRepairerAteToAtive = new EndingRepairerAteToAtive();
+
+        private EndingRepairerAteToAtor endingRepairerAteToAtor = new EndingRepairerAteToAtor();
+
+        private EndingRepairerYToIc endingRepairerYToIc = new EndingRepairerYToIc();
+
+        private EndingReplacer endingReplacer = new EndingReplacer();
         #endregion
 
         #region Public Methods
@@ -42,6 +50,9 @@ namespace LyricThemeClassifier
                 endingRepairerYtoIes.Repair(phoneticTable);
                 endingRepairerAteToAtion.Repair(phoneticTable);
                 endingRepairerAteToAting.Repair(phoneticTable);
+                endingRepairerAteToAtive.Repair(phoneticTable);
+                endingRepairerAteToAtor.Repair(phoneticTable);
+                endingRepairerYToIc.Repair(phoneticTable);
 
 
                 RepairEnding(phoneticTable, "ing", "[ibreve] [nreg] [greg]");
@@ -67,6 +78,10 @@ namespace LyricThemeClassifier
                 RepairEnding(phoneticTable, "ally", "[schwa] [dash] [lreg] [emacr]");
                 
                 RepairEnding(phoneticTable, "ment", "[mreg] [ebreve] [nreg] [prime] [treg]");
+
+
+                endingReplacer.ReplaceEnding(phoneticTable, "y", "[emacr]", "ically", "[ibreve] [dash] [kreg] [schwa] [lreg] [emacr]");
+
             } while (phoneticTable.Count != countBeforeRepair);
 
             #warning Implement Repair() for other cases
@@ -87,11 +102,6 @@ namespace LyricThemeClassifier
             RepairEnding(phoneticTable, "ion");
             RepairEnding(phoneticTable, "es");
 
-            RepairEnding(phoneticTable, "y","ies");
-            RepairEnding(phoneticTable, "ate","ation");
-            RepairEnding(phoneticTable, "ate","ator");
-            RepairEnding(phoneticTable, "ate", "ative");
-            RepairEnding(phoneticTable, "ate", "ating");
             RepairEnding(phoneticTable, "ence", "ent");*/
 
             //militant -> militance
@@ -108,7 +118,7 @@ namespace LyricThemeClassifier
             {
                 foreach (string wordVariant in  new HashSet<string>(homophoneGroup))
                 {
-                    if (wordVariant == homophoneGroup.ShortestVariant + englishEnding)
+                    if (wordVariant == homophoneGroup.ShortestVariant + englishEnding && wordVariant != homophoneGroup.ShortestVariant)
                     {
                         homophoneGroup.Remove(wordVariant);
                         phoneticTable.Add(wordVariant, homophoneGroup.PhoneticValue + " " + phoneticEnding);

@@ -83,10 +83,12 @@
     <Compile Include="matrix\SemanticMatrixTrimmer.cs" />
     <Compile Include="matrix\WordMatrixExtractor.cs" />
     <Compile Include="matrix\XmlMatrixSaverLoader.cs" />
+    <Compile Include="phoneticTable\repairer\EndingRepairerAteToAtive.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerAteToAting.cs" />
     <Compile Include="phoneticTable\RemainingHomophoneListExporter.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairer.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerAteToAtion.cs" />
+    <Compile Include="phoneticTable\repairer\EndingRepairerAteToAtor.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerEd.cs" />
     <Compile Include="phoneticTable\PhoneticBot.cs" />
     <Compile Include="phoneticTable\phoneticTable\HomophoneGroup.cs" />
@@ -97,7 +99,9 @@
     <Compile Include="phoneticTable\repairer\EndingRepairerIstToIsm.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerLy.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerS.cs" />
+    <Compile Include="phoneticTable\repairer\EndingRepairerYToIc.cs" />
     <Compile Include="phoneticTable\repairer\EndingRepairerYtoIes.cs" />
+    <Compile Include="phoneticTable\repairer\EndingReplacer.cs" />
     <Compile Include="phoneticTable\repairer\PhoneticTableRepairer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
