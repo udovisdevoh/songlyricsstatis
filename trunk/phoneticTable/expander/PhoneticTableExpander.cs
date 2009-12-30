@@ -17,22 +17,29 @@ namespace LyricThemeClassifier
         public void Expand(PhoneticTable phoneticTable, WordListFile frequentWordListFile)
         {
             string phoneticValue;
-            foreach (string word in frequentWordListFile)
+
+            int countBefore;
+
+            do
             {
-                if (!phoneticTable.Contains(word))
+                countBefore = phoneticTable.Count;
+                foreach (string word in frequentWordListFile)
                 {
-                    phoneticValue = null;
+                    if (!phoneticTable.Contains(word))
+                    {
+                        phoneticValue = null;
 
-                    if (phoneticValue == null)
-                        phoneticValue = phoneticConcatenator.TryConcatenate(word, phoneticTable);
+                        if (phoneticValue == null)
+                            phoneticValue = phoneticConcatenator.TryConcatenate(word, phoneticTable);
 
-                    if (phoneticValue == null)
-                        phoneticValue = phoneticSplitter.TrySplit(word, phoneticTable);
+                        if (phoneticValue == null)
+                            phoneticValue = phoneticSplitter.TrySplit(word, phoneticTable);
 
-                    if (phoneticValue != null)
-                        phoneticTable.Add(word, phoneticValue);
+                        if (phoneticValue != null)
+                            phoneticTable.Add(word, phoneticValue);
+                    }
                 }
-            }
+            } while (countBefore != phoneticTable.Count);
         }
         #endregion
     }

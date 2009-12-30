@@ -93,6 +93,11 @@ namespace LyricThemeClassifier
         {
             return phonologicDictionary.ContainsKey(word);
         }
+
+        public string GetPhoneticValueOf(string word)
+        {
+            return phonologicDictionary[word].PhoneticValue;
+        }
         #endregion
 
         #region Private Methods
@@ -130,6 +135,11 @@ namespace LyricThemeClassifier
         public int Count
         {
             get { return homophoneDictionary.Values.Count; }
+        }
+
+        public IEnumerable<string> EnglishWordList
+        {
+            get { return phonologicDictionary.Keys; }
         }
         #endregion
 

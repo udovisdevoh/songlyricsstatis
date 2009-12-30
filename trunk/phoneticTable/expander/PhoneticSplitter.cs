@@ -16,8 +16,8 @@ namespace LyricThemeClassifier
         /// <returns>phonetic value by splitting or null if fails</returns>
         public string TrySplit(string word, PhoneticTable phoneticTable)
         {
-            #warning Implement TrySplit() (return null value if fails)
-            throw new NotImplementedException();
+            #warning Implement TrySplit() (return null only if fails)
+            return null;
         }
         #endregion
     }
