@@ -26,6 +26,7 @@
                 <MenuItem Header="Build phonetic table" Click="MenuItemBuildPhoneticTable_Click"/>
                 <MenuItem Header="Re-format and sort phonetic table" Click="MenuItemFormatPhoneticTable_Click"/>
                 <MenuItem Header="Repair phonetic table" Click="MenuItemRepairPhoneticTable_Click"/>
+                <MenuItem Header="Trim phonetic table" Click="MenuItemTrimPhoneticTable_Click"/>
                 <MenuItem Header="Trim semantic likeness matrix" Click="MenuItemTrimSemanticLikenessMatrix_Click"/>
                 <MenuItem Header="Save themes" Command="ApplicationCommands.Save" />
                 <Separator/>

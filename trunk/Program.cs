@@ -52,6 +52,8 @@ namespace LyricThemeClassifier
         private PhoneticTableRepairer phoneticTableRepairer = new PhoneticTableRepairer();
 
         private RemainingHomophoneListExporter remainingHomophoneListExporter = new RemainingHomophoneListExporter();
+
+        private PhoneticTableTrimmer phoneticTableTrimmer = new PhoneticTableTrimmer();
         #endregion
 
         #region Constructor
@@ -74,6 +76,7 @@ namespace LyricThemeClassifier
             mainWindow.OnBuildPhoneticTable += BuildPhoneticTableHandler;
             mainWindow.OnFormatPhoneticTable += ReformatPhoneticTableHandler;
             mainWindow.OnRepairPhoneticTable += RepairPhoneticTableHandler;
+            mainWindow.OnTrimPhoneticTable += TrimPhoneticTableHandler;
         }
         #endregion
 
@@ -223,6 +226,16 @@ namespace LyricThemeClassifier
             phoneticTableRepairer.Repair(phoneticTable);
             phoneticTable.Save(repairedPhoneticTableFile);
             remainingHomophoneListExporter.Export(mainWindow.GetOutputFile("REMAINING HOMOPHONE LIST|*.remainingHomophoneList.txt"), phoneticTable);
+        }
+
+        private void TrimPhoneticTableHandler(object sender, EventArgs e)
+        {
+            string phoneticTableFile = mainWindow.GetInputFile("REPAIRED PHONETIC TABLE FILE|*.phoneticTable.txt");
+            string trimmedPhoneticTableFile = mainWindow.GetOutputFile("TRIMMED PHONETIC TABLE FILE|*.phoneticTable.txt");
+
+            PhoneticTable phoneticTable = new PhoneticTable(phoneticTableFile);
+            phoneticTableTrimmer.Trim(phoneticTable);
+            phoneticTable.Save(trimmedPhoneticTableFile);
         }
         #endregion
 
