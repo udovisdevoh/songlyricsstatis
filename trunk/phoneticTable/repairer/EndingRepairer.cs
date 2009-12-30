@@ -65,7 +65,7 @@ namespace LyricThemeClassifier
         /// <returns>Whether word variant is matching ending type</returns>
         private bool IsMatchEndingType(string wordVariant, HomophoneGroup homophoneGroup)
         {
-            return IsMatchEndingType(wordVariant, homophoneGroup.ShortestVariant) || IsMatchPhoneticEnding(homophoneGroup.PhoneticValue);
+            return IsMatchEndingType(wordVariant, homophoneGroup.GetShortestVariant(wordVariant)) || IsMatchPhoneticEnding(homophoneGroup.PhoneticValue);
         }
     }
 }

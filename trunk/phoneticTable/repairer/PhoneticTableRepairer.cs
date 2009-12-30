@@ -82,6 +82,14 @@ namespace LyricThemeClassifier
 
                 endingReplacer.ReplaceEnding(phoneticTable, "y", "[emacr]", "ically", "[ibreve] [dash] [kreg] [schwa] [lreg] [emacr]");
 
+                endingReplacer.ReplaceEnding(phoneticTable, "ate", "[amacr] [treg] [lprime]", "ations", "[amacr] [prime] [sreg] [hreg] [schwa] [nreg] [zreg]");
+                endingReplacer.ReplaceEnding(phoneticTable, "ate", "[amacr] [treg] [lprime]", "ators", "[amacr] [lprime] [treg] [schwa] [rreg] [zreg]");
+
+
+
+                endingReplacer.ReplaceEnding(phoneticTable, "ize", "[imacr] [zreg] [lprime]", "izing", "[imacr] [lprime] [zreg] [ibreve] [nreg] [greg]");
+                endingReplacer.ReplaceEnding(phoneticTable, "ize", "[imacr] [zreg] [lprime]", "ised", "[imacr] [zreg] [lprime] [dreg]");
+
             } while (phoneticTable.Count != countBeforeRepair);
 
             #warning Implement Repair() for other cases
@@ -118,7 +126,7 @@ namespace LyricThemeClassifier
             {
                 foreach (string wordVariant in  new HashSet<string>(homophoneGroup))
                 {
-                    if (wordVariant == homophoneGroup.ShortestVariant + englishEnding && wordVariant != homophoneGroup.ShortestVariant)
+                    if (wordVariant == homophoneGroup.GetShortestVariant(wordVariant) + englishEnding && wordVariant != homophoneGroup.GetShortestVariant(wordVariant))
                     {
                         homophoneGroup.Remove(wordVariant);
                         phoneticTable.Add(wordVariant, homophoneGroup.PhoneticValue + " " + phoneticEnding);

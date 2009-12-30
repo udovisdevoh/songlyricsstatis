@@ -31,20 +31,31 @@ namespace LyricThemeClassifier
         {
             return wordVariantList.Add(wordVariant);
         }
-        #endregion
 
-        #region Properties
-        public string PhoneticValue
+        public string GetShortestVariant(string wordWithSameLetters)
         {
-            get { return phoneticValue; }
-        }
+            string shortestVariant = null;
+            string begining = null;
 
-        public string ShortestVariant
-        {
-            get
+            if (wordWithSameLetters.Length >= 2)
+                begining = wordWithSameLetters.Substring(0, 2);
+
+            if (begining != null && shortestVariant == null)
             {
-                string shortestVariant = null;
+                foreach (string wordVariant in wordVariantList)
+                {
+                    if (shortestVariant == null || wordVariant.Length < shortestVariant.Length)
+                    {
+                        if (wordVariant.StartsWith(begining))
+                        {
+                            shortestVariant = wordVariant;
+                        }
+                    }
+                }
+            }
 
+            if (shortestVariant == null)
+            {
                 foreach (string wordVariant in wordVariantList)
                 {
                     if (shortestVariant == null || wordVariant.Length < shortestVariant.Length)
@@ -52,9 +63,16 @@ namespace LyricThemeClassifier
                         shortestVariant = wordVariant;
                     }
                 }
-
-                return shortestVariant;
             }
+
+            return shortestVariant;
+        }
+        #endregion
+
+        #region Properties
+        public string PhoneticValue
+        {
+            get { return phoneticValue; }
         }
 
         public int Count
