@@ -88,6 +88,11 @@ namespace LyricThemeClassifier
             else
                 phonologicDictionary.Add(englishValue, homophoneGroup);
         }
+
+        public bool Contains(string word)
+        {
+            return phonologicDictionary.ContainsKey(word);
+        }
         #endregion
 
         #region Private Methods
