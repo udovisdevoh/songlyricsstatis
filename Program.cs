@@ -54,6 +54,8 @@ namespace LyricThemeClassifier
         private RemainingHomophoneListExporter remainingHomophoneListExporter = new RemainingHomophoneListExporter();
 
         private PhoneticTableTrimmer phoneticTableTrimmer = new PhoneticTableTrimmer();
+
+        private PhoneticTableExpander phoneticTableExpander = new PhoneticTableExpander();
         #endregion
 
         #region Constructor
@@ -77,6 +79,7 @@ namespace LyricThemeClassifier
             mainWindow.OnFormatPhoneticTable += ReformatPhoneticTableHandler;
             mainWindow.OnRepairPhoneticTable += RepairPhoneticTableHandler;
             mainWindow.OnTrimPhoneticTable += TrimPhoneticTableHandler;
+            mainWindow.OnExpandPhoneticTable += ExpandPhoneticTableHandler;
         }
         #endregion
 
@@ -236,6 +239,19 @@ namespace LyricThemeClassifier
             PhoneticTable phoneticTable = new PhoneticTable(phoneticTableFile);
             phoneticTableTrimmer.Trim(phoneticTable);
             phoneticTable.Save(trimmedPhoneticTableFile);
+        }
+
+        private void ExpandPhoneticTableHandler(object sender, EventArgs e)
+        {
+            if (frequentWordListFile == null)
+                OpenFrequentWordListHandler(sender, e);
+
+            string phoneticTableFile = mainWindow.GetInputFile("TRIMMED PHONETIC TABLE FILE|*.phoneticTable.txt");
+            string expandedPhoneticTableFile = mainWindow.GetOutputFile("EXPANDED PHONETIC TABLE FILE|*.phoneticTable.txt");
+
+            PhoneticTable phoneticTable = new PhoneticTable(phoneticTableFile);
+            phoneticTableExpander.Expand(phoneticTable, frequentWordListFile);
+            phoneticTable.Save(expandedPhoneticTableFile);
         }
         #endregion
 
