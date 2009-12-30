@@ -57,6 +57,8 @@ namespace LyricThemeClassifier
         public event EventHandler OnRepairPhoneticTable;
 
         public event EventHandler OnTrimPhoneticTable;
+
+        public event EventHandler OnExpandPhoneticTable;
         #endregion
 
         #region Handlers
@@ -133,6 +135,11 @@ namespace LyricThemeClassifier
         private void MenuItemTrimPhoneticTable_Click(object sender, RoutedEventArgs e)
         {
             if (OnTrimPhoneticTable != null) OnTrimPhoneticTable(this, e);
+        }
+
+        private void MenuItemExpandPhoneticTable_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnExpandPhoneticTable != null) OnExpandPhoneticTable(this, e);
         }
         #endregion
 
