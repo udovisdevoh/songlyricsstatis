@@ -318,6 +318,14 @@ namespace LyricThemeClassifier
                     return true;
             return false;
         }
+
+        public static bool StartsWith(this string text, IEnumerable<string> startingList)
+        {
+            foreach (string starting in startingList)
+                if (text.StartsWith(starting))
+                    return true;
+            return false;
+        }
         #endregion
     }
 }
