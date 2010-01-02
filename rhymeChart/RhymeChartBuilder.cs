@@ -44,8 +44,18 @@ namespace LyricThemeClassifier
 
         private string GetPhoneticEnding(string phoneticValue)
         {
+            phoneticValue = phoneticValue.Replace(" [prime]", "");
+            phoneticValue = phoneticValue.Replace(" [lprime]", "");
+            phoneticValue = phoneticValue.Replace("[prime] ", "");
+            phoneticValue = phoneticValue.Replace("[lprime] ", "");    
+
+            phoneticValue = phoneticValue.Replace("[sreg] [hreg]", "[shreg]");
+            phoneticValue = phoneticValue.Replace("[creg] [hreg]", "[treg] [shreg]");
+            phoneticValue = phoneticValue.Replace("[nreg] [greg]", "[ngreg]");
+            phoneticValue = phoneticValue.Replace("[treg] [hreg]", "[threg]");       
+
             if (!phoneticValue.Contains(' '))
-                return phoneticValue;
+                return phoneticValue;            
 
             string[] wordList = phoneticValue.Split(' ');
 
