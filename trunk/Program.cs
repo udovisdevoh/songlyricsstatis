@@ -56,6 +56,8 @@ namespace LyricThemeClassifier
         private PhoneticTableTrimmer phoneticTableTrimmer = new PhoneticTableTrimmer();
 
         private PhoneticTableExpander phoneticTableExpander = new PhoneticTableExpander();
+
+        private RhymeChartBuilder rhymeChartBuilder = new RhymeChartBuilder();
         #endregion
 
         #region Constructor
@@ -80,6 +82,7 @@ namespace LyricThemeClassifier
             mainWindow.OnRepairPhoneticTable += RepairPhoneticTableHandler;
             mainWindow.OnTrimPhoneticTable += TrimPhoneticTableHandler;
             mainWindow.OnExpandPhoneticTable += ExpandPhoneticTableHandler;
+            mainWindow.OnBuildRhymeChart += BuildRhymeChartHandler;
         }
         #endregion
 
@@ -252,6 +255,18 @@ namespace LyricThemeClassifier
             PhoneticTable phoneticTable = new PhoneticTable(phoneticTableFile);
             phoneticTableExpander.Expand(phoneticTable, frequentWordListFile);
             phoneticTable.Save(expandedPhoneticTableFile);
+        }
+
+        private void BuildRhymeChartHandler(object sender, EventArgs e)
+        {
+            if (frequentWordListFile == null)
+                OpenFrequentWordListHandler(sender, e);
+
+            string phoneticTableFile = mainWindow.GetInputFile("PHONETIC TABLE FILE|*.phoneticTable.txt");
+            string rhymeChartFile = mainWindow.GetOutputFile("RHYME CHART FILE|*.rhymeChart.txt");
+
+            PhoneticTable phoneticTable = new PhoneticTable(phoneticTableFile);
+            rhymeChartBuilder.Build(phoneticTable, frequentWordListFile, rhymeChartFile);
         }
         #endregion
 

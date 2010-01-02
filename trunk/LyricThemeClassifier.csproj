@@ -121,6 +121,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="rhymeChart\RhymeChartBuilder.cs" />
     <Compile Include="StringManipulation.cs" />
     <Compile Include="themes\ThemeListFile.cs" />
     <Compile Include="themes\ThemeLoader.cs" />

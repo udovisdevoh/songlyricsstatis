@@ -16,24 +16,28 @@
         </Grid.ColumnDefinitions>
         <TextBlock Name="currentWord" Grid.Row="1"/>
         <Menu Grid.Row="0" Grid.ColumnSpan="3">
-            <MenuItem Header="File">
+            <MenuItem Header="Application">
+                <MenuItem Header="Exit" Click="MenuItemExit_Click" />
+            </MenuItem>
+            <MenuItem Header="Themes">
                 <MenuItem Header="Open themes" Command="ApplicationCommands.Open" />
                 <MenuItem Header="Open frequent word list" Click="MenuItemOpenFrequendWordList_Click"/>
                 <MenuItem Header="Build frequent word list" Click="MenuItemBuildFrequendWordList_Click" />
                 <MenuItem Header="Continue sorting" Click="MenuItemConginueSorting_Click"/>
+                <MenuItem Header="Save themes" Command="ApplicationCommands.Save" />
+            </MenuItem>
+            <MenuItem Header="Semantics">
                 <MenuItem Header="Build markov stats on theme words in text" Click="MenuItemBuildStatsOnThemeWordsInText_Click"/>
                 <MenuItem Header="Build semantic likeness matrix" Click="MenuItemBuildSemanticLikenessMatrix_Click"/>
                 <MenuItem Header="Trim semantic likeness matrix" Click="MenuItemTrimSemanticLikenessMatrix_Click"/>
-                <MenuItem Header="Save themes" Command="ApplicationCommands.Save" />
-                <Separator/>
-                <MenuItem Header="Exit" Click="MenuItemExit_Click" />
             </MenuItem>
-            <MenuItem Header="Phonetic Table">
+            <MenuItem Header="Phonology">
                 <MenuItem Header="Build" Click="MenuItemBuildPhoneticTable_Click"/>
                 <MenuItem Header="Re-format and sort" Click="MenuItemFormatPhoneticTable_Click"/>
                 <MenuItem Header="Repair" Click="MenuItemRepairPhoneticTable_Click"/>
                 <MenuItem Header="Trim" Click="MenuItemTrimPhoneticTable_Click"/>
                 <MenuItem Header="Expand" Click="MenuItemExpandPhoneticTable_Click"/>
+                <MenuItem Header="Build rhyme chart" Click="MenuItemBuildRhymeChart_Click"/>
             </MenuItem>
         </Menu>
         
