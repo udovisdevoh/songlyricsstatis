@@ -46,10 +46,6 @@ namespace LyricThemeClassifier
         #region Public Methods
         public void Reformat(string sourceFile, string targetFile)
         {
-            #warning take care of words containing ' chars
-            #warning Implement expanding by splitting and recombining
-            #warning Must use most frequent words to expand using repair ending
-
             IEnumerable<string> sourceLineList = GetSourceLineList(sourceFile);
 
             IEnumerable<string> targetLineList = Reformat(sourceLineList);

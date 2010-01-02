@@ -96,6 +96,9 @@ namespace LyricThemeClassifier
 
         public string GetPhoneticValueOf(string word)
         {
+            if (!phonologicDictionary.ContainsKey(word))
+                return null;
+
             return phonologicDictionary[word].PhoneticValue;
         }
         #endregion
