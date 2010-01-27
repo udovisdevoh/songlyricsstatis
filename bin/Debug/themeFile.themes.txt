@@ -522,7 +522,8 @@ existence, necessary, opposite, spiritual, consequence,
 emptiness, essence, human, infinite, infinity, 
 nothingness, entropy, dimension, evolution, dimensions, 
 exists, absolute, intelligence, afterlife, vortex, 
-existance, transcend, enlighten
+existance, transcend, enlighten, transcendent, transcendence, 
+immanence, immanent
 </theme>
 
 <theme name="philosophy">
@@ -574,7 +575,7 @@ icons, clone, lunar, streaming, utopia,
 equals, entangled, structures, intellect, hacked, 
 experiment, dna, futures, genetic, invented, 
 laser, clones, smarter, chess, angles, 
-emerging, lab, galaxies, research
+emerging, lab, galaxies, research, quantum
 </theme>
 
 <theme name="exclamation">
@@ -760,7 +761,7 @@ madman, rages, murderous, primal, chaotic,
 assholes, disturbed, maniac, bloodlust, malignant, 
 hypocrites, treachery, hater, banned, discontent, 
 arrogant, uncontrolled, nemesis, unchained, traitors, 
-insult, payback, retaliation
+insult, payback, retaliation, frustrations
 </theme>
 
 <theme name="fear">
@@ -1934,5 +1935,38 @@ monstrous, bon, swelling, multiple, rs,
 llega, nectar, espera, schein, hvor, 
 ckt, exercise, bland, carbon, extend, 
 incarnate, unnatural, throbbing, tolerate, territory
+</theme>
+
+<theme name="newage">
+pure, love, peace, vital, healthy, 
+nature, bliss, bless, blessed, eternary, 
+spirits, nirvana, buddha, spiritual, devotion, 
+compassion, purity, aura, halo, contemplate, 
+enlightened, karma, aum, shanti, brahma, 
+shiva, meditation, meditate, vishnu, ganesha, 
+aditya, agni, antariksha, ashwinis, brihaspati, 
+dishas, dyaus, indra, marutas, moordha, 
+prajapati, prithvi, pusha, rudra, savitr, 
+soma, varuna, vayu, vishvedavas, durga, 
+parvati, lakshmi, shri, sarasvati, deva, 
+devas, trimurti, devis, devi, mandala, 
+dharma, sangha, endless, eternaryly, infinity, 
+infinite, eternal, eternally, cycle, timeless, 
+endlessly, instant, neverending, perpetual, wave, 
+harmony, waves, mind, zen, chakra, 
+emptiness, void, truth, reality, path, 
+dream, spirit, answers, meaning, life, 
+universe, exist, eternity, knowledge, wisdom, 
+illusion, aware, understanding, universal, experience, 
+balance, perfection, existence, essence, dimension, 
+evolution, dimensions, exists, absolute, intelligence, 
+afterlife, vortex, existance, transcend, enlighten, 
+transcendence, transcendent, immanence, immanent, individual, 
+connected, cosmos, think, soul, reason, 
+conscience, visions, imagination, awake, awakening, 
+awakenings, awareness, reveal, ideas, comprehend, 
+astral, trance, minds, empathy, revealed, 
+dreaming, consciousness, subconscious, unconscious, insight, 
+daydream, lucid, concentration
 </theme>
 
