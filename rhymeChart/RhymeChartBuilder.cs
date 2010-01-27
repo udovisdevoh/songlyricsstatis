@@ -52,7 +52,8 @@ namespace LyricThemeClassifier
             phoneticValue = phoneticValue.Replace("[sreg] [hreg]", "[shreg]");
             phoneticValue = phoneticValue.Replace("[creg] [hreg]", "[treg] [shreg]");
             phoneticValue = phoneticValue.Replace("[nreg] [greg]", "[ngreg]");
-            phoneticValue = phoneticValue.Replace("[treg] [hreg]", "[threg]");       
+            phoneticValue = phoneticValue.Replace("[treg] [hreg]", "[threg]");
+            phoneticValue = phoneticValue.Replace("[nreg] [dreg]", "[ndreg]");
 
             if (!phoneticValue.Contains(' '))
                 return phoneticValue;            
