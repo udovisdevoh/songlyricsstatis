@@ -61,6 +61,10 @@ namespace LyricThemeClassifier
         public event EventHandler OnExpandPhoneticTable;
 
         public event EventHandler OnBuildRhymeChart;
+
+        public event EventHandler OnExtractSynonymsFromWeb;
+
+        public event EventHandler OnExtractAntonymsFromWeb;
         #endregion
 
         #region Handlers
@@ -147,6 +151,16 @@ namespace LyricThemeClassifier
         private void MenuItemBuildRhymeChart_Click(object sender, RoutedEventArgs e)
         {
             if (OnBuildRhymeChart != null) OnBuildRhymeChart(this, e);
+        }
+
+        private void MenuItemExtractSynonymsFromWeb_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnExtractSynonymsFromWeb != null) OnExtractSynonymsFromWeb(this, e);
+        }
+
+        private void MenuItemExtractAntonymsFromWeb_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnExtractAntonymsFromWeb != null) OnExtractAntonymsFromWeb(this, e);
         }
         #endregion
 

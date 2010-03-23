@@ -58,6 +58,8 @@ namespace LyricThemeClassifier
         private PhoneticTableExpander phoneticTableExpander = new PhoneticTableExpander();
 
         private RhymeChartBuilder rhymeChartBuilder = new RhymeChartBuilder();
+
+        private SynonymExtractor synonymExtractor = new SynonymExtractor();
         #endregion
 
         #region Constructor
@@ -83,6 +85,8 @@ namespace LyricThemeClassifier
             mainWindow.OnTrimPhoneticTable += TrimPhoneticTableHandler;
             mainWindow.OnExpandPhoneticTable += ExpandPhoneticTableHandler;
             mainWindow.OnBuildRhymeChart += BuildRhymeChartHandler;
+            mainWindow.OnExtractSynonymsFromWeb += ExtractSynonymFromWebHandler;
+            mainWindow.OnExtractAntonymsFromWeb += ExtractAntonymFromWebHandler;
         }
         #endregion
 
@@ -267,6 +271,20 @@ namespace LyricThemeClassifier
 
             PhoneticTable phoneticTable = new PhoneticTable(phoneticTableFile);
             rhymeChartBuilder.Build(phoneticTable, frequentWordListFile, rhymeChartFile);
+        }
+
+        private void ExtractSynonymFromWebHandler(object sender, EventArgs e)
+        {
+            string fileName = mainWindow.GetOutputFile("XML file|*.xml");
+            if (fileName != null)
+                synonymExtractor.Extract("synonyms", fileName);
+        }
+
+        private void ExtractAntonymFromWebHandler(object sender, EventArgs e)
+        {
+            string fileName = mainWindow.GetOutputFile("XML file|*.xml");
+            if (fileName != null)
+                synonymExtractor.Extract("antonym", fileName);
         }
         #endregion
 
