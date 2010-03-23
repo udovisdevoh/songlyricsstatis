@@ -106,7 +106,39 @@ namespace LyricThemeClassifier
 
         private List<string> GetWordList(string remoteFolder, string browsingLetter)
         {
-            throw new NotImplementedException();
+            string pageContent = GetPageContent(siteUrl + "/" + remoteFolder + "/browse/" + browsingLetter);
+
+            pageContent = pageContent.Replace("\t", " ");
+            pageContent = pageContent.Replace("\r", " ");
+            pageContent = pageContent.Replace("\n", " ");
+
+            while (pageContent.Contains("  "))
+                pageContent = pageContent.Replace("  ", " ");
+
+            pageContent = pageContent.Substring(pageContent.IndexOf("<ul>"));
+
+            pageContent = pageContent.Substring(0, pageContent.IndexOf("</ul>"));
+
+            List<string> wordList = new List<string>();
+
+            string[] rawData = pageContent.Split('<');
+
+
+            foreach (string linkInfo in rawData)
+            {
+                if (linkInfo.Contains("a href="))
+                {
+                    string trimmedData = linkInfo;
+                    trimmedData = trimmedData.Substring(trimmedData.IndexOf("a href=\""));
+                    trimmedData = trimmedData.Substring(trimmedData.IndexOf("\""));
+                    trimmedData = trimmedData.Substring(trimmedData.IndexOf(remoteFolder) + remoteFolder.Length + 1);
+                    trimmedData = trimmedData.Substring(0,trimmedData.IndexOf('/'));
+                    wordList.Add(trimmedData);
+                }
+            }
+
+
+            return wordList;
         }
 
         /// <summary>
