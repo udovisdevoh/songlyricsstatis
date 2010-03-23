@@ -99,22 +99,87 @@ namespace LyricThemeClassifier
             return browsingLetterList;
         }
 
-        private List<string> GetSynonymOrAntonymList(string remoteFolder, string word)
+        private List<string> GetSynonymOrAntonymList(string remoteFolder, string sourceWord)
         {
             if (remoteFolder != "antonym")
                 throw new NotImplementedException("Remove folder not supported yet");
 
-            string pageContent = GetPageContent(siteUrl + "/" + remoteFolder + "/browse/" + word);
+            string pageContent = GetPageContent(siteUrl + "/" + remoteFolder + "/" + sourceWord);
 
             pageContent = pageContent.Replace("\t", " ");
             pageContent = pageContent.Replace("\r", " ");
             pageContent = pageContent.Replace("\n", " ");
+            pageContent = pageContent.Replace("-->", "badArrow");
+            pageContent = pageContent.Replace("==>", "badArrow");
+            pageContent = pageContent.Replace("-=>", "badArrow");
+            pageContent = pageContent.Replace("=->", "badArrow");
+            pageContent = pageContent.Replace("->", "[arrow]");
+            pageContent = pageContent.Replace("=>", "[arrow]");
 
             while (pageContent.Contains("  "))
                 pageContent = pageContent.Replace("  ", " ");
 
             pageContent = pageContent.Substring(pageContent.IndexOf("<div class=\"result_set\">"));
 
+            List<string> synonymOrAntonymList = new List<string>();
+
+            string[] chunkList = pageContent.Split('>');
+
+            foreach (string chunk in chunkList)
+            {
+                string formatedChunk = chunk;
+
+                if (formatedChunk.Contains(" [arrow] "))
+                {
+                    if (formatedChunk.Contains("<"))
+                        formatedChunk = formatedChunk.Substring(0, formatedChunk.LastIndexOf("<"));
+
+                    formatedChunk = formatedChunk.Substring(formatedChunk.IndexOf("[arrow]")+7);
+                    formatedChunk = formatedChunk.Trim();
+
+                    if (formatedChunk.Contains(","))
+                    {
+                        string[] formatedChunkList = formatedChunk.Split(',');
+                        foreach (string subChunk in formatedChunkList)
+                        {
+                            string formatedSubChunk = subChunk.Trim();
+                            if (formatedSubChunk.Length > 0)
+                            {
+                                synonymOrAntonymList.Add(formatedSubChunk);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        synonymOrAntonymList.Add(formatedChunk);
+                    }
+                }
+                /*else if (formatedChunk.Contains("(vs. ") && !formatedChunk.Contains("(vs. "+sourceWord))
+                {
+                    if (formatedChunk.Contains("<"))
+                        formatedChunk = formatedChunk.Substring(0, formatedChunk.IndexOf("<"));
+
+                    //"abactinal (vs. actinal)"
+
+                    formatedChunk = formatedChunk.Replace("(vs. ", "");
+                    formatedChunk = formatedChunk.Replace(")", "");
+                    formatedChunk = formatedChunk.Replace(",", "");
+                    formatedChunk = formatedChunk.Trim();
+
+                    string[] wordList = formatedChunk.Split(' ');
+
+                    foreach (string currentWord in wordList)
+                    {
+                        if (currentWord != sourceWord)
+                        {
+                            synonymOrAntonymList.Add(currentWord);
+                        }
+                    }
+
+                }*/
+            }
+
+            return synonymOrAntonymList;
             throw new NotImplementedException();
         }
 
