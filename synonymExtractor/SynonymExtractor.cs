@@ -101,6 +101,20 @@ namespace LyricThemeClassifier
 
         private List<string> GetSynonymOrAntonymList(string remoteFolder, string word)
         {
+            if (remoteFolder != "antonym")
+                throw new NotImplementedException("Remove folder not supported yet");
+
+            string pageContent = GetPageContent(siteUrl + "/" + remoteFolder + "/browse/" + word);
+
+            pageContent = pageContent.Replace("\t", " ");
+            pageContent = pageContent.Replace("\r", " ");
+            pageContent = pageContent.Replace("\n", " ");
+
+            while (pageContent.Contains("  "))
+                pageContent = pageContent.Replace("  ", " ");
+
+            pageContent = pageContent.Substring(pageContent.IndexOf("<div class=\"result_set\">"));
+
             throw new NotImplementedException();
         }
 
