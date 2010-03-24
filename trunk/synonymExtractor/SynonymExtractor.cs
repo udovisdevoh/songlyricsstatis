@@ -49,7 +49,7 @@ namespace LyricThemeClassifier
                 {
                     if (!matrix.ContainsKey(word))
                     {
-                        List<string> synonymOrAntonymList = GetSynonymOrAntonymList(remoteFolder, word);
+                        HashSet<string> synonymOrAntonymList = GetSynonymOrAntonymList(remoteFolder, word);
 
                         foreach (string otherWord in synonymOrAntonymList)
                         {
@@ -99,7 +99,7 @@ namespace LyricThemeClassifier
             return browsingLetterList;
         }
 
-        private List<string> GetSynonymOrAntonymList(string remoteFolder, string sourceWord)
+        private HashSet<string> GetSynonymOrAntonymList(string remoteFolder, string sourceWord)
         {
             if (remoteFolder != "antonym")
                 throw new NotImplementedException("Remove folder not supported yet");
@@ -121,7 +121,7 @@ namespace LyricThemeClassifier
 
             pageContent = pageContent.Substring(pageContent.IndexOf("<div class=\"result_set\">"));
 
-            List<string> synonymOrAntonymList = new List<string>();
+            HashSet<string> synonymOrAntonymList = new HashSet<string>();
 
             string[] chunkList = pageContent.Split('>');
 
@@ -145,13 +145,13 @@ namespace LyricThemeClassifier
                             string formatedSubChunk = subChunk.Trim();
                             if (formatedSubChunk.Length > 0)
                             {
-                                synonymOrAntonymList.Add(formatedSubChunk);
+                                synonymOrAntonymList.Add(formatedSubChunk.ToLower());
                             }
                         }
                     }
                     else
                     {
-                        synonymOrAntonymList.Add(formatedChunk);
+                        synonymOrAntonymList.Add(formatedChunk.ToLower());
                     }
                 }
                 /*else if (formatedChunk.Contains("(vs. ") && !formatedChunk.Contains("(vs. "+sourceWord))
