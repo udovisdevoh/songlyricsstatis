@@ -145,7 +145,11 @@ namespace LyricThemeClassifier
                 }
                 else if (previousChunk != null && previousChunk.StartsWith("div class=\"Accent Sense\">Sense ") && formatedChunk.StartsWith("/div>"))
                 {
-                    formatedChunk = formatedChunk.Substring(formatedChunk.IndexOf('>')+1);
+                    formatedChunk = formatedChunk.Substring(formatedChunk.IndexOf('>') + 1);
+                }
+                else if (formatedChunk.Contains("(vs."))
+                {
+                    continue;
                 }
                 else
                 {
