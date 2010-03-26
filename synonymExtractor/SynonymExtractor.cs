@@ -101,9 +101,86 @@ namespace LyricThemeClassifier
 
         private HashSet<string> GetSynonymOrAntonymList(string remoteFolder, string sourceWord)
         {
-            if (remoteFolder != "antonym")
-                throw new NotImplementedException("Remove folder not supported yet");
+            if (remoteFolder == "antonym")
+            {
+                return GetAntonymList(remoteFolder, sourceWord);
+            }
+            else if (remoteFolder == "synonyms")
+            {
+                return GetSynonymList(remoteFolder, sourceWord);
+            }
+            else
+            {
+                throw new NotImplementedException("unsupported remove folder");
+            }
+        }
 
+        private HashSet<string> GetSynonymList(string remoteFolder, string sourceWord)
+        {
+            string pageContent = GetPageContent(siteUrl + "/" + remoteFolder + "/" + sourceWord);
+
+            pageContent = pageContent.Replace("\t", " ");
+            pageContent = pageContent.Replace("\r", " ");
+            pageContent = pageContent.Replace("\n", " ");
+
+            while (pageContent.Contains("  "))
+                pageContent = pageContent.Replace("  ", " ");
+
+            pageContent = pageContent.Substring(pageContent.IndexOf("<div class=\"result_set\">"));
+
+            HashSet<string> synonymOrAntonymList = new HashSet<string>();
+
+            string previousChunk = null;
+            string[] chunkList = pageContent.Split('<');
+            string formatedChunk = null;
+
+            foreach (string chunk in chunkList)
+            {
+                previousChunk = formatedChunk;
+                formatedChunk = chunk;
+
+                if (formatedChunk.StartsWith("span class=\"equals\">"))
+                {
+                    formatedChunk = formatedChunk.Substring(20);
+                }
+                else if (previousChunk != null && previousChunk.StartsWith("div class=\"Accent Sense\">Sense ") && formatedChunk.StartsWith("/div>"))
+                {
+                    formatedChunk = formatedChunk.Substring(formatedChunk.IndexOf('>')+1);
+                }
+                else
+                {
+                    continue;
+                }
+
+                if (formatedChunk.Contains(","))
+                {
+                    string[] formatedChunkList = formatedChunk.Split(',');
+                    foreach (string subChunk in formatedChunkList)
+                    {
+                        string formatedSubChunk = subChunk.Trim();
+                        if (formatedSubChunk.Length > 0)
+                        {
+                            formatedSubChunk = formatedSubChunk.ToLower();
+                            if (sourceWord != formatedSubChunk)
+                                synonymOrAntonymList.Add(formatedSubChunk);
+                        }
+                    }
+                }
+                else
+                {
+                    formatedChunk = formatedChunk.ToLower().Trim();
+                    if (sourceWord != formatedChunk)
+                        synonymOrAntonymList.Add(formatedChunk);
+                }
+
+                
+            }
+
+            return synonymOrAntonymList;
+        }
+
+        private HashSet<string> GetAntonymList(string remoteFolder, string sourceWord)
+        {
             string pageContent = GetPageContent(siteUrl + "/" + remoteFolder + "/" + sourceWord);
 
             pageContent = pageContent.Replace("\t", " ");
@@ -134,7 +211,7 @@ namespace LyricThemeClassifier
                     if (formatedChunk.Contains("<"))
                         formatedChunk = formatedChunk.Substring(0, formatedChunk.LastIndexOf("<"));
 
-                    formatedChunk = formatedChunk.Substring(formatedChunk.IndexOf("[arrow]")+7);
+                    formatedChunk = formatedChunk.Substring(formatedChunk.IndexOf("[arrow]") + 7);
                     formatedChunk = formatedChunk.Trim();
 
                     if (formatedChunk.Contains(","))
@@ -180,7 +257,6 @@ namespace LyricThemeClassifier
             }
 
             return synonymOrAntonymList;
-            throw new NotImplementedException();
         }
 
         private List<string> GetWordList(string remoteFolder, string browsingLetter)
