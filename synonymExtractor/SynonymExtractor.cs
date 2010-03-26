@@ -139,7 +139,7 @@ namespace LyricThemeClassifier
                 previousChunk = formatedChunk;
                 formatedChunk = chunk;
 
-                if (formatedChunk.Contains("(vs."))
+                if (formatedChunk.Contains("(vs.") || formatedChunk.Contains('(') || formatedChunk.Contains(')'))
                 {
                     continue;
                 }
