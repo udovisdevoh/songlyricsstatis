@@ -139,17 +139,17 @@ namespace LyricThemeClassifier
                 previousChunk = formatedChunk;
                 formatedChunk = chunk;
 
-                if (formatedChunk.StartsWith("span class=\"equals\">"))
+                if (formatedChunk.Contains("(vs."))
+                {
+                    continue;
+                }
+                else if (formatedChunk.StartsWith("span class=\"equals\">"))
                 {
                     formatedChunk = formatedChunk.Substring(20);
                 }
                 else if (previousChunk != null && previousChunk.StartsWith("div class=\"Accent Sense\">Sense ") && formatedChunk.StartsWith("/div>"))
                 {
                     formatedChunk = formatedChunk.Substring(formatedChunk.IndexOf('>') + 1);
-                }
-                else if (formatedChunk.Contains("(vs."))
-                {
-                    continue;
                 }
                 else
                 {
