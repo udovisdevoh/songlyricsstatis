@@ -173,7 +173,7 @@ namespace LyricThemeClassifier
                 else
                 {
                     formatedChunk = formatedChunk.ToLower().Trim();
-                    if (sourceWord != formatedChunk)
+                    if (sourceWord != formatedChunk && sourceWord.Length > 0)
                         synonymOrAntonymList.Add(formatedChunk);
                 }
 
