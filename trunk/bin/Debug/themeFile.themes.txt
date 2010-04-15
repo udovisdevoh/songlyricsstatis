@@ -261,7 +261,8 @@ diseases, suffocation, sacrifices, eliminate, ominous,
 shark, survivor, injection, termination, entombed, 
 abortion, exterminate, vulture, sharks, trauma, 
 terminate, slaying, perished, testament, atrocities, 
-devastating, hangman, extinct, extinguished, stillborn, dreary
+devastating, hangman, extinct, extinguished, stillborn, dreary,
+agonizing
 </theme>
 
 <theme name="religion">
