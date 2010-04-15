@@ -65,6 +65,10 @@ namespace LyricThemeClassifier
         public event EventHandler OnExtractSynonymsFromWeb;
 
         public event EventHandler OnExtractAntonymsFromWeb;
+
+        public event EventHandler OnSelectLyricsFile;
+
+        public event EventHandler OnTrimLyricsFile;
         #endregion
 
         #region Handlers
@@ -161,6 +165,16 @@ namespace LyricThemeClassifier
         private void MenuItemExtractAntonymsFromWeb_Click(object sender, RoutedEventArgs e)
         {
             if (OnExtractAntonymsFromWeb != null) OnExtractAntonymsFromWeb(this, e);
+        }
+
+        private void MenuItemSelectLyricsFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnSelectLyricsFile != null) OnSelectLyricsFile(this, e);
+        }
+
+        private void MenuItemTrimLyricsFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnTrimLyricsFile != null) OnTrimLyricsFile(this, e);
         }
         #endregion
 

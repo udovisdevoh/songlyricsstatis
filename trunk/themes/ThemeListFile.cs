@@ -86,9 +86,25 @@ namespace LyricThemeClassifier
         /// <returns>Whether the theme list contains the word in one of its themes</returns>
         public bool ContainsWord(string word)
         {
-            foreach (HashSet<string> theme in themeList.Values)
-                if (theme.Contains(word))
+            return ContainsWord(word, false);
+        }
+
+        /// <summary>
+        /// Whether the theme list contains the word in one of its themes
+        /// </summary>
+        /// <param name="word">word to test</param>
+        /// <param name="isIgnoreNoneTheme">whether we will skip the "none" theme (default:false)</param>
+        /// <returns>Whether the theme list contains the word in one of its themes</returns>
+        public bool ContainsWord(string word, bool isIgnoreNoneTheme)
+        {
+            foreach (KeyValuePair<string, HashSet<string>> nameAndTheme in themeList)
+            {
+                string name = nameAndTheme.Key;
+                HashSet<string> theme = nameAndTheme.Value;
+
+                if (theme.Contains(word) && (!isIgnoreNoneTheme || name != "none"))
                     return true;
+            }
             return false;
         }
 
