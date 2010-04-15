@@ -60,6 +60,10 @@ namespace LyricThemeClassifier
         private RhymeChartBuilder rhymeChartBuilder = new RhymeChartBuilder();
 
         private SynonymExtractor synonymExtractor = new SynonymExtractor();
+
+        private LyricsTrimmer lyricsTrimmer = new LyricsTrimmer();
+
+        private string lyricsFileName = null;
         #endregion
 
         #region Constructor
@@ -87,6 +91,8 @@ namespace LyricThemeClassifier
             mainWindow.OnBuildRhymeChart += BuildRhymeChartHandler;
             mainWindow.OnExtractSynonymsFromWeb += ExtractSynonymFromWebHandler;
             mainWindow.OnExtractAntonymsFromWeb += ExtractAntonymFromWebHandler;
+            mainWindow.OnSelectLyricsFile += SelectLyricsFileHandler;
+            mainWindow.OnTrimLyricsFile += TrimLyricsFileHandler;
         }
         #endregion
 
@@ -285,6 +291,37 @@ namespace LyricThemeClassifier
             string fileName = mainWindow.GetOutputFile("XML file|*.xml");
             if (fileName != null)
                 synonymExtractor.Extract("antonym", fileName);
+        }
+
+        private void SelectLyricsFileHandler(object sender, EventArgs e)
+        {
+            string fileName = mainWindow.GetInputFile("Text file|*.txt");
+            if (fileName != null)
+                lyricsFileName = fileName;
+        }
+
+        private void TrimLyricsFileHandler(object sender, EventArgs e)
+        {
+            if (lyricsFileName == null)
+            {
+                SelectLyricsFileHandler(sender, e);
+
+                if (lyricsFileName == null)
+                    return;
+            }
+
+                currentThemeListFile = new ThemeListFile();
+
+            while (currentThemeListFile == null || currentThemeListFile.FileName == null)
+                currentThemeListFile = ThemeLoader.LoadThemeList(mainWindow.GetInputFile("THEME FILE|*.themes.txt"));
+
+            string lyricsOutputFileName;
+            do
+            {
+                lyricsOutputFileName = mainWindow.GetOutputFile("Text file|*.txt");
+            } while (lyricsOutputFileName == lyricsFileName);
+
+            lyricsTrimmer.Trim(currentThemeListFile, lyricsFileName, lyricsOutputFileName);
         }
         #endregion
 
