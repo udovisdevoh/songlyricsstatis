@@ -128,6 +128,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="remoteTranslator\RemoteTranslator.cs" />
     <Compile Include="rhymeChart\RhymeChartBuilder.cs" />
     <Compile Include="StringManipulation.cs" />
     <Compile Include="synonymExtractor\SynonymExtractor.cs" />
