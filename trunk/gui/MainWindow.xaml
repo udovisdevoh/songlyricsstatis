@@ -45,6 +45,9 @@
                 <MenuItem Header="Extract synonyms from web" Click="MenuItemExtractSynonymsFromWeb_Click"/>
                 <MenuItem Header="Extract antonyms from web" Click="MenuItemExtractAntonymsFromWeb_Click"/>
             </MenuItem>
+            <MenuItem Header="Translation">
+                <MenuItem Header="Translate lyrics file" Click="MenuItemTranslateLyricsFile_Click"/>
+            </MenuItem>
         </Menu>
         
         <WrapPanel Name="themeSelectorLayout" Grid.Row="2" Grid.ColumnSpan="3"/>       

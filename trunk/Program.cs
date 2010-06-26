@@ -93,6 +93,7 @@ namespace LyricThemeClassifier
             mainWindow.OnExtractAntonymsFromWeb += ExtractAntonymFromWebHandler;
             mainWindow.OnSelectLyricsFile += SelectLyricsFileHandler;
             mainWindow.OnTrimLyricsFile += TrimLyricsFileHandler;
+            mainWindow.OnTranslateLyricsFile += TranslateLyricsFileHandler;
         }
         #endregion
 
@@ -322,6 +323,20 @@ namespace LyricThemeClassifier
             } while (lyricsOutputFileName == lyricsFileName);
 
             lyricsTrimmer.Trim(currentThemeListFile, lyricsFileName, lyricsOutputFileName);
+        }
+
+        private void TranslateLyricsFileHandler(object sender, EventArgs e)
+        {
+            if (lyricsFileName == null)
+                SelectLyricsFileHandler(this, e);
+            if (lyricsFileName == null)
+                return;
+
+            string translatedLyricsFile = mainWindow.GetOutputFile("Text file|*.txt");
+            if (translatedLyricsFile == null)
+                return;
+
+            RemoteTranslator.Translate(lyricsFileName, translatedLyricsFile, "en", "fr");
         }
         #endregion
 

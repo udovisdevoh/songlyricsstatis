@@ -69,6 +69,8 @@ namespace LyricThemeClassifier
         public event EventHandler OnSelectLyricsFile;
 
         public event EventHandler OnTrimLyricsFile;
+
+        public event EventHandler OnTranslateLyricsFile;
         #endregion
 
         #region Handlers
@@ -175,6 +177,11 @@ namespace LyricThemeClassifier
         private void MenuItemTrimLyricsFile_Click(object sender, RoutedEventArgs e)
         {
             if (OnTrimLyricsFile != null) OnTrimLyricsFile(this, e);
+        }
+
+        private void MenuItemTranslateLyricsFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnTranslateLyricsFile != null) OnTranslateLyricsFile(this, e);
         }
         #endregion
 
