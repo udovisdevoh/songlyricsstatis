@@ -4318,15 +4318,28 @@
         <member name="M:ArtificialArt.WebServices.AbstractTranslationBot.Translate(System.String,System.String,System.String)">
             <summary>
             Translate a string
+            May throw TranslationException
             </summary>
             <param name="textSource">text to translate</param>
             <param name="fromLanguageCode">from language code</param>
             <param name="toLanguageCode">to language code</param>
             <returns>translated text</returns>
         </member>
+        <member name="M:ArtificialArt.WebServices.AbstractTranslationBot.Translate(System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean)">
+            <summary>
+            Translate a chunk of strings
+            May throw TranslationException
+            </summary>
+            <param name="textChunkSource">text to translate</param>
+            <param name="fromLanguageCode">from language code</param>
+            <param name="toLanguageCode">to language code</param>
+            <param name="ignoreChunkSizeMissmatch">ignore chunk size miss match, default: false</param>
+            <returns>translated string chunk</returns>
+        </member>
         <member name="M:ArtificialArt.WebServices.AbstractTranslationBot.Translate(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)">
             <summary>
             Translate a chunk of strings
+            May throw TranslationException
             </summary>
             <param name="textChunkSource">text to translate</param>
             <param name="fromLanguageCode">from language code</param>
@@ -4791,6 +4804,17 @@
             <summary>
             Gets the pointer to the MidiHeader.
             </summary>
+        </member>
+        <member name="T:ArtificialArt.WebServices.TranslationException">
+            <summary>
+            Exception thrown when translation fails
+            </summary>
+        </member>
+        <member name="M:ArtificialArt.WebServices.TranslationException.#ctor(System.String)">
+            <summary>
+            Exception thrown when translation fails
+            </summary>
+            <param name="message">Message</param>
         </member>
         <member name="T:ArtificialArt.Markov.XmlMatrixSaverLoader">
             <summary>
@@ -6576,19 +6600,22 @@
         <member name="M:ArtificialArt.WebServices.BabelFishTranslationBot.Translate(System.String,System.String,System.String)">
             <summary>
             Translate a string
+            May throw TranslationException
             </summary>
             <param name="textSource">text to translate</param>
             <param name="fromLanguageCode">from language</param>
             <param name="toLanguageCode">to language</param>
             <returns>translated text</returns>
         </member>
-        <member name="M:ArtificialArt.WebServices.BabelFishTranslationBot.Translate(System.Collections.Generic.IEnumerable{System.String},System.String,System.String)">
+        <member name="M:ArtificialArt.WebServices.BabelFishTranslationBot.Translate(System.Collections.Generic.IEnumerable{System.String},System.String,System.String,System.Boolean)">
             <summary>
             Translate a chunk of strings
+            May throw TranslationException
             </summary>
             <param name="textChunkSource">text to translate</param>
             <param name="fromLanguageCode">from language code</param>
             <param name="toLanguageCode">to language code</param>
+            <param name="ignoreChunkSizeMissmatch">ignore chunk size miss match, default: false</param>
             <returns>translated string chunk</returns>
         </member>
         <member name="T:ArtificialArt.Waves.Wave">
