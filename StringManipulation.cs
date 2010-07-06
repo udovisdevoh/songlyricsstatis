@@ -9,14 +9,14 @@ namespace LyricThemeClassifier
     static class StringManipulation
     {
         #region Fields
-        private static Regex prohibitedChars = new System.Text.RegularExpressions.Regex("[^a-z0-9?=,_() ]");
+        private static Regex prohibitedChars = new System.Text.RegularExpressions.Regex("[^a-zàâæçéèêëîïôœùûüÿ0-9?=,_() ]");
 
         private static Random random = new Random();
 
         /// <summary>
         /// Anything but a letter
         /// </summary>
-        private static Regex notALetter = new Regex(@"[^a-zA-Z]");
+        private static Regex notALetter = new Regex(@"[^a-zA-ZàâæçéèêëîïôœùûüÀÂÆÇÉÈÊÎÏÔŒÙÛÜ]");
         #endregion
 
         #region Public Methods
