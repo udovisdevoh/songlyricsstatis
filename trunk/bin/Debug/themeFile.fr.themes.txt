@@ -62,7 +62,8 @@ clignotant, hôpital, conduis, cabine, voisin,
 blocs, commutateur, câble, roulé, drain, 
 égoutture, échelle, automatique, ventilateur, conducteur, 
 conduisent, trafic, dossier, klaxon, criards, 
-débris, ascenseur, vélo, rouillé, corneille, planchers
+débris, ascenseur, vélo, rouillé, corneille, 
+planchers, divan
 </theme>
 
 <theme name="fight">
@@ -93,7 +94,8 @@ combattrons, muscle, tués, conquis, obstacle,
 commandant, croisade, battent, tuons, division, 
 brutalité, claque, détruisant, abattre, massacrer, 
 heurte, bâtons, menaces, casserai, assassin, 
-frénétique, brutal, détendez, violemment, poignarder
+frénétique, brutal, détendez, violemment, poignarder, 
+protégé, homicide
 </theme>
 
 <theme name="gore">
@@ -153,7 +155,7 @@ carrière, gaspillez, fonds, concurrence, dupez,
 achète, vendant, payerez, rapports, ruiné, 
 décadence, annonce, signé, dépensez, intéret, 
 emploient, gaspillées, gagnent, produisent, paiement, 
-luxe, avocat, garantie, milliards
+luxe, avocat, garantie, milliards, associé
 </theme>
 
 <theme name="nature">
@@ -199,7 +201,7 @@ paysages, agneaux, halo, glacée, brillants,
 tourbillon, abeille, rayonnement, lunes, rougeoie, 
 rosée, nid, cornes, glacé, colombe, 
 papillons, buisson, élément, brillantes, insectes, 
-corneille, clairs, herbes, instincts
+corneille, clairs, herbes, instincts, troupeau
 </theme>
 
 <theme name="death">
@@ -226,7 +228,7 @@ abattu, tuera, meure, effacé, tuerai,
 assassiné, moralité, poignardé, tués, tuons, 
 enterrés, zombi, abattre, massacrer, décédé, 
 mourrons, lapidé, morgue, zombis, mouriez, 
-assassin, poignarder, cercueils
+assassin, poignarder, cercueils, homicide
 </theme>
 
 <theme name="religion">
@@ -265,7 +267,7 @@ rite, écritures, agenouillement, lapidé, rituels,
 immortelle, prédicateurs, spirituelle, absolu, odin, 
 maudissez, céleste, abomination, miracles, commandent, 
 bénédictions, pardonné, baptisé, sainteté, idoles, 
-christianisme, religions, gloria, prêchez, païens
+christianisme, religions, gloria, prêchez, païens, sérénité
 </theme>
 
 <theme name="gangsta">
@@ -362,7 +364,7 @@ rappellerai, messager, rappelant, exemple, conseils,
 disiez, montrant, exprimer, muette, chuchotez, 
 explication, raconte, décrivez, diront, exprime, 
 chuchoter, prouvé, contradiction, communication, répondu, 
-enseigne, opinion, convaincre
+enseigne, opinion, convaincre, admets, rappellerez
 </theme>
 
 <theme name="art">
@@ -692,7 +694,7 @@ erré, perdants, souffrant, maltraité, pertes,
 plaindre, séparation, brisez, solitaire, autodestruction, 
 effondrement, perdons, amères, malheur, déchirées, 
 consternation, désolée, pleurons, désespérées, mélancolie, 
-rejeté, perd, regrettable
+rejeté, perd, regrettable, déprimé, blessent
 </theme>
 
 <theme name="activism">
@@ -731,7 +733,7 @@ population, union, effondrement, marionnettes, mondial,
 élite, journal, luttant, affranchissement, dirigeant, 
 pouvoir, libère, manipulation, tyrans, états, 
 peuples, conformité, gaspillées, mentalité, refusez, 
-avocat, détendez, corrompue
+avocat, détendez, corrompue, bétail, égalité
 </theme>
 
 <theme name="fantastic">
@@ -768,7 +770,7 @@ glorieuse, régnera, boucliers, manuscrit, gardiens,
 rituels, immortelle, lances, forgé, zombis, 
 enchanté, odin, règnent, châteaux, frénétique, 
 cornes, lointains, statues, manoir, mystiques, 
-statue, marbre, invincible, monument
+statue, marbre, invincible, monument, raconter
 </theme>
 
 <theme name="western">
@@ -779,7 +781,8 @@ paysage, bougies, bougie, boeuf, moutons,
 poussins, chevaux, chemins, élevage, moissonneuse, 
 vaste, horizons, foyer, grain, chèvre, 
 village, texas, maïs, paille, fossé, 
-paysages, récolte, labourent, croisement, oeufs, cowboy
+paysages, récolte, labourent, croisement, oeufs, 
+cowboy, bétail
 </theme>
 
 <theme name="none">
@@ -1366,11 +1369,13 @@ soufflement, fuite, conditions, puisqu, triple,
 nada, banquette, signal, we, poèt, 
 qualifications, chers, david, améliorer, retiré, 
 ralentir, retournent, fade, augen, soixante, 
-freak, muthafucka
+freak, muthafucka, établissement, alerte, braises, 
+fed, meine, balancer
 </theme>
 
 <theme name="newage">
 paix, cristal, équilibre, perfection, compassion, 
-pureté, cosmique, mental, tranquillité, transe, karma
+pureté, cosmique, mental, tranquillité, transe, 
+karma, sérénité
 </theme>
 
