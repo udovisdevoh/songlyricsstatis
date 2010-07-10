@@ -265,7 +265,7 @@ rite, écritures, agenouillement, lapidé, rituels,
 immortelle, prédicateurs, spirituelle, absolu, odin, 
 maudissez, céleste, abomination, miracles, commandent, 
 bénédictions, pardonné, baptisé, sainteté, idoles, 
-christianisme, religions, gloria, prêchez
+christianisme, religions, gloria, prêchez, païens
 </theme>
 
 <theme name="gangsta">
@@ -481,7 +481,7 @@ symboles, soufre, chimiques, lunes, sphères,
 données, ensembles, sélectionner, débrouillard, intemporel, 
 prouvé, atmosphérique, atomique, méthode, contradiction, 
 galaxie, vapeurs, sélectionné, élément, enseigne, 
-essais, incertitude
+essais, incertitude, découverte
 </theme>
 
 <theme name="exclamation">
@@ -539,7 +539,8 @@ confiture, thé, alcoolisées, plats, soja,
 intestins, alimentant, baril, buvant, saveur, 
 maïs, buvons, crue, appétit, fruits, 
 champagne, régime, gril, dévore, amères, 
-tranche, chocolat, pâtés, cerise, oeufs, festin
+tranche, chocolat, pâtés, cerise, oeufs, 
+festin, boivent
 </theme>
 
 <theme name="woman">
@@ -691,7 +692,7 @@ erré, perdants, souffrant, maltraité, pertes,
 plaindre, séparation, brisez, solitaire, autodestruction, 
 effondrement, perdons, amères, malheur, déchirées, 
 consternation, désolée, pleurons, désespérées, mélancolie, 
-rejeté, perd
+rejeté, perd, regrettable
 </theme>
 
 <theme name="activism">
@@ -1363,7 +1364,9 @@ raide, gai, vagabond, apaiser, longueur,
 pentagram, rendrai, schon, conservation, breakin, 
 soufflement, fuite, conditions, puisqu, triple, 
 nada, banquette, signal, we, poèt, 
-qualifications, chers, david, améliorer, retiré, ralentir
+qualifications, chers, david, améliorer, retiré, 
+ralentir, retournent, fade, augen, soixante, 
+freak, muthafucka
 </theme>
 
 <theme name="newage">
