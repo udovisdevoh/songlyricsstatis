@@ -69,7 +69,8 @@ débris, ascenseur, vélo, rouillé, corneille,
 planchers, divan, roulant, plomb, ordure, 
 téléphonique, adresse, transport, escalier, sièges, 
 vidange, pneus, trains, canal, chicago, 
-corneilles, miami, refuge, detroit, ouvriers
+corneilles, miami, refuge, detroit, ouvriers, 
+propriétaire, passager, usines
 </theme>
 
 <theme name="fight">
@@ -106,7 +107,7 @@ frénésie, empêcher, meurtriers, attaquent, confrontation,
 démolir, protégez, poignardez, meurtres, attaques, 
 écrase, brutale, victoires, frappée, conquérant, 
 menaçant, assassinez, surmonter, massacrez, ravage, 
-clan, assassiner, résistez, munitions, opposition
+clan, assassiner, résistez, munitions, opposition, impact
 </theme>
 
 <theme name="gore">
@@ -135,7 +136,7 @@ lapidé, bloody, décomposent, putride, abomination,
 parasites, putréfiés, morbides, bourreau, pestes, 
 dédaignez, coupant, infesté, macabre, estropié, 
 foie, blessés, boucher, dégoûtante, cruels, 
-emprisonner, torturée
+emprisonner, torturée, martyres
 </theme>
 
 <theme name="money">
@@ -176,7 +177,7 @@ vend, vendus, travaillant, pariez, collection,
 gages, parie, épargner, compté, hérité, 
 cravate, ruiner, exploitation, honoraires, réclamations, 
 lingots, taux, gaspillés, production, avides, 
-ouvriers, consommez, vegas
+ouvriers, consommez, vegas, propriétaire, consommer, banques
 </theme>
 
 <theme name="nature">
@@ -256,7 +257,8 @@ enterrés, zombi, abattre, massacrer, décédé,
 mourrons, lapidé, morgue, zombis, mouriez, 
 assassin, poignarder, cercueils, homicide, meurtriers, 
 enterrée, veuve, poignardez, meurtres, hérité, 
-macabre, condamner, assassinez, massacrez, assassiner, squelettes
+macabre, condamner, assassinez, massacrez, assassiner, 
+squelettes, extermination
 </theme>
 
 <theme name="religion">
@@ -301,7 +303,7 @@ recueillent, grâce, repentir, sacrifiez, guidez,
 idole, astral, révélations, amen, inconditionnel, 
 universel, purgatoire, guidé, infidèle, créations, 
 créant, sacrifier, valhalla, prédication, sauvés, 
-assermenté, répandre, voeu
+assermenté, répandre, voeu, martyres
 </theme>
 
 <theme name="gangsta">
@@ -318,7 +320,7 @@ miami, bandits, detroit, clan
 
 <theme name="racism">
 negro, fureur, race, sauvage, sauvages, 
-bâtards, génocide, bâtard, nègre, suprématie
+bâtards, génocide, bâtard, nègre, suprématie, extermination
 </theme>
 
 <theme name="swearing">
@@ -409,7 +411,7 @@ chuchoter, prouvé, contradiction, communication, répondu,
 enseigne, opinion, convaincre, admets, rappellerez, 
 écrits, enseignent, chuchotent, demandons, remercier, 
 demandes, expressions, appellerai, signifiez, dirait, 
-conversations, rectifier, professeurs, critique, répandre
+conversations, rectifier, professeurs, critique, répandre, énonciation
 </theme>
 
 <theme name="art">
@@ -541,7 +543,7 @@ acides, enseignent, faisceau, explorer, génial,
 lecture, projets, central, examiner, distillateur, 
 théorie, découvre, apprendrai, espaces, apprenant, 
 terrestres, maths, spectre, aspect, professeurs, 
-transformation, solutions, icône
+transformation, solutions, icône, résoudre, énonciation
 </theme>
 
 <theme name="exclamation">
@@ -620,7 +622,7 @@ belles, chère, inconnues, aimée, buste,
 ongle, étrangère, précieuse, collier, sirène, 
 sein, seins, amoureuse, jupe, maquillage, 
 silhouette, mystérieuse, rêveuse, nues, heureuses, 
-épouses, ruban
+épouses, ruban, habillée, robes, renversante
 </theme>
 
 <theme name="senses">
@@ -679,7 +681,7 @@ rêveurs, symboles, convaincu, perspicacité, apprenons,
 insensé, mentalité, enseigne, réalisent, incertitude, 
 existé, incertain, enseignent, prévoyez, rêveuse, 
 penseriez, sauront, oublions, stupéfaction, apprendrai, 
-apprenant, considère, saurons, sentis, inspiré
+apprenant, considère, saurons, sentis, inspiré, stupéfié
 </theme>
 
 <theme name="shame">
@@ -724,7 +726,7 @@ lapidé, casserai, mordu, maudissez, furieux,
 injuste, détestant, détestons, égoïstes, disparaissez, 
 crachement, démolir, hypocrites, mentir, truquer, 
 mécontentement, infidèle, traîtres, condamner, assassinez, 
-détestable, massacrez, stupidité, coupables
+détestable, massacrez, stupidité, coupables, extermination
 </theme>
 
 <theme name="fear">
@@ -773,7 +775,8 @@ consternation, désolée, pleurons, désespérées, mélancolie,
 rejeté, perd, regrettable, déprimé, blessent, 
 ignoré, veuve, suicidaire, amers, perdrai, 
 séparées, meurtri, tristement, cachot, abandonnée, 
-fanée, pleurante, coupables, soupirs
+fanée, pleurante, coupables, soupirs, désolés, 
+perdrez, séparer
 </theme>
 
 <theme name="activism">
@@ -816,7 +819,8 @@ avocat, détendez, corrompue, bétail, égalité,
 déclin, époque, révolte, injustice, empires, 
 industrialisé, exploitation, manifeste, défier, gaspillés, 
 diviser, résistez, agis, conséquences, opposition, 
-oxygène, indépendance, responsabilité
+oxygène, indépendance, responsabilité, consommer, banques, 
+consommez, peuple
 </theme>
 
 <theme name="fantastic">
@@ -857,7 +861,7 @@ statue, marbre, invincible, monument, raconter,
 frénésie, chandelle, bourreau, allégeance, runes, 
 empires, trônes, portail, écossais, victoires, 
 royal, conquérant, spectre, phoenix, magiciens, 
-clan, assermenté, crypte, squelettes
+clan, assermenté, crypte, squelettes, duc
 </theme>
 
 <theme name="western">
@@ -1519,13 +1523,16 @@ doth, exigeant, doc, réclamé, prenne,
 gicleur, élevés, remplaçant, élèvent, fagot, 
 collant, ballin, éprouvé, thérapie, bâti, 
 bloqué, glissade, mines, bourdonnement, pencher, 
-disparus, siempre
+disparus, siempre, obligé, guérissent, attendra, 
+revel, ressemblé, tentative, commune, fullmoon, 
+maximum, noircir, traitent, papiers, med, 
+retenez, distant, flyin, construits, aspirant
 </theme>
 
 <theme name="newage">
 paix, cristal, équilibre, perfection, compassion, 
 pureté, cosmique, mental, tranquillité, transe, 
 karma, sérénité, guérison, spirituel, astral, 
-tranquilité, guérira
+tranquilité, guérira, calmer
 </theme>
 
