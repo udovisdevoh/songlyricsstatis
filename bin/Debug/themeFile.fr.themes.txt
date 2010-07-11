@@ -19,7 +19,7 @@ berceuse, soie, mamans, amoureuse, douceur,
 marié, passions, baisés, pardonné, bonté, 
 séduction, sincère, étincelles, adoré, inconditionnel, 
 romantique, épouses, pardonne, palpitation, séduit, 
-charité, perle, courtisez
+charité, perle, courtisez, embrassons
 </theme>
 
 <theme name="life">
@@ -37,7 +37,7 @@ respirant, berceau, générations, vivantes, berceuse,
 survivra, vivrez, engendré, vive, survivent, 
 immortelle, suivrai, naître, vivrons, survivant, 
 grandir, adolescence, natale, survivants, engendrez, 
-progéniture, respirons
+progéniture, respirons, survivez
 </theme>
 
 <theme name="urban">
@@ -403,7 +403,7 @@ drôles, amical, natation, célébrez, heureuses,
 familiers, mtv, parleurs, foire, amies, 
 populaire, verres, ball, vedette, sport, 
 rôles, poser, rions, piscines, rêvons, 
-elvis, accord, costumes, compagnons
+elvis, accord, costumes, compagnons, alliance, sincérité
 </theme>
 
 <theme name="communication">
@@ -435,7 +435,8 @@ enseigne, opinion, convaincre, admets, rappellerez,
 écrits, enseignent, chuchotent, demandons, remercier, 
 demandes, expressions, appellerai, signifiez, dirait, 
 conversations, rectifier, professeurs, critique, répandre, 
-énonciation, parleurs, ironie, répondez, rappellera, dévoiler
+énonciation, parleurs, ironie, répondez, rappellera, 
+dévoiler, sincérité
 </theme>
 
 <theme name="art">
@@ -457,7 +458,7 @@ titre, portrait, lyrique, marionnettes, peindre,
 exprime, hommage, grotesque, talent, réalisation, 
 original, oeuvre, peints, expressions, schéma, 
 photographies, créations, mélodies, exposez, créant, 
-photos, arts, inspiré, composent, rôles
+photos, arts, inspiré, composent, rôles, dessin
 </theme>
 
 <theme name="music">
@@ -717,7 +718,7 @@ penseriez, sauront, oublions, stupéfaction, apprendrai,
 apprenant, considère, saurons, sentis, inspiré, 
 stupéfié, prévois, reflété, fascination, penserai, 
 curieux, subconscient, rêvent, indifférence, rêvons, 
-psychotique, douter
+psychotique, douter, estimer
 </theme>
 
 <theme name="shame">
@@ -906,7 +907,7 @@ empires, trônes, portail, écossais, victoires,
 royal, conquérant, spectre, phoenix, magiciens, 
 clan, assermenté, crypte, squelettes, duc, 
 torches, fascination, revenant, chaotique, hantant, 
-loyalement, fanatique, malédictions, ancients
+loyalement, fanatique, malédictions, ancients, alliance
 </theme>
 
 <theme name="western">
@@ -1602,7 +1603,8 @@ emprisonnés, biseautez, diffusions, quemoi, secousses,
 meiner, sonnez, plongez, stoppez, lacet, 
 fraîches, dose, changeront, devais, vissé, 
 manie, globes, minimum, partirai, tremblent, 
-grises, américaine
+grises, américaine, entourer, déplaçons, soulagez, 
+errez, tomberez, servez, introduit
 </theme>
 
 <theme name="newage">
