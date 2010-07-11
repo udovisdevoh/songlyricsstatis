@@ -17,7 +17,7 @@ adore, adorez, attraction, chère, aimée,
 pardonnent, sensible, espérer, embrassant, affection, 
 berceuse, soie, mamans, amoureuse, douceur, 
 marié, passions, baisés, pardonné, bonté, 
-séduction, sincère, étincelles
+séduction, sincère, étincelles, adoré
 </theme>
 
 <theme name="life">
@@ -98,7 +98,7 @@ heurte, bâtons, menaces, casserai, assassin,
 frénétique, brutal, détendez, violemment, poignarder, 
 protégé, homicide, démolissez, frappons, martèle, 
 frénésie, empêcher, meurtriers, attaquent, confrontation, 
-démolir, protégez, poignardez, meurtres, attaques
+démolir, protégez, poignardez, meurtres, attaques, écrase
 </theme>
 
 <theme name="gore">
@@ -279,7 +279,8 @@ maudissez, céleste, abomination, miracles, commandent,
 bénédictions, pardonné, baptisé, sainteté, idoles, 
 christianisme, religions, gloria, prêchez, païens, 
 sérénité, désécration, sacrées, spirituel, bénie, 
-recueillent, grâce, repentir, sacrifiez, guidez
+recueillent, grâce, repentir, sacrifiez, guidez, 
+idole, astral
 </theme>
 
 <theme name="gangsta">
@@ -317,7 +318,7 @@ horloge, siècles, interminable, éternellement, indéfiniment,
 journalière, date, autrefois, éternels, ancêtres, 
 avenir, immédiatement, chronométrez, générations, immortel, 
 éternelles, ère, siècle, immortelle, chronomètrent, 
-intemporel, lointains, époque, future
+intemporel, lointains, époque, future, perpétuel
 </theme>
 
 <theme name="social">
@@ -351,7 +352,7 @@ unissent, enchanté, respectez, carnaval, sourient,
 conformité, partagez, clubs, souriant, superstar, 
 digne, tendance, voyages, salue, boit, 
 drague, messieurs, projecteur, voyager, divertissement, 
-bières, mascarade, danseur
+bières, mascarade, danseur, idole
 </theme>
 
 <theme name="communication">
@@ -380,7 +381,7 @@ disiez, montrant, exprimer, muette, chuchotez,
 explication, raconte, décrivez, diront, exprime, 
 chuchoter, prouvé, contradiction, communication, répondu, 
 enseigne, opinion, convaincre, admets, rappellerez, 
-écrits, enseignent, chuchotent, demandons, remercier
+écrits, enseignent, chuchotent, demandons, remercier, demandes
 </theme>
 
 <theme name="art">
@@ -501,7 +502,8 @@ données, ensembles, sélectionner, débrouillard, intemporel,
 prouvé, atmosphérique, atomique, méthode, contradiction, 
 galaxie, vapeurs, sélectionné, élément, enseigne, 
 essais, incertitude, découverte, espèces, faisceaux, 
-acides, enseignent, faisceau, explorer, génial
+acides, enseignent, faisceau, explorer, génial, 
+lecture, projets
 </theme>
 
 <theme name="exclamation">
@@ -801,7 +803,7 @@ enchanté, odin, règnent, châteaux, frénétique,
 cornes, lointains, statues, manoir, mystiques, 
 statue, marbre, invincible, monument, raconter, 
 frénésie, chandelle, bourreau, allégeance, runes, 
-empires, trônes, portail
+empires, trônes, portail, écossais
 </theme>
 
 <theme name="western">
@@ -1427,12 +1429,14 @@ soutenus, cessera, sam, trouverais, aimerez,
 correcte, remplies, agissant, apportons, voulue, 
 obéissez, argentées, frottement, rêverie, knockin, 
 écrou, tendu, entrant, hast, ivoire, 
-avancer, arrêts, équipent, faut, porterai
+avancer, arrêts, équipent, faut, porterai, 
+nettoient, clarté, refléter, innocente, santa, 
+mari, mouler, préparer, commençant
 </theme>
 
 <theme name="newage">
 paix, cristal, équilibre, perfection, compassion, 
 pureté, cosmique, mental, tranquillité, transe, 
-karma, sérénité, guérison, spirituel
+karma, sérénité, guérison, spirituel, astral
 </theme>
 
