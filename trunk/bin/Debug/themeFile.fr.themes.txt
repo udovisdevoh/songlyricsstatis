@@ -74,7 +74,7 @@ vidange, pneus, trains, canal, chicago,
 corneilles, miami, refuge, detroit, ouvriers, 
 propriétaire, passager, usines, électriques, mûr, 
 embrouillé, jantes, façade, égout, logement, 
-moteurs, metal, métier, verrouillée
+moteurs, metal, métier, verrouillée, tables
 </theme>
 
 <theme name="fight">
@@ -187,7 +187,7 @@ lingots, taux, gaspillés, production, avides,
 ouvriers, consommez, vegas, propriétaire, consommer, 
 banques, parier, propriété, chargez, ventes, 
 coûté, importé, payera, produite, numéros, 
-égoïsme, cambriolage, marchandises, milliard, métier
+égoïsme, cambriolage, marchandises, milliard, métier, payés
 </theme>
 
 <theme name="nature">
@@ -242,7 +242,7 @@ phoenix, nuageux, rougeoyant, oxygène, refroidissement,
 refroidissent, solaire, purs, insecte, falaise, 
 crocs, tigre, faucon, courants, griffe, 
 branche, respirons, brumes, glaciale, environnement, 
-mouton, brumeuse, grêlent
+mouton, brumeuse, grêlent, écorce
 </theme>
 
 <theme name="death">
@@ -319,7 +319,7 @@ universel, purgatoire, guidé, infidèle, créations,
 créant, sacrifier, valhalla, prédication, sauvés, 
 assermenté, répandre, voeu, martyres, sabbat, 
 crucifixion, fanatique, païenne, evangile, jeûnent, 
-charité, maudis, malédictions, absolue
+charité, maudis, malédictions, absolue, marie, adam
 </theme>
 
 <theme name="gangsta">
@@ -403,7 +403,7 @@ drôles, amical, natation, célébrez, heureuses,
 familiers, mtv, parleurs, foire, amies, 
 populaire, verres, ball, vedette, sport, 
 rôles, poser, rions, piscines, rêvons, 
-elvis, accord
+elvis, accord, costumes, compagnons
 </theme>
 
 <theme name="communication">
@@ -474,7 +474,7 @@ hymnes, disco, notes, cd, chanterai,
 airs, tintement, boogie, composez, lyrique, 
 hommage, talent, volume, chanteur, danseur, 
 dièse, arrangements, studio, mélodies, guitares, 
-pochette, chants, solos, composent, elvis
+pochette, chants, solos, composent, elvis, tonalités
 </theme>
 
 <theme name="sex">
@@ -530,7 +530,7 @@ possibilité, sphères, absolu, prouvé, méthode,
 contradiction, choisissent, digne, existé, décidez, 
 universel, signifiez, théorie, aspect, conséquences, 
 responsabilité, curieux, perspective, ironie, normes, 
-hasard, dévoiler, absolue
+hasard, dévoiler, absolue, douter
 </theme>
 
 <theme name="geek">
@@ -636,7 +636,7 @@ tranche, chocolat, pâtés, cerise, oeufs,
 festin, boivent, boit, cuillère, croissant, 
 affamée, orange, bières, grille, foie, 
 boucher, délicieux, dévorer, dévoré, affamées, 
-tasses, verres, goûtent, sauce, jeûnent
+tasses, verres, goûtent, sauce, jeûnent, voracité
 </theme>
 
 <theme name="woman">
@@ -680,7 +680,7 @@ regardons, ressemblez, sensible, observons, saveur,
 sourde, muette, odeurs, sourdes, observerai, 
 verriez, sentira, entendues, sourds, aveuglément, 
 aveuglement, aveuglés, touchant, sentis, aveuglez, 
-regarderai, goûtent, entendra
+regarderai, goûtent, entendra, sente, tonalités
 </theme>
 
 <theme name="consciousness">
@@ -716,7 +716,8 @@ existé, incertain, enseignent, prévoyez, rêveuse,
 penseriez, sauront, oublions, stupéfaction, apprendrai, 
 apprenant, considère, saurons, sentis, inspiré, 
 stupéfié, prévois, reflété, fascination, penserai, 
-curieux, subconscient, rêvent, indifférence, rêvons
+curieux, subconscient, rêvent, indifférence, rêvons, 
+psychotique, douter
 </theme>
 
 <theme name="shame">
@@ -742,7 +743,7 @@ feignent, manipulation, rejeté, égoïstes, repentir,
 ignoré, hypocrites, mentir, truquer, prétention, 
 infidèle, déguisé, traîtres, négligence, niée, 
 nient, avides, pitoyable, condamnées, défaites, 
-égoïsme, masques, façade, regrettez
+égoïsme, masques, façade, regrettez, trahir
 </theme>
 
 <theme name="anger">
@@ -764,7 +765,7 @@ crachement, démolir, hypocrites, mentir, truquer,
 mécontentement, infidèle, traîtres, condamner, assassinez, 
 détestable, massacrez, stupidité, coupables, extermination, 
 étranglé, chaotique, démence, payera, égoïsme, 
-ironie, crachent
+ironie, crachent, psychotique, trahir
 </theme>
 
 <theme name="fear">
@@ -779,7 +780,8 @@ craignent, chassé, inquiétude, horreurs, adrénaline,
 sinistres, hanter, frisson, paranoïa, hantent, 
 tremble, paranoïde, détresse, horribles, menaces, 
 effraye, terrifié, effrayée, terribles, effrayer, 
-trembler, préoccupé, tourmenté, menaçant, affreux, insécurité
+trembler, préoccupé, tourmenté, menaçant, affreux, 
+insécurité, psychotique
 </theme>
 
 <theme name="sadness">
@@ -1596,7 +1598,11 @@ emporte, quotidienne, finirait, dorénavant, sortes,
 tordre, concerné, in, creusement, aight, 
 chauffez, marteaux, finisse, globe, guéri, 
 flétrissement, déterminé, ain, aspiration, lèchement, 
-emprisonnés, biseautez
+emprisonnés, biseautez, diffusions, quemoi, secousses, 
+meiner, sonnez, plongez, stoppez, lacet, 
+fraîches, dose, changeront, devais, vissé, 
+manie, globes, minimum, partirai, tremblent, 
+grises, américaine
 </theme>
 
 <theme name="newage">
