@@ -34,7 +34,7 @@ exister, respirent, vivrai, survécu, enfance,
 respirant, berceau, générations, vivantes, berceuse, 
 survivra, vivrez, engendré, vive, survivent, 
 immortelle, suivrai, naître, vivrons, survivant, 
-grandir, adolescence, natale
+grandir, adolescence, natale, survivants
 </theme>
 
 <theme name="urban">
@@ -68,7 +68,7 @@ débris, ascenseur, vélo, rouillé, corneille,
 planchers, divan, roulant, plomb, ordure, 
 téléphonique, adresse, transport, escalier, sièges, 
 vidange, pneus, trains, canal, chicago, 
-corneilles, miami, refuge
+corneilles, miami, refuge, detroit, ouvriers
 </theme>
 
 <theme name="fight">
@@ -104,7 +104,8 @@ protégé, homicide, démolissez, frappons, martèle,
 frénésie, empêcher, meurtriers, attaquent, confrontation, 
 démolir, protégez, poignardez, meurtres, attaques, 
 écrase, brutale, victoires, frappée, conquérant, 
-menaçant, assassinez, surmonter, massacrez, ravage
+menaçant, assassinez, surmonter, massacrez, ravage, 
+clan, assassiner
 </theme>
 
 <theme name="gore">
@@ -173,7 +174,7 @@ représentant, vendue, égoïstes, monnaie, matériel,
 vend, vendus, travaillant, pariez, collection, 
 gages, parie, épargner, compté, hérité, 
 cravate, ruiner, exploitation, honoraires, réclamations, 
-lingots, taux, gaspillés, production
+lingots, taux, gaspillés, production, avides, ouvriers
 </theme>
 
 <theme name="nature">
@@ -224,7 +225,7 @@ aigles, espèces, canard, pleines, orageux,
 lions, printemps, abeilles, élévations, plume, 
 vastes, geler, bourgeon, tranquilité, pin, 
 nervures, jardins, rougeoyer, corneilles, vache, 
-phoenix, nuageux
+phoenix, nuageux, rougeoyant
 </theme>
 
 <theme name="death">
@@ -253,7 +254,7 @@ enterrés, zombi, abattre, massacrer, décédé,
 mourrons, lapidé, morgue, zombis, mouriez, 
 assassin, poignarder, cercueils, homicide, meurtriers, 
 enterrée, veuve, poignardez, meurtres, hérité, 
-macabre, condamner, assassinez, massacrez
+macabre, condamner, assassinez, massacrez, assassiner
 </theme>
 
 <theme name="religion">
@@ -297,7 +298,7 @@ sérénité, désécration, sacrées, spirituel, bénie,
 recueillent, grâce, repentir, sacrifiez, guidez, 
 idole, astral, révélations, amen, inconditionnel, 
 universel, purgatoire, guidé, infidèle, créations, 
-créant, sacrifier, valhalla, prédication, sauvés
+créant, sacrifier, valhalla, prédication, sauvés, assermenté
 </theme>
 
 <theme name="gangsta">
@@ -309,7 +310,7 @@ punks, playa, homies, cocaïne, poignard,
 brooklyn, bandit, fumez, représente, poudre, 
 hiphop, casier, bling, policier, clique, 
 héroïne, flics, tatouage, criminels, chicago, 
-miami, bandits
+miami, bandits, detroit, clan
 </theme>
 
 <theme name="racism">
@@ -373,7 +374,7 @@ drague, messieurs, projecteur, voyager, divertissement,
 bières, mascarade, danseur, idole, studio, 
 excursion, rencontrerai, ensoleillé, futile, conversations, 
 vidéo, miami, cousin, arbitre, clowns, 
-drôles, amical, natation
+drôles, amical, natation, célébrez
 </theme>
 
 <theme name="communication">
@@ -404,7 +405,7 @@ chuchoter, prouvé, contradiction, communication, répondu,
 enseigne, opinion, convaincre, admets, rappellerez, 
 écrits, enseignent, chuchotent, demandons, remercier, 
 demandes, expressions, appellerai, signifiez, dirait, 
-conversations, rectifier, professeurs
+conversations, rectifier, professeurs, critique
 </theme>
 
 <theme name="art">
@@ -535,7 +536,8 @@ essais, incertitude, découverte, espèces, faisceaux,
 acides, enseignent, faisceau, explorer, génial, 
 lecture, projets, central, examiner, distillateur, 
 théorie, découvre, apprendrai, espaces, apprenant, 
-terrestres, maths, spectre, aspect, professeurs, transformation
+terrestres, maths, spectre, aspect, professeurs, 
+transformation, solutions
 </theme>
 
 <theme name="exclamation">
@@ -696,7 +698,8 @@ rampez, dupez, perdants, regretter, maltraité,
 trompeur, tromper, hypocrite, agenouillement, autodestruction, 
 feignent, manipulation, rejeté, égoïstes, repentir, 
 ignoré, hypocrites, mentir, truquer, prétention, 
-infidèle, déguisé, traîtres, négligence
+infidèle, déguisé, traîtres, négligence, niée, 
+nient, avides
 </theme>
 
 <theme name="anger">
@@ -846,7 +849,8 @@ cornes, lointains, statues, manoir, mystiques,
 statue, marbre, invincible, monument, raconter, 
 frénésie, chandelle, bourreau, allégeance, runes, 
 empires, trônes, portail, écossais, victoires, 
-royal, conquérant, spectre, phoenix
+royal, conquérant, spectre, phoenix, magiciens, 
+clan, assermenté
 </theme>
 
 <theme name="western">
@@ -1501,7 +1505,10 @@ efforts, mornes, mme, chassent, fumé,
 secouant, gurl, slippin, empreintes, enrouler, 
 bulle, remède, ancienne, bangin, basculage, 
 writhe, obtiendront, is, offrez, ébène, 
-séchez, basé, augmente, frontin, creepin, habillés
+séchez, basé, augmente, frontin, creepin, 
+habillés, lancez, argot, basculent, noter, 
+arrivez, apporterai, secours, eues, shinin, 
+doth, exigeant, doc, réclamé
 </theme>
 
 <theme name="newage">
