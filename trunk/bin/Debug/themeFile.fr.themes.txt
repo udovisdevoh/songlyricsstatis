@@ -1,4 +1,4 @@
-<theme name="love">
+﻿<theme name="love">
 amour, coeur, deux, destin, aime, 
 ensemble, aiment, donnez, aimez, sourire, 
 rouge, confiance, sentiment, coeurs, doux, 
@@ -64,7 +64,7 @@ blocs, commutateur, câble, roulé, drain,
 égoutture, échelle, automatique, ventilateur, conducteur, 
 conduisent, trafic, dossier, klaxon, criards, 
 débris, ascenseur, vélo, rouillé, corneille, 
-planchers, divan, roulant
+planchers, divan, roulant, plomb
 </theme>
 
 <theme name="fight">
@@ -160,7 +160,7 @@ décadence, annonce, signé, dépensez, intéret,
 emploient, gaspillées, gagnent, produisent, paiement, 
 luxe, avocat, garantie, milliards, associé, 
 représentant, vendue, égoïstes, monnaie, matériel, 
-vend, vendus, travaillant
+vend, vendus, travaillant, pariez, collection
 </theme>
 
 <theme name="nature">
@@ -207,7 +207,8 @@ tourbillon, abeille, rayonnement, lunes, rougeoie,
 rosée, nid, cornes, glacé, colombe, 
 papillons, buisson, élément, brillantes, insectes, 
 corneille, clairs, herbes, instincts, troupeau, 
-hirondelle, aigles, espèces, canard, pleines, orageux
+hirondelle, aigles, espèces, canard, pleines, 
+orageux, lions, printemps, abeilles
 </theme>
 
 <theme name="death">
@@ -313,7 +314,7 @@ horloge, siècles, interminable, éternellement, indéfiniment,
 journalière, date, autrefois, éternels, ancêtres, 
 avenir, immédiatement, chronométrez, générations, immortel, 
 éternelles, ère, siècle, immortelle, chronomètrent, 
-intemporel, lointains, époque
+intemporel, lointains, époque, future
 </theme>
 
 <theme name="social">
@@ -410,7 +411,7 @@ tonalité, totalité, tambours, composé, album,
 chantons, dansé, composer, dansons, dansant, 
 hymnes, disco, notes, cd, chanterai, 
 airs, tintement, boogie, composez, lyrique, 
-hommage, talent, volume
+hommage, talent, volume, chanteur
 </theme>
 
 <theme name="sex">
@@ -496,7 +497,7 @@ données, ensembles, sélectionner, débrouillard, intemporel,
 prouvé, atmosphérique, atomique, méthode, contradiction, 
 galaxie, vapeurs, sélectionné, élément, enseigne, 
 essais, incertitude, découverte, espèces, faisceaux, 
-acides, enseignent
+acides, enseignent, faisceau
 </theme>
 
 <theme name="exclamation">
@@ -595,7 +596,8 @@ entendrez, tonalité, œil, voyiez, verront,
 silencieuses, perception, touchent, goûté, sentie, 
 écoutant, sentirai, entendons, cécité, goûts, 
 regardons, ressemblez, sensible, observons, saveur, 
-sourde, muette, odeurs, sourdes, observerai, verriez
+sourde, muette, odeurs, sourdes, observerai, 
+verriez, sentira
 </theme>
 
 <theme name="consciousness">
@@ -649,7 +651,8 @@ confession, mépris, traître, timide, errant,
 erré, échecs, honteux, menti, arrogance, 
 rampez, dupez, perdants, regretter, maltraité, 
 trompeur, tromper, hypocrite, agenouillement, autodestruction, 
-feignent, manipulation, rejeté, égoïstes, repentir, ignoré
+feignent, manipulation, rejeté, égoïstes, repentir, 
+ignoré, hypocrites
 </theme>
 
 <theme name="anger">
@@ -667,7 +670,7 @@ mordez, traître, menti, arrogance, dupez,
 râle, cracher, revanche, tromper, hypocrite, 
 lapidé, casserai, mordu, maudissez, furieux, 
 injuste, détestant, détestons, égoïstes, disparaissez, 
-crachement, démolir
+crachement, démolir, hypocrites
 </theme>
 
 <theme name="fear">
@@ -790,7 +793,7 @@ rituels, immortelle, lances, forgé, zombis,
 enchanté, odin, règnent, châteaux, frénétique, 
 cornes, lointains, statues, manoir, mystiques, 
 statue, marbre, invincible, monument, raconter, 
-frénésie, chandelle, bourreau, allégeance
+frénésie, chandelle, bourreau, allégeance, runes
 </theme>
 
 <theme name="western">
@@ -1405,7 +1408,10 @@ passera, surtout, vouliez, mami, admettez,
 sho, standin, dre, ceinture, croisent, 
 opposé, coupent, bannières, bri, mousse, 
 attachée, amènent, apparaître, auriez, jurent, 
-espérances, rapportent, abandonnent, apparu
+espérances, rapportent, abandonnent, apparu, supporter, 
+patrie, échappe, journaliers, percé, brûlerez, 
+refuser, fest, reconnaissant, messages, étendant, 
+sèches, los, triché, guidage, chaussure
 </theme>
 
 <theme name="newage">
