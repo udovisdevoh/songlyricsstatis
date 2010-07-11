@@ -73,7 +73,8 @@ téléphonique, adresse, transport, escalier, sièges,
 vidange, pneus, trains, canal, chicago, 
 corneilles, miami, refuge, detroit, ouvriers, 
 propriétaire, passager, usines, électriques, mûr, 
-embrouillé, jantes, façade, égout, logement, moteurs
+embrouillé, jantes, façade, égout, logement, 
+moteurs, metal, métier, verrouillée
 </theme>
 
 <theme name="fight">
@@ -186,7 +187,7 @@ lingots, taux, gaspillés, production, avides,
 ouvriers, consommez, vegas, propriétaire, consommer, 
 banques, parier, propriété, chargez, ventes, 
 coûté, importé, payera, produite, numéros, 
-égoïsme, cambriolage, marchandises, milliard
+égoïsme, cambriolage, marchandises, milliard, métier
 </theme>
 
 <theme name="nature">
@@ -241,7 +242,7 @@ phoenix, nuageux, rougeoyant, oxygène, refroidissement,
 refroidissent, solaire, purs, insecte, falaise, 
 crocs, tigre, faucon, courants, griffe, 
 branche, respirons, brumes, glaciale, environnement, 
-mouton, brumeuse
+mouton, brumeuse, grêlent
 </theme>
 
 <theme name="death">
@@ -271,7 +272,7 @@ mourrons, lapidé, morgue, zombis, mouriez,
 assassin, poignarder, cercueils, homicide, meurtriers, 
 enterrée, veuve, poignardez, meurtres, hérité, 
 macabre, condamner, assassinez, massacrez, assassiner, 
-squelettes, extermination, étranglé, étouffement, revenant
+squelettes, extermination, étranglé, étouffement, revenant, funèbres
 </theme>
 
 <theme name="religion">
@@ -318,7 +319,7 @@ universel, purgatoire, guidé, infidèle, créations,
 créant, sacrifier, valhalla, prédication, sauvés, 
 assermenté, répandre, voeu, martyres, sabbat, 
 crucifixion, fanatique, païenne, evangile, jeûnent, 
-charité, maudis, malédictions
+charité, maudis, malédictions, absolue
 </theme>
 
 <theme name="gangsta">
@@ -401,7 +402,8 @@ vidéo, miami, cousin, arbitre, clowns,
 drôles, amical, natation, célébrez, heureuses, 
 familiers, mtv, parleurs, foire, amies, 
 populaire, verres, ball, vedette, sport, 
-rôles, poser, rions, piscines, rêvons
+rôles, poser, rions, piscines, rêvons, 
+elvis, accord
 </theme>
 
 <theme name="communication">
@@ -433,7 +435,7 @@ enseigne, opinion, convaincre, admets, rappellerez,
 écrits, enseignent, chuchotent, demandons, remercier, 
 demandes, expressions, appellerai, signifiez, dirait, 
 conversations, rectifier, professeurs, critique, répandre, 
-énonciation, parleurs, ironie, répondez, rappellera
+énonciation, parleurs, ironie, répondez, rappellera, dévoiler
 </theme>
 
 <theme name="art">
@@ -472,7 +474,7 @@ hymnes, disco, notes, cd, chanterai,
 airs, tintement, boogie, composez, lyrique, 
 hommage, talent, volume, chanteur, danseur, 
 dièse, arrangements, studio, mélodies, guitares, 
-pochette, chants, solos, composent
+pochette, chants, solos, composent, elvis
 </theme>
 
 <theme name="sex">
@@ -504,7 +506,7 @@ v�rit�, destin, vide, existence, chaos,
 réel, transe, logique, absence, infinis, 
 existent, annihilation, éternelles, réelle, infinie, 
 physique, origine, possibilité, absolu, existé, 
-matériel, universel, théorie, hasard
+matériel, universel, théorie, hasard, absolue
 </theme>
 
 <theme name="philosophy">
@@ -527,7 +529,8 @@ entité, athée, vérités, destins, irréel,
 possibilité, sphères, absolu, prouvé, méthode, 
 contradiction, choisissent, digne, existé, décidez, 
 universel, signifiez, théorie, aspect, conséquences, 
-responsabilité, curieux, perspective, ironie, normes, hasard
+responsabilité, curieux, perspective, ironie, normes, 
+hasard, dévoiler, absolue
 </theme>
 
 <theme name="geek">
@@ -569,7 +572,7 @@ théorie, découvre, apprendrai, espaces, apprenant,
 terrestres, maths, spectre, aspect, professeurs, 
 transformation, solutions, icône, résoudre, énonciation, 
 solaire, résolution, robot, curieux, incalculable, 
-perspective, synthétique, satellite, hasard, complexe
+perspective, synthétique, satellite, hasard, complexe, fusion
 </theme>
 
 <theme name="exclamation">
@@ -739,7 +742,7 @@ feignent, manipulation, rejeté, égoïstes, repentir,
 ignoré, hypocrites, mentir, truquer, prétention, 
 infidèle, déguisé, traîtres, négligence, niée, 
 nient, avides, pitoyable, condamnées, défaites, 
-égoïsme, masques, façade
+égoïsme, masques, façade, regrettez
 </theme>
 
 <theme name="anger">
@@ -812,7 +815,8 @@ ignoré, veuve, suicidaire, amers, perdrai,
 séparées, meurtri, tristement, cachot, abandonnée, 
 fanée, pleurante, coupables, soupirs, désolés, 
 perdrez, séparer, échouent, blessera, condamnées, 
-détruits, déchirement, défaites, divisés, quitte, refusé
+détruits, déchirement, défaites, divisés, quitte, 
+refusé, regrettez
 </theme>
 
 <theme name="activism">
@@ -857,7 +861,7 @@ industrialisé, exploitation, manifeste, défier, gaspillés,
 diviser, résistez, agis, conséquences, opposition, 
 oxygène, indépendance, responsabilité, consommer, banques, 
 consommez, peuple, drapeaux, soulevons, normes, 
-environnement, enjeux
+environnement, enjeux, renversent
 </theme>
 
 <theme name="fantastic">
@@ -1588,7 +1592,11 @@ quotidien, seein, king, reviendra, brûlerons,
 habitudes, guident, calmez, estoy, oi, 
 placent, homeboy, coutures, facilité, stayin, 
 do, insouciant, mesures, donnerez, puedo, 
-emporte, quotidienne, finirait, dorénavant, sortes, tordre
+emporte, quotidienne, finirait, dorénavant, sortes, 
+tordre, concerné, in, creusement, aight, 
+chauffez, marteaux, finisse, globe, guéri, 
+flétrissement, déterminé, ain, aspiration, lèchement, 
+emprisonnés, biseautez
 </theme>
 
 <theme name="newage">
