@@ -1,4 +1,4 @@
-﻿<theme name="love">
+<theme name="love">
 amour, coeur, deux, destin, aime, 
 ensemble, aiment, donnez, aimez, sourire, 
 rouge, confiance, sentiment, coeurs, doux, 
@@ -66,7 +66,7 @@ blocs, commutateur, câble, roulé, drain,
 conduisent, trafic, dossier, klaxon, criards, 
 débris, ascenseur, vélo, rouillé, corneille, 
 planchers, divan, roulant, plomb, ordure, 
-téléphonique, adresse, transport, escalier
+téléphonique, adresse, transport, escalier, sièges
 </theme>
 
 <theme name="fight">
@@ -101,7 +101,7 @@ frénétique, brutal, détendez, violemment, poignarder,
 protégé, homicide, démolissez, frappons, martèle, 
 frénésie, empêcher, meurtriers, attaquent, confrontation, 
 démolir, protégez, poignardez, meurtres, attaques, 
-écrase, brutale
+écrase, brutale, victoires, frappée, conquérant
 </theme>
 
 <theme name="gore">
@@ -166,7 +166,8 @@ emploient, gaspillées, gagnent, produisent, paiement,
 luxe, avocat, garantie, milliards, associé, 
 représentant, vendue, égoïstes, monnaie, matériel, 
 vend, vendus, travaillant, pariez, collection, 
-gages, parie, épargner, compté, hérité
+gages, parie, épargner, compté, hérité, 
+cravate, ruiner, exploitation
 </theme>
 
 <theme name="nature">
@@ -215,7 +216,8 @@ papillons, buisson, élément, brillantes, insectes,
 corneille, clairs, herbes, instincts, troupeau, 
 hirondelle, aigles, espèces, canard, pleines, 
 orageux, lions, printemps, abeilles, élévations, 
-plume, vastes, geler, bourgeon, tranquilité
+plume, vastes, geler, bourgeon, tranquilité, 
+pin, nervures
 </theme>
 
 <theme name="death">
@@ -286,7 +288,7 @@ christianisme, religions, gloria, prêchez, païens,
 sérénité, désécration, sacrées, spirituel, bénie, 
 recueillent, grâce, repentir, sacrifiez, guidez, 
 idole, astral, révélations, amen, inconditionnel, 
-universel, purgatoire, guidé, infidèle
+universel, purgatoire, guidé, infidèle, créations, créant
 </theme>
 
 <theme name="gangsta">
@@ -358,7 +360,7 @@ unissent, enchanté, respectez, carnaval, sourient,
 conformité, partagez, clubs, souriant, superstar, 
 digne, tendance, voyages, salue, boit, 
 drague, messieurs, projecteur, voyager, divertissement, 
-bières, mascarade, danseur, idole
+bières, mascarade, danseur, idole, studio, excursion
 </theme>
 
 <theme name="communication">
@@ -408,7 +410,8 @@ rideaux, composer, théâtre, imaginations, tableau,
 photographie, exposé, créent, composez, argile, 
 titre, portrait, lyrique, marionnettes, peindre, 
 exprime, hommage, grotesque, talent, réalisation, 
-original, oeuvre, peints, expressions, schéma, photographies
+original, oeuvre, peints, expressions, schéma, 
+photographies, créations, mélodies, exposez, créant
 </theme>
 
 <theme name="music">
@@ -424,7 +427,7 @@ chantons, dansé, composer, dansons, dansant,
 hymnes, disco, notes, cd, chanterai, 
 airs, tintement, boogie, composez, lyrique, 
 hommage, talent, volume, chanteur, danseur, 
-dièse, arrangements
+dièse, arrangements, studio, mélodies
 </theme>
 
 <theme name="sex">
@@ -454,7 +457,7 @@ v�rit�, destin, vide, existence, chaos,
 réel, transe, logique, absence, infinis, 
 existent, annihilation, éternelles, réelle, infinie, 
 physique, origine, possibilité, absolu, existé, 
-matériel, universel
+matériel, universel, théorie
 </theme>
 
 <theme name="philosophy">
@@ -476,7 +479,7 @@ origine, sages, idéaux, civilisation, identité,
 entité, athée, vérités, destins, irréel, 
 possibilité, sphères, absolu, prouvé, méthode, 
 contradiction, choisissent, digne, existé, décidez, 
-universel, signifiez
+universel, signifiez, théorie
 </theme>
 
 <theme name="geek">
@@ -513,7 +516,8 @@ prouvé, atmosphérique, atomique, méthode, contradiction,
 galaxie, vapeurs, sélectionné, élément, enseigne, 
 essais, incertitude, découverte, espèces, faisceaux, 
 acides, enseignent, faisceau, explorer, génial, 
-lecture, projets, central, examiner, distillateur
+lecture, projets, central, examiner, distillateur, 
+théorie, découvre, apprendrai, espaces
 </theme>
 
 <theme name="exclamation">
@@ -614,7 +618,7 @@ silencieuses, perception, touchent, goûté, sentie,
 écoutant, sentirai, entendons, cécité, goûts, 
 regardons, ressemblez, sensible, observons, saveur, 
 sourde, muette, odeurs, sourdes, observerai, 
-verriez, sentira, entendues, sourds, aveuglément
+verriez, sentira, entendues, sourds, aveuglément, aveuglement
 </theme>
 
 <theme name="consciousness">
@@ -647,7 +651,7 @@ estime, apprendrez, vérités, irréel, oublierez,
 rêveurs, symboles, convaincu, perspicacité, apprenons, 
 insensé, mentalité, enseigne, réalisent, incertitude, 
 existé, incertain, enseignent, prévoyez, rêveuse, 
-penseriez, sauront
+penseriez, sauront, oublions, stupéfaction, apprendrai
 </theme>
 
 <theme name="shame">
@@ -670,7 +674,8 @@ erré, échecs, honteux, menti, arrogance,
 rampez, dupez, perdants, regretter, maltraité, 
 trompeur, tromper, hypocrite, agenouillement, autodestruction, 
 feignent, manipulation, rejeté, égoïstes, repentir, 
-ignoré, hypocrites, mentir, truquer, prétention, infidèle
+ignoré, hypocrites, mentir, truquer, prétention, 
+infidèle, déguisé, traîtres
 </theme>
 
 <theme name="anger">
@@ -689,7 +694,7 @@ râle, cracher, revanche, tromper, hypocrite,
 lapidé, casserai, mordu, maudissez, furieux, 
 injuste, détestant, détestons, égoïstes, disparaissez, 
 crachement, démolir, hypocrites, mentir, truquer, 
-mécontentement, infidèle
+mécontentement, infidèle, traîtres
 </theme>
 
 <theme name="fear">
@@ -736,7 +741,8 @@ plaindre, séparation, brisez, solitaire, autodestruction,
 effondrement, perdons, amères, malheur, déchirées, 
 consternation, désolée, pleurons, désespérées, mélancolie, 
 rejeté, perd, regrettable, déprimé, blessent, 
-ignoré, veuve, suicidaire, amers, perdrai, séparées
+ignoré, veuve, suicidaire, amers, perdrai, 
+séparées, meurtri, tristement
 </theme>
 
 <theme name="activism">
@@ -776,7 +782,8 @@ population, union, effondrement, marionnettes, mondial,
 pouvoir, libère, manipulation, tyrans, états, 
 peuples, conformité, gaspillées, mentalité, refusez, 
 avocat, détendez, corrompue, bétail, égalité, 
-déclin, époque, révolte, injustice, empires, industrialisé
+déclin, époque, révolte, injustice, empires, 
+industrialisé, exploitation
 </theme>
 
 <theme name="fantastic">
@@ -815,7 +822,8 @@ enchanté, odin, règnent, châteaux, frénétique,
 cornes, lointains, statues, manoir, mystiques, 
 statue, marbre, invincible, monument, raconter, 
 frénésie, chandelle, bourreau, allégeance, runes, 
-empires, trônes, portail, écossais
+empires, trônes, portail, écossais, victoires, 
+royal, conquérant
 </theme>
 
 <theme name="western">
@@ -827,7 +835,7 @@ poussins, chevaux, chemins, élevage, moissonneuse,
 vaste, horizons, foyer, grain, chèvre, 
 village, texas, maïs, paille, fossé, 
 paysages, récolte, labourent, croisement, oeufs, 
-cowboy, bétail
+cowboy, bétail, auberge
 </theme>
 
 <theme name="none">
@@ -1453,7 +1461,9 @@ toussaint, lemme, recevez, retirez, manquons,
 askin, extrême, renvoi, étendus, lotta, 
 naïf, invite, défraîchi, bloodlust, soigneusement, 
 indication, frissons, obéir, demeurer, chient, 
-surgeons, anglais
+surgeons, anglais, relié, innocentes, spittin, 
+nocturnes, responsable, forment, plonge, tan, 
+commencée, provisoire, changerai, vérifient, mutha, détache
 </theme>
 
 <theme name="newage">
