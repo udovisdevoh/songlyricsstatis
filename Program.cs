@@ -194,7 +194,7 @@ namespace LyricThemeClassifier
 
             if (sourceTextFileName != null && outputFileName != null)
             {
-                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, currentThemeListFile.AllAvailableWords, 2);
+                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, currentThemeListFile.AllAvailableWords, 1);
                 xmlMatrixSaverLoader.Save(matrix, outputFileName);
             }
         }
