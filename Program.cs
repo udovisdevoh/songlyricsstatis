@@ -194,7 +194,7 @@ namespace LyricThemeClassifier
 
             if (sourceTextFileName != null && outputFileName != null)
             {
-                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, currentThemeListFile.AllAvailableWords);
+                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, currentThemeListFile.AllAvailableWords, 2);
                 xmlMatrixSaverLoader.Save(matrix, outputFileName);
             }
         }
@@ -206,7 +206,7 @@ namespace LyricThemeClassifier
 
             if (sourceTextFileName != null && outputFileName != null)
             {
-                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, null);
+                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, null, 1);
                 compressedMatrixSaverLoader.Save(matrix, outputFileName);
             }
         }
