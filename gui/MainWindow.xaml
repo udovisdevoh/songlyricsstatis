@@ -30,6 +30,8 @@
             </MenuItem>
             <MenuItem Header="Semantics">
                 <MenuItem Header="Build markov stats on theme words in text" Click="MenuItemBuildStatsOnThemeWordsInText_Click"/>
+                <MenuItem Header="Build markov word stats matrix" Click="MenuItemBuildMarkovWordStatsMatrix_Click"/>                
+                <MenuItem Header="Build compressed markov word stats matrix" Click="MenuItemBuildCompressedMarkovWordStatsMatrix_Click"/>                
                 <MenuItem Header="Build semantic likeness matrix" Click="MenuItemBuildSemanticLikenessMatrix_Click"/>
                 <MenuItem Header="Trim semantic likeness matrix" Click="MenuItemTrimSemanticLikenessMatrix_Click"/>
             </MenuItem>

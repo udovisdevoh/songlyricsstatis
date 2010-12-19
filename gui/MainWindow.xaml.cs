@@ -71,6 +71,10 @@ namespace LyricThemeClassifier
         public event EventHandler OnTrimLyricsFile;
 
         public event EventHandler OnTranslateLyricsFile;
+
+        public event EventHandler OnBuildCompressedMarkovWordStatsMatrix;
+
+        public event EventHandler OnBuildStatsFromText;
         #endregion
 
         #region Handlers
@@ -112,6 +116,11 @@ namespace LyricThemeClassifier
         private void ButtonSkip_Click(object sender, RoutedEventArgs e)
         {
             if (OnSkip != null) OnSkip(this, e);
+        }
+
+        private void MenuItemBuildMarkovWordStatsMatrix_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnBuildStatsFromText != null) OnBuildStatsFromText(this, e);
         }
 
         private void MenuItemBuildStatsOnThemeWordsInText_Click(object sender, RoutedEventArgs e)
@@ -182,6 +191,11 @@ namespace LyricThemeClassifier
         private void MenuItemTranslateLyricsFile_Click(object sender, RoutedEventArgs e)
         {
             if (OnTranslateLyricsFile != null) OnTranslateLyricsFile(this, e);
+        }
+
+        private void MenuItemBuildCompressedMarkovWordStatsMatrix_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnBuildCompressedMarkovWordStatsMatrix != null) OnBuildCompressedMarkovWordStatsMatrix(this, e);
         }
         #endregion
 
