@@ -80,6 +80,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="compressedMatrixSaverLoader\CompressedMatrixSaverLoader.cs" />
     <Compile Include="FunctionArgument.cs" />
     <Compile Include="LyricsTrimmer\LyricsTrimmer.cs" />
     <Compile Include="matrix\Matrix.cs" />

@@ -64,6 +64,8 @@ namespace LyricThemeClassifier
         private LyricsTrimmer lyricsTrimmer = new LyricsTrimmer();
 
         private string lyricsFileName = null;
+
+        private CompressedMatrixSaverLoader compressedMatrixSaverLoader = new CompressedMatrixSaverLoader();
         #endregion
 
         #region Constructor
@@ -94,6 +96,8 @@ namespace LyricThemeClassifier
             mainWindow.OnSelectLyricsFile += SelectLyricsFileHandler;
             mainWindow.OnTrimLyricsFile += TrimLyricsFileHandler;
             mainWindow.OnTranslateLyricsFile += TranslateLyricsFileHandler;
+            mainWindow.OnBuildCompressedMarkovWordStatsMatrix += BuildCompressedMarkovWordStatsMatrixHandler;
+            mainWindow.OnBuildStatsFromText += BuildStatsFromTextHandler;
         }
         #endregion
 
@@ -169,6 +173,18 @@ namespace LyricThemeClassifier
             ContinueSortingHandler(sender, e);
         }
 
+        private void BuildStatsFromTextHandler(object sender, EventArgs e)
+        {
+            string sourceTextFileName = mainWindow.GetInputFile("SOURCE TEXT FILE|*.txt");
+            string outputFileName = mainWindow.GetOutputFile("WORD STATS MATRIX FILE|*.wordStatMatrix.xml");
+
+            if (sourceTextFileName != null && outputFileName != null)
+            {
+                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, null);
+                xmlMatrixSaverLoader.Save(matrix, outputFileName);
+            }
+        }
+
         private void BuildStatsOnThemeWordsInTextHandler(object sender, EventArgs e)
         {
             if (currentThemeListFile == null)
@@ -180,6 +196,18 @@ namespace LyricThemeClassifier
             {
                 Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, currentThemeListFile.AllAvailableWords);
                 xmlMatrixSaverLoader.Save(matrix, outputFileName);
+            }
+        }
+
+        private void BuildCompressedMarkovWordStatsMatrixHandler(object sender, EventArgs e)
+        {
+            string sourceTextFileName = mainWindow.GetInputFile("SOURCE TEXT FILE|*.txt");
+            string outputFileName = mainWindow.GetOutputFile("WORD STATS MATRIX FILE|*.wordStatMatrix.ini");
+
+            if (sourceTextFileName != null && outputFileName != null)
+            {
+                Matrix matrix = wordMatrixExtractor.BuildMatrixFromTextFile(sourceTextFileName, null);
+                compressedMatrixSaverLoader.Save(matrix, outputFileName);
             }
         }
 
