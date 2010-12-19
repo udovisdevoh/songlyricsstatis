@@ -11,6 +11,8 @@ namespace LyricThemeClassifier
     /// </summary>
     class CompressedMatrixSaverLoader
     {
+        private const int predefinedMaxToWord = 9999;
+
         internal void Save(Matrix matrix, string outputFileName)
         {
             StreamWriter writer = new StreamWriter(outputFileName);
@@ -37,12 +39,15 @@ namespace LyricThemeClassifier
 
                         writer.Write(toWord + ":" + stat);
 
-                        if (toWordCounter < wordInfo.Count - 1)
+                        if (toWordCounter < wordInfo.Count - 1 && toWordCounter < predefinedMaxToWord)
                         {
                             writer.Write(",");
                         }
 
                         toWordCounter++;
+
+                        if (toWordCounter > predefinedMaxToWord)
+                            break;
                     }
 
                     writer.WriteLine();
