@@ -579,7 +579,7 @@ reproduction, clit, caressé
 </theme>
 
 <theme name="metaphysics">
-v�rit�, destin, vide, existence, chaos, 
+vérité, destin, vide, existence, chaos, 
 âme, âmes, réalité, éternelle, éternité, 
 éternel, univers, essence, infini, énergie, 
 éternellement, existe, dimension, néant, exister, 
@@ -867,7 +867,7 @@ diffamé, confessions, blâmé, trahissez, mentez
 </theme>
 
 <theme name="anger">
-col�re, mal, haine, mensonges, mauvais, 
+colère, mal, haine, mensonges, mauvais, 
 dur, ment, cris, mensonge, vengeance, 
 destruction, chaos, colère, déteste, imbéciles, 
 imbécile, stupide, rage, désordre, détestez, 
@@ -950,7 +950,7 @@ abandonnés, vieillir, délaissés, déçu, fanées, délaissée
 </theme>
 
 <theme name="activism">
-r�volution, libre, espoir, force, combat, 
+révolution, libre, espoir, force, combat, 
 plan, combattre, chaos, loi, pays, 
 tv, librement, mission, victoire, lutte, 
 liberté, humanité, état, règles, système, 
@@ -1001,7 +1001,7 @@ taudis, majorité, fasciste, fanatiques, reich, lutterai
 </theme>
 
 <theme name="fantastic">
-fant�me, roi, ailes, sir, royaume, 
+fantôme, roi, ailes, sir, royaume, 
 garde, voyage, gloire, sort, coffre, 
 antique, reine, victoire, démons, épée, 
 malédiction, trône, fantôme, héros, démon, 
