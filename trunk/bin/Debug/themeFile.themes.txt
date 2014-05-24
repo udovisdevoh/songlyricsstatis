@@ -156,7 +156,7 @@ labor, jewel, capital, production, fraud,
 fee, property, coin, lawyer, goods, 
 token, gamble, bets, trading, benefit, 
 beggar, profits, payback, priceless, scam, 
-consumption, payin, beggars, richer, expense
+consumption, payin, beggars, richer, expense, dubai
 </theme>
 
 <theme name="nature">
