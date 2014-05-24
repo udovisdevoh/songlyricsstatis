@@ -308,7 +308,7 @@ sinned, sabbath, allah, angelic, inquisition,
 heresy, jehovah, ascending, scriptures, holiness, 
 doctrine, impurity, jews, confessions, immaculate, 
 limbo, testament, redeemer, communion, praised, 
-worshipped, praises, altars, chapel, penance
+worshipped, praises, altars, chapel, penance, kosher
 </theme>
 
 <theme name="gangsta">
