@@ -1,4 +1,4 @@
-<theme name="love">
+﻿<theme name="love">
 love, baby, feel, need, girl, 
 girlfriend, heart, care, kiss, kisses, 
 kissed, lips, honey, darling, darlin, 
@@ -16,7 +16,7 @@ purest, attraction, marry, embraces, entwined,
 passions, sweetness, sweet, admire, seduction, 
 kissin, passionate, seduced, marriage, caressing, 
 swan, caressed, desired, relationships, seduce, 
-adored, seductive
+adored, seductive, fiancée, fiance
 </theme>
 
 <theme name="life">
@@ -91,7 +91,7 @@ threatening, strangle, hurtin, compete, vietnam,
 eliminate, destruct, attacked, versus, missiles, 
 exterminate, trauma, cannon, slaying, struggles, 
 threatened, defying, ammunition, rival, retaliation, 
-battlefields, divides, bash
+battlefields, divides, bash, viet-nam
 </theme>
 
 <theme name="gore">
@@ -117,7 +117,7 @@ torturing, hells, cadaver, rots, bloodied,
 festering, rotted, tortures, chainsaw, disfigured, 
 gagged, cannibal, rapes, jagged, bloodshot, 
 spew, slashing, mutilate, bloodbath, bloodline, 
-atrocities, slaughtering, butchery, cadavers, putrefaction
+atrocities, slaughtering, butchery, cadavers, putrefaction, feces
 </theme>
 
 <theme name="money">
@@ -308,7 +308,7 @@ sinned, sabbath, allah, angelic, inquisition,
 heresy, jehovah, ascending, scriptures, holiness, 
 doctrine, impurity, jews, confessions, immaculate, 
 limbo, testament, redeemer, communion, praised, 
-worshipped, praises, altars, chapel, penance, kosher
+worshipped, praises, altars, chapel, penance, kosher, muslim, zion, alleluiah, alleluia
 </theme>
 
 <theme name="gangsta">
@@ -338,7 +338,7 @@ tag, bounce, thugs, pill, mc,
 homies, rappin, powder, mamma, hustlin, 
 meth, heroin, bro, biggie, raps, 
 alibi, whack, criminals, sista, blunts, 
-dealers, harlem, outlaw, ecstacy, gangs
+dealers, harlem, outlaw, ecstacy, gangs, capone
 </theme>
 
 <theme name="racism">
@@ -355,7 +355,7 @@ taffy, taffies, taff, wetback, wog,
 wop, yank, yankee, yankees, wops, 
 inferior, superior, race, kkk, 88, 
 aryan, genocide, holocaust, slavery, ss, 
-races, negro, racist, hitler, jews
+races, negro, racist, hitler, jews, fuhrer, fuhrers
 </theme>
 
 <theme name="swearing">
@@ -576,7 +576,7 @@ icons, clone, lunar, streaming, utopia,
 equals, entangled, structures, intellect, hacked, 
 experiment, dna, futures, genetic, invented, 
 laser, clones, smarter, chess, angles, 
-emerging, lab, galaxies, research, quantum
+emerging, lab, galaxies, research, quantum, sythetic
 </theme>
 
 <theme name="exclamation">
@@ -665,7 +665,7 @@ perfume, female, sublime, breasts, maiden,
 skirt, venus, virgins, delicate, bra, 
 maid, wives, robe, undress, makeup, 
 models, curves, necklace, gorgeous, glamour, 
-dresses, seductive
+dresses, seductive, fiancee, fiancée
 </theme>
 
 <theme name="senses">
@@ -850,7 +850,7 @@ mesmerized, survivors, conform, manipulation, polluted,
 oxygen, conformity, mtv, pawns, fascist, 
 revolt, wastelands, headlines, lawyer, oppressed, 
 utopia, oppose, manipulate, structures, obedience, 
-stagnant, institution, governments, regime, scam, 
+stagnant, institution, governments, regime, scam, zion
 consumption, conditioned
 </theme>
 
@@ -1968,6 +1968,6 @@ conscience, visions, imagination, awake, awakening,
 awakenings, awareness, reveal, ideas, comprehend, 
 astral, trance, minds, empathy, revealed, 
 dreaming, consciousness, subconscious, unconscious, insight, 
-daydream, lucid, concentration
+daydream, lucid, concentration, kundalini, quantum
 </theme>
 
