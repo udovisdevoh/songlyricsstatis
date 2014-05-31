@@ -63,6 +63,8 @@ namespace LyricThemeClassifier
 
         private LyricsTrimmer lyricsTrimmer = new LyricsTrimmer();
 
+        private LyricsSorter lyricsSorter = new LyricsSorter();
+
         private string lyricsFileName = null;
 
         private CompressedMatrixSaverLoader compressedMatrixSaverLoader = new CompressedMatrixSaverLoader();
@@ -95,6 +97,8 @@ namespace LyricThemeClassifier
             mainWindow.OnExtractAntonymsFromWeb += ExtractAntonymFromWebHandler;
             mainWindow.OnSelectLyricsFile += SelectLyricsFileHandler;
             mainWindow.OnTrimLyricsFile += TrimLyricsFileHandler;
+            mainWindow.OnSortLyricsFile += SortLyricsFileHandler;
+            mainWindow.OnShuffleLyricsFile += ShuffleLyricsFileHandler;
             mainWindow.OnTranslateLyricsFile += TranslateLyricsFileHandler;
             mainWindow.OnBuildCompressedMarkovWordStatsMatrix += BuildCompressedMarkovWordStatsMatrixHandler;
             mainWindow.OnBuildStatsFromText += BuildStatsFromTextHandler;
@@ -339,7 +343,7 @@ namespace LyricThemeClassifier
                     return;
             }
 
-                currentThemeListFile = new ThemeListFile();
+            currentThemeListFile = new ThemeListFile();
 
             while (currentThemeListFile == null || currentThemeListFile.FileName == null)
                 currentThemeListFile = ThemeLoader.LoadThemeList(mainWindow.GetInputFile("THEME FILE|*.themes.txt"));
@@ -351,6 +355,44 @@ namespace LyricThemeClassifier
             } while (lyricsOutputFileName == lyricsFileName);
 
             lyricsTrimmer.Trim(currentThemeListFile, lyricsFileName, lyricsOutputFileName);
+        }
+
+        private void SortLyricsFileHandler(object sender, EventArgs e)
+        {
+            if (lyricsFileName == null)
+            {
+                SelectLyricsFileHandler(sender, e);
+
+                if (lyricsFileName == null)
+                    return;
+            }
+
+            string lyricsOutputFileName;
+            do
+            {
+                lyricsOutputFileName = mainWindow.GetOutputFile("Text file|*.txt");
+            } while (lyricsOutputFileName == lyricsFileName);
+
+            lyricsSorter.Sort(lyricsFileName, lyricsOutputFileName);
+        }
+
+        private void ShuffleLyricsFileHandler(object sender, EventArgs e)
+        {
+            if (lyricsFileName == null)
+            {
+                SelectLyricsFileHandler(sender, e);
+
+                if (lyricsFileName == null)
+                    return;
+            }
+
+            string lyricsOutputFileName;
+            do
+            {
+                lyricsOutputFileName = mainWindow.GetOutputFile("Text file|*.txt");
+            } while (lyricsOutputFileName == lyricsFileName);
+
+            lyricsSorter.Shuffle(lyricsFileName, lyricsOutputFileName);
         }
 
         private void TranslateLyricsFileHandler(object sender, EventArgs e)

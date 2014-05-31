@@ -70,6 +70,10 @@ namespace LyricThemeClassifier
 
         public event EventHandler OnTrimLyricsFile;
 
+        public event EventHandler OnSortLyricsFile;
+
+        public event EventHandler OnShuffleLyricsFile;
+
         public event EventHandler OnTranslateLyricsFile;
 
         public event EventHandler OnBuildCompressedMarkovWordStatsMatrix;
@@ -186,6 +190,16 @@ namespace LyricThemeClassifier
         private void MenuItemTrimLyricsFile_Click(object sender, RoutedEventArgs e)
         {
             if (OnTrimLyricsFile != null) OnTrimLyricsFile(this, e);
+        }
+
+        private void MenuItemSortLyricsFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnSortLyricsFile != null) OnSortLyricsFile(this, e);
+        }
+
+        private void MenuItemShuffleLyricsFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnShuffleLyricsFile != null) OnShuffleLyricsFile(this, e);
         }
 
         private void MenuItemTranslateLyricsFile_Click(object sender, RoutedEventArgs e)
