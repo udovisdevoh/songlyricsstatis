@@ -36,7 +36,31 @@ namespace LyricThemeClassifier
 
         public void Shuffle(string sourceLyricsFileName, string targetLyricsFileName)
         {
-            throw new NotImplementedException();
+            List<string> lines = new List<string>();
+
+            using (TextReader textReader = new StreamReader(sourceLyricsFileName))
+            {
+                using (TextWriter textWriter = new StreamWriter(targetLyricsFileName))
+                {
+
+                    string line;
+                    while ((line = textReader.ReadLine()) != null)
+                    {
+                        line = line.Trim();
+                        lines.Add(line);
+                    }
+
+                    lines.Sort();
+
+                    Random random = new Random();
+                    IEnumerable<String> shuffeledLines = lines.OrderBy(item => random.Next());
+
+                    foreach (string currentLine in shuffeledLines)
+                    {
+                        textWriter.WriteLine(currentLine);
+                    }
+                }
+            }
         }
     }
 }
