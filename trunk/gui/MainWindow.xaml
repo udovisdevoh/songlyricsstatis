@@ -24,6 +24,8 @@
                 <MenuItem Header="Select lyrics file" Click="MenuItemSelectLyricsFile_Click" />
                 <MenuItem Header="Open frequent word list" Click="MenuItemOpenFrequendWordList_Click"/>
                 <MenuItem Header="Trim lyrics file" Click="MenuItemTrimLyricsFile_Click" />
+                <MenuItem Header="Sort lyrics file" Click="MenuItemSortLyricsFile_Click" />
+                <MenuItem Header="Shuffle lyrics file" Click="MenuItemShuffleLyricsFile_Click" />
                 <MenuItem Header="Build frequent word list" Click="MenuItemBuildFrequendWordList_Click" />
                 <MenuItem Header="Continue sorting" Click="MenuItemConginueSorting_Click"/>
                 <MenuItem Header="Save themes" Command="ApplicationCommands.Save" />

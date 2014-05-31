@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="compressedMatrixSaverLoader\CompressedMatrixSaverLoader.cs" />
     <Compile Include="FunctionArgument.cs" />
+    <Compile Include="lyricsSorterShuffler\LyricsSorter.cs" />
     <Compile Include="LyricsTrimmer\LyricsTrimmer.cs" />
     <Compile Include="matrix\Matrix.cs" />
     <Compile Include="gui\ThemeSelector.xaml.cs">
