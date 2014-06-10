@@ -62,5 +62,34 @@ namespace LyricThemeClassifier
                 }
             }
         }
+
+        public void SortByLength(string sourceLyricsFileName, string targetLyricsFileName)
+        {
+            List<string> lines = new List<string>();
+
+            using (TextReader textReader = new StreamReader(sourceLyricsFileName))
+            {
+                using (TextWriter textWriter = new StreamWriter(targetLyricsFileName))
+                {
+
+                    string line;
+                    while ((line = textReader.ReadLine()) != null)
+                    {
+                        line = line.Trim();
+                        lines.Add(line);
+                    }
+
+                    lines.Sort();
+
+                    Random random = new Random();
+                    IEnumerable<String> shuffeledLines = lines.OrderBy(item => item.Trim().Length);
+
+                    foreach (string currentLine in shuffeledLines)
+                    {
+                        textWriter.WriteLine(currentLine);
+                    }
+                }
+            }
+        }
     }
 }

@@ -72,6 +72,8 @@ namespace LyricThemeClassifier
 
         public event EventHandler OnSortLyricsFile;
 
+        public event EventHandler OnSortByLengthLyricsFile;
+
         public event EventHandler OnShuffleLyricsFile;
 
         public event EventHandler OnTranslateLyricsFile;
@@ -195,6 +197,11 @@ namespace LyricThemeClassifier
         private void MenuItemSortLyricsFile_Click(object sender, RoutedEventArgs e)
         {
             if (OnSortLyricsFile != null) OnSortLyricsFile(this, e);
+        }
+
+        private void MenuItemSortByLengthLyricsFile_Click(object sender, RoutedEventArgs e)
+        {
+            if (OnSortByLengthLyricsFile != null) OnSortByLengthLyricsFile(this, e);
         }
 
         private void MenuItemShuffleLyricsFile_Click(object sender, RoutedEventArgs e)

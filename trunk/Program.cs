@@ -98,6 +98,7 @@ namespace LyricThemeClassifier
             mainWindow.OnSelectLyricsFile += SelectLyricsFileHandler;
             mainWindow.OnTrimLyricsFile += TrimLyricsFileHandler;
             mainWindow.OnSortLyricsFile += SortLyricsFileHandler;
+            mainWindow.OnSortByLengthLyricsFile += SortByLengthLyricsFileHandler;
             mainWindow.OnShuffleLyricsFile += ShuffleLyricsFileHandler;
             mainWindow.OnTranslateLyricsFile += TranslateLyricsFileHandler;
             mainWindow.OnBuildCompressedMarkovWordStatsMatrix += BuildCompressedMarkovWordStatsMatrixHandler;
@@ -374,6 +375,25 @@ namespace LyricThemeClassifier
             } while (lyricsOutputFileName == lyricsFileName);
 
             lyricsSorter.Sort(lyricsFileName, lyricsOutputFileName);
+        }
+
+        private void SortByLengthLyricsFileHandler(object sender, EventArgs e)
+        {
+            if (lyricsFileName == null)
+            {
+                SelectLyricsFileHandler(sender, e);
+
+                if (lyricsFileName == null)
+                    return;
+            }
+
+            string lyricsOutputFileName;
+            do
+            {
+                lyricsOutputFileName = mainWindow.GetOutputFile("Text file|*.txt");
+            } while (lyricsOutputFileName == lyricsFileName);
+
+            lyricsSorter.SortByLength(lyricsFileName, lyricsOutputFileName);
         }
 
         private void ShuffleLyricsFileHandler(object sender, EventArgs e)
